@@ -1,0 +1,529 @@
+{
+  "source_id": "about-face",
+  "title": "About Face: The Essentials of Interaction Design",
+  "authors": [
+    "Alan Cooper",
+    "Robert Reimann",
+    "David Cronin",
+    "Christopher Noessel"
+  ],
+  "edition": "Fourth edition",
+  "year": 2014,
+  "pdf_pages": 722,
+  "sha256": "8cacd91ab4f8f165c2d84af551405f26de781dffaaaef7fd3f21c9ff9e9676c5",
+  "extraction_notes": [
+    "Identity verified from title/copyright pages. Title page additionally credits Jason Csizmadi and Doug LeMoine as contributors.",
+    "All PDF ranges inclusive and one-based. For Arabic chapter pages, printed page equals PDF page minus30. Blank final chapter pages have null printed_end; last numbered content page is recorded in notes.",
+    "Text extracted with pypdf. Extraction is not itself a reading claim: chapter1\u201317 prose/captions were displayed and studied in bounded batches by core source reviewer; chapter18\u201321 by a separate source agent, then integrated from original notes and coverage. Truncated passages were reread.",
+    "All21 substantive chapter bodies studied. No text/gallery pages excluded. Selected18 figure pages rendered and visually inspected; other figures remain visually unverified despite caption study. PDF images and raw text remain outside repository.",
+    "PDF1\u201316 identity/contents/credits and27\u201329 introduction assessed, but full front-matter reading is not claimed. Part dividers, AppendixA685\u2013690, bibliography691\u2013696 and index697\u2013722 are not included in full chapter-body study.",
+    "PartII dividerPDF195 reverses chapter10/11 names; actual chapter headings and contents establish the ledger titles.",
+    "Historical examples and specialized desktop,3D,embedded,kiosk,TV,automotive/audio material were read and assessed. Dated specifications, predictions, source errors and rhetorical universals are excluded from current normative recommendations, not recorded as unread pages.",
+    "Known source issues: PDF447 square-root-of-two ratio typo and old4:3 display assumption; PDF457 correlation/causation conflation; PDF483 paste-shortcut typo; historical contrast/font/flash/timing advice not current accessibility specifications. Current platform sources required for normative rules."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "A Design Process for Digital Products",
+      "pdf_start": 33,
+      "pdf_end": 60,
+      "printed_start": 3,
+      "printed_end": 30,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          33,
+          60
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Goals, represented models and design process studied; developer stereotypes and guaranteed-outcome rhetoric not adopted."
+    },
+    {
+      "number": 2,
+      "title": "Understanding the Problem: Design Research",
+      "pdf_start": 61,
+      "pdf_end": 90,
+      "printed_start": 31,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          61,
+          90
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Research methods, recruiting, interviewing and method tradeoffs studied; fixed sample counts and broad method dismissals not universal rules. Final PDF page 90 is blank; last numbered content page is printed 59."
+    },
+    {
+      "number": 3,
+      "title": "Modeling Users: Personas and Goals",
+      "pdf_start": 91,
+      "pdf_end": 130,
+      "printed_start": 61,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          91,
+          130
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All persona construction and supporting-model material read, including provisional personas. No fabricated participant quotes or inferred demographic stereotypes. Final PDF page 130 is blank; last numbered content page is printed 99."
+    },
+    {
+      "number": 4,
+      "title": "Setting the Vision: Scenarios and Design Requirements",
+      "pdf_start": 131,
+      "pdf_end": 148,
+      "printed_start": 101,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          131,
+          148
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Context, key-path and validation scenarios and requirements derivation studied. Aspirational ideation is not authorization to automate consequential acts. Final PDF page 148 is blank; last numbered content page is printed 117."
+    },
+    {
+      "number": 5,
+      "title": "Designing the Product: Framework and Refinement",
+      "pdf_start": 149,
+      "pdf_end": 174,
+      "printed_start": 119,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          149,
+          174
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All framework, visual/industrial/service design, refinement and validation material studied. Early user feedback and technical collaboration retained. Final PDF page 174 is blank; last numbered content page is printed 143."
+    },
+    {
+      "number": 6,
+      "title": "Creative Teamwork",
+      "pdf_start": 175,
+      "pdf_end": 194,
+      "printed_start": 145,
+      "printed_end": 164,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          175,
+          194
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All design teamwork, roles, organizational and hiring discussion read. Retained collaborative iteration; PDF188 explicitly revises all-design-before-code belief. Agent workflows are adaptations."
+    },
+    {
+      "number": 7,
+      "title": "A Basis for Good Product Behavior",
+      "pdf_start": 197,
+      "pdf_end": 208,
+      "printed_start": 167,
+      "printed_end": 178,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          197,
+          208
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Values, principles and patterns read. Context-specific pattern reasoning retained; historical drawer praise not current prescription."
+    },
+    {
+      "number": 8,
+      "title": "Digital Etiquette",
+      "pdf_start": 209,
+      "pdf_end": 234,
+      "printed_start": 179,
+      "printed_end": 204,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          209,
+          234
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All considerate product and social-product discussion read. Retained privacy, preservation and helpful defaults; unrestricted memory/background activity and numerical social claims not adopted."
+    },
+    {
+      "number": 9,
+      "title": "Platform and Posture",
+      "pdf_start": 235,
+      "pdf_end": 266,
+      "printed_start": 205,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          235,
+          266
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All desktop, web, mobile and other-device posture material read. Old device limitations, fullscreen bias and universally transient-mobile assumptions excluded from recommendations. Final PDF page 266 is blank; last numbered content page is printed 235."
+    },
+    {
+      "number": 10,
+      "title": "Optimizing for Intermediates",
+      "pdf_start": 267,
+      "pdf_end": 278,
+      "printed_start": 237,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          267,
+          278
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All expertise and progressive-disclosure material read; source qualifications considered. No assumed universal expertise distribution or click-count budget. Final PDF page 278 is blank; last numbered content page is printed 247."
+    },
+    {
+      "number": 11,
+      "title": "Orchestration and Flow",
+      "pdf_start": 279,
+      "pdf_end": 300,
+      "printed_start": 249,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          279,
+          300
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All orchestration, directness, feedback, defaults, protection, responsiveness and motion discussion read. Historical timing suggestions contextual, rare consequential needs retained. Final PDF page 300 is blank; last numbered content page is printed 269."
+    },
+    {
+      "number": 12,
+      "title": "Reducing Work and Eliminating Excise",
+      "pdf_start": 301,
+      "pdf_end": 328,
+      "printed_start": 271,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          301,
+          328
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All work/excise, navigation, mapping, hierarchy and mechanical-metaphor discussion and captions read. No blanket hierarchy/modal bans or pane counts. Historical calendar examples assessed, not skipped. Final PDF page 328 is blank; last numbered content page is printed 297."
+    },
+    {
+      "number": 13,
+      "title": "Metaphors, Idioms, and Affordances",
+      "pdf_start": 329,
+      "pdf_end": 354,
+      "printed_start": 299,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          329,
+          354
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All conceptual paradigms, idiom vocabulary, affordance terminology, direct manipulation and hinting read. Learn-once claims and flat/skeuomorphic judgments not universal. Perceived cues distinguished from actual capabilities. Final PDF page 354 is blank; last numbered content page is printed 323."
+    },
+    {
+      "number": 14,
+      "title": "Rethinking Data Entry, Storage, and Retrieval",
+      "pdf_start": 355,
+      "pdf_end": 386,
+      "printed_start": 325,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          355,
+          386
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All entry, storage, retrieval and query material read. PDF362 reread after tiny output gap. Retained tolerant input, explicit corrections, persistence and attribute retrieval. Reject unrestricted data acceptance, silent guesses and historical database/NLP limitations. Final PDF page 386 is blank; last numbered content page is printed 355."
+    },
+    {
+      "number": 15,
+      "title": "Preventing Errors and Informing Decisions",
+      "pdf_start": 387,
+      "pdf_end": 408,
+      "printed_start": 357,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          387,
+          408
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All modeless visual/audible feedback, undo variants, histories, versions and comparison material read. Irreversible effects and undo dependencies considered. Silence not sole error cue; external transaction limits preserved. Final PDF page 408 is blank; last numbered content page is printed 377."
+    },
+    {
+      "number": 16,
+      "title": "Designing for Different Needs",
+      "pdf_start": 409,
+      "pdf_end": 434,
+      "printed_start": 379,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          409,
+          434
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All command learning, help, templates, wizards, customization, localization and accessibility material read. Historical numeric prescriptions and separate accessibility mode as default not adopted. Final PDF page 434 is blank; last numbered content page is printed 403."
+    },
+    {
+      "number": 17,
+      "title": "Integrating Visual Design",
+      "pdf_start": 435,
+      "pdf_end": 462,
+      "printed_start": 405,
+      "printed_end": 432,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          435,
+          462
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All visual attributes, typography, hierarchy, layout, icons, feedback, information design, standards and design language read. Geometry typo, causality conflation and old typography/contrast specifications excluded from recommendations."
+    },
+    {
+      "number": 18,
+      "title": "Designing for the Desktop",
+      "pdf_start": 465,
+      "pdf_end": 536,
+      "printed_start": 435,
+      "printed_end": 506,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          465,
+          536
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All substantive text and example captions read. Direct manipulation, selection, task-centered panes, learnability and expertise retained; historical OS/pointer implementations and detailed3D techniques not imposed universally. Studied by delegated interaction-patterns source agent; integrated from its original chapter notes and exact coverage ledger."
+    },
+    {
+      "number": 19,
+      "title": "Designing for Mobile and Other Devices",
+      "pdf_start": 537,
+      "pdf_end": 598,
+      "printed_start": 507,
+      "printed_end": 568,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          537,
+          598
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All substantive text and historical captions read, including phone/tablet patterns, navigation, gestures, search, inter-app integration and other-device domains. Retained context, state, learnability and flow principles; old device specifications, transient-only assumptions, mandatory wrapping, long-press ban and desktop-satellite framing not adopted. Studied by delegated interaction-patterns source agent; integrated from its original chapter notes and exact coverage ledger."
+    },
+    {
+      "number": 20,
+      "title": "Designing for the Web",
+      "pdf_start": 599,
+      "pdf_end": 618,
+      "printed_start": 569,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          599,
+          618
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All chapter text and historical captions read, plus trailing blank page. Retained web wayfinding, search refinement, scrolling tradeoffs and responsive context. Old framework/technology commentary, blanket top-nav/sticky-header preferences and fixed breakpoints not current requirements. Studied by delegated interaction-patterns source agent; integrated from its original chapter notes and exact coverage ledger. Final PDF page is blank; last numbered content page is printed 587."
+    },
+    {
+      "number": 21,
+      "title": "Design Details: Controls and Dialogs",
+      "pdf_start": 619,
+      "pdf_end": 684,
+      "printed_start": 589,
+      "printed_end": 654,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          619,
+          684
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All chapter text and captions read through final printed654. Retained semantic control choice, scope/state, context-appropriate inputs, explicit dialog commit semantics, useful progress and recovery. Universal no-errors/no-confirmations rhetoric, mandatory blocking alerts, silent numeric substitution and old exact widget prescriptions not adopted. Studied by delegated interaction-patterns source agent; integrated from its original chapter notes and exact coverage ledger."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 49,
+      "description": "Figure1-4: implementation, represented and mental models",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image by core source reviewer. Diagram positions represented models between technical structure and user understanding. Retained conceptual alignment, not literal measurement of similarity.",
+      "principle_ids": [
+        "AF-01"
+      ]
+    },
+    {
+      "pdf_page": 156,
+      "description": "Figure5-2: rough interaction framework sketch",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image by core source reviewer. Sketch shows labeled functional areas, related results/map and low-detail organization. Supports cheap structural exploration before styling.",
+      "principle_ids": [
+        "AF-04"
+      ]
+    },
+    {
+      "pdf_page": 168,
+      "description": "Figure5-5: refined travel-nurse portal",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image by core source reviewer. Refined list/map screen follows framework while adding detailed controls and visual treatment. Supports coordinated behavioral/visual refinement; historical styling is not copied.",
+      "principle_ids": [
+        "AF-06"
+      ]
+    },
+    {
+      "pdf_page": 322,
+      "description": "Figures12-14 and12-15: spatial and logical control mapping",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image by core source reviewer. Stove knobs reflect burner arrangement; result-sort control uses ambiguous ascending/descending labels. Supports checking both control target and outcome, not only proximity.",
+      "principle_ids": [
+        "AF-12"
+      ]
+    },
+    {
+      "pdf_page": 346,
+      "description": "Figure13-6: Snapseed direct manipulation",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image by core source reviewer. Photo shows selected control point, affected region tint/circle, numeric scale and visible cancel/compare/undo/apply controls. Supports perceivable manipulation feedback; no live gesture behavior tested.",
+      "principle_ids": [
+        "AF-13"
+      ]
+    },
+    {
+      "pdf_page": 445,
+      "description": "Figure17-1: Lightroom grid alignment",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image by core source reviewer. Observed repeated aligned tool groups, image workspace and supporting panes. Retained alignment/grouping, not the period screenshot font size or control density.",
+      "principle_ids": [
+        "AF-19"
+      ]
+    },
+    {
+      "pdf_page": 448,
+      "description": "Figure17-3: logical versus scattered path",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image by core source reviewer. Schematic compares ordered progression with crisscross attention movements. Treated as a conceptual illustration, not measured eye-tracking evidence or a universal left-to-right rule.",
+      "principle_ids": [
+        "AF-19"
+      ]
+    },
+    {
+      "pdf_page": 475,
+      "description": "Figure18-2: Photoshop brightness/contrast modal",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Image shows the adjustment dialog covering part of the photograph; supports evaluating obstructed task context. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-20"
+      ]
+    },
+    {
+      "pdf_page": 476,
+      "description": "Figure18-3: Lightroom adjacent adjustment tools",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Image shows photograph beside a persistent right adjustment panel; compared visually withPDF475. This illustrates layout, not measured superiority for every task. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-20"
+      ]
+    },
+    {
+      "pdf_page": 520,
+      "description": "Figure18-20: drag-threshold schematic",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Diagram shows a small uncommitted zone around press coordinates. Retained motor-forgiveness mechanism; the illustrated3px threshold is not a current specification. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-21"
+      ]
+    },
+    {
+      "pdf_page": 559,
+      "description": "Figure19-18: historical mobile tab/navigation examples",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Rendered examples show iOS bottom tabs with labels, Android upper tabs and WindowsPhone text/navigation styling. Supports platform-sensitive research; tab-state preservation comes from adjacent prose, not inferred screenshots. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-22"
+      ]
+    },
+    {
+      "pdf_page": 573,
+      "description": "Figure19-32: Snapseed direct manipulation",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Image shows on-photo center and angle/transition guides plus a transition scale and Cancel/Compare/Undo/Apply controls. Supports visible manipulation feedback and recoverability; no live gesture behavior was tested. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-13"
+      ]
+    },
+    {
+      "pdf_page": 578,
+      "description": "Figures19-36 and19-37: OpenTable and Yelp search/refinement",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Images show an unobtrusive filter icon in OpenTable versus a labelled Yelp Filter control and current constraints below search; refinement screens group criteria. Observation is layout/visibility, not conversion or task-success evidence. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-16"
+      ]
+    },
+    {
+      "pdf_page": 616,
+      "description": "Figure20-13: Boston Globe responsive examples",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Wide, medium and narrow versions restructure columns, headers and navigation, rather than uniformly scaling text. Retained adaptive grouping; exact breakpoints/content choices not mandates. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-23"
+      ]
+    },
+    {
+      "pdf_page": 626,
+      "description": "Figure21-6: ambiguous ON/OFF action-state diagram",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Two buttons show the opposite label to the described current state. Confirms the distinction between action label and state indicator; does not require replacing conventional media controls. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-21"
+      ]
+    },
+    {
+      "pdf_page": 635,
+      "description": "Figure21-16: earmarked list",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Scrollable settings list uses independently marked checkboxes, with a separate pair of radio choices lower down. Supports explicit selection semantics; visibility of all chosen items still needs consideration. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-21"
+      ]
+    },
+    {
+      "pdf_page": 654,
+      "description": "Figure21-26: Ableton document navigator",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Top overview strip includes a rectangular current-view marker above detailed tracks; supports orientation between whole and detail where a meaningful overview exists. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-23"
+      ]
+    },
+    {
+      "pdf_page": 678,
+      "description": "Figure21-35: network-save recovery dialog",
+      "inspection": "Rendered with pypdfium2 and actually viewed with view_image. Dialog explains lost network connection, identifies the document, explains local-save and alternate-save outcomes and later synchronization. Retained concrete consequence/recovery communication; actual safety depends on backend semantics. Inspected by delegated interaction-patterns source agent; integrated from its inspection record.",
+      "principle_ids": [
+        "AF-24"
+      ]
+    }
+  ]
+}

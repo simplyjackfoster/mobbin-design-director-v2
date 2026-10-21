@@ -1,0 +1,301 @@
+{
+  "source_id": "mind-in-mind",
+  "title": "Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Guidelines",
+  "authors": [
+    "Jeff Johnson"
+  ],
+  "edition": "Second edition",
+  "year": 2014,
+  "pdf_pages": 236,
+  "sha256": "9a0b11f81188da256774d1699f041f40250606dc7a80e2040b5f1f1aab23ca1d",
+  "extraction_notes": [
+    "PDF page numbers are one-based file positions, not printed labels. Printed chapter boundaries were checked against page text/headings; omitted blank pages make offsets vary.",
+    "Full-study means every chapter body page was read in bounded text batches, with truncated gaps reread. It does not mean every illustration or cited primary study was independently inspected.",
+    "Text extraction contains broken ligatures, line-end hyphenation, duplicated chapter digits and occasional spaced-out words. Multicolumn tables and diagrams may lose relationships; selected consequential visuals were separately rendered and checked.",
+    "No raw extracted book text, source PDF, or rendered book image is committed. Principles are original paraphrases with locations. Document contents were treated as evidence, not instructions.",
+    "An empty excluded_pdf_ranges list means no chapter body pages were skipped; historically inappropriate prescriptions can still be read and rejected, as described in chapter notes.",
+    "Front matter PDF 1–10 assessed for identity and context, not claimed as a complete prose study. Epilogue PDF 220–221 (printed 217–218) and appendix PDF 222–225 (printed 219–222) read. Bibliography PDF 226–230 and index PDF 231–236 inventoried, not studied as new chapters."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Our Perception is Biased",
+      "pdf_start": 11,
+      "pdf_end": 22,
+      "printed_start": 1,
+      "printed_end": 12,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          11,
+          22
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-01; perception, goals, context, habituation and attentional blink studied."
+    },
+    {
+      "number": 2,
+      "title": "Our Vision is Optimized to See Structure",
+      "pdf_start": 23,
+      "pdf_end": 37,
+      "printed_start": 13,
+      "printed_end": 27,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          23,
+          37
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-02; all grouping principles studied; selected UI examples visually checked."
+    },
+    {
+      "number": 3,
+      "title": "We Seek and Use Visual Structure",
+      "pdf_start": 38,
+      "pdf_end": 45,
+      "printed_start": 29,
+      "printed_end": 36,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          38,
+          45
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-03; hierarchy, clutter, label/value association and chunking studied. Historical split-input examples assessed, not adopted as defaults."
+    },
+    {
+      "number": 4,
+      "title": "Our Color Vision is Limited",
+      "pdf_start": 46,
+      "pdf_end": 56,
+      "printed_start": 37,
+      "printed_end": 47,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          46,
+          56
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-04; physiology and design implications read; simulation and universal visibility claims not treated as accessibility validation."
+    },
+    {
+      "number": 5,
+      "title": "Our Peripheral Vision is Poor",
+      "pdf_start": 57,
+      "pdf_end": 74,
+      "printed_start": 49,
+      "printed_end": 66,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          57,
+          74
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-05; peripheral limitations, noticeability, habituation and visual search studied. Intrusive motion examples are conditional, not defaults."
+    },
+    {
+      "number": 6,
+      "title": "Reading is Unnatural",
+      "pdf_start": 75,
+      "pdf_end": 93,
+      "printed_start": 67,
+      "printed_end": 85,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          75,
+          93
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-06; reading explanation, whole-word-outline misconception, typography and reduced reading burden studied."
+    },
+    {
+      "number": 7,
+      "title": "Our Attention is Limited; Our Memory is Imperfect",
+      "pdf_start": 94,
+      "pdf_end": 112,
+      "printed_start": 87,
+      "printed_end": 105,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          94,
+          112
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-07; working/long-term memory and applications studied. Historical security-question/password-hint examples read but excluded as current security advice."
+    },
+    {
+      "number": 8,
+      "title": "Limits on Attention Shape Our Thought and Action",
+      "pdf_start": 113,
+      "pdf_end": 126,
+      "printed_start": 107,
+      "printed_end": 120,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          113,
+          126
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-08, JJ-09, JJ-10, JJ-11; interruption, change blindness, scent, effort and closure studied."
+    },
+    {
+      "number": 9,
+      "title": "Recognition is Easy; Recall is Hard",
+      "pdf_start": 127,
+      "pdf_end": 135,
+      "printed_start": 121,
+      "printed_end": 129,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          127,
+          135
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-12; recognition, context, visible commands, search and familiar positions studied. Historical visual-authentication examples read but excluded as current security advice."
+    },
+    {
+      "number": 10,
+      "title": "Learning from Experience and Performing Learned Actions are Easy; Novel Actions, Problem Solving, and Calculation are Hard",
+      "pdf_start": 136,
+      "pdf_end": 153,
+      "printed_start": 131,
+      "printed_end": 148,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          136,
+          153
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-10, JJ-13; full explanatory prose and design implications studied. Simplified three-brain account is not promoted as a literal modern neuroscience model or design requirement."
+    },
+    {
+      "number": 11,
+      "title": "Many Factors Affect Learning",
+      "pdf_start": 154,
+      "pdf_end": 172,
+      "printed_start": 149,
+      "printed_end": 167,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          154,
+          172
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-10, JJ-14, JJ-15; frequency, conceptual models, consistency, vocabulary and safe exploration studied."
+    },
+    {
+      "number": 12,
+      "title": "Human Decision Making is Rarely Rational",
+      "pdf_start": 173,
+      "pdf_end": 189,
+      "printed_start": 169,
+      "printed_end": 185,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          173,
+          189
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-16; framing, choice, decision support, visualization and persuasion studied. Historical statistics, fixed loss ratios and manipulative applications are not adopted."
+    },
+    {
+      "number": 13,
+      "title": "Our Hand–Eye Coordination Follows Laws",
+      "pdf_start": 190,
+      "pdf_end": 197,
+      "printed_start": 187,
+      "printed_end": 194,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          190,
+          197
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-17; acquisition and constrained movement studied. Desktop edge advantages are not presumed for touch."
+    },
+    {
+      "number": 14,
+      "title": "We Have Time Requirements",
+      "pdf_start": 198,
+      "pdf_end": 219,
+      "printed_start": 195,
+      "printed_end": 216,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          198,
+          219
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "JJ-18; responsiveness, time scales, progress, continuity and implementation approaches studied. Historical frame-rate targets, fabricated progress, inert controls and unconstrained prefetch are not adopted."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 25,
+      "description": "Figures 2.3–2.4: proximity grouping and radio-button spacing that implies the wrong grouping.",
+      "inspection": "Rendered the source PDF page and visually inspected layout, figure/table relationships, labels, and the cited lesson; no source image is included in the skill.",
+      "principle_ids": [
+        "JJ-02"
+      ]
+    },
+    {
+      "pdf_page": 40,
+      "description": "Figures 3.4–3.5: repetitive result text and ambiguous versus aligned label/value pairs.",
+      "inspection": "Rendered the source PDF page and visually inspected layout, figure/table relationships, labels, and the cited lesson; no source image is included in the skill.",
+      "principle_ids": [
+        "JJ-03"
+      ]
+    },
+    {
+      "pdf_page": 50,
+      "description": "Figures 4.4–4.6: pale/small/separated color samples and hard-to-distinguish legend marks.",
+      "inspection": "Rendered the source PDF page and visually inspected layout, figure/table relationships, labels, and the cited lesson; no source image is included in the skill.",
+      "principle_ids": [
+        "JJ-04"
+      ]
+    },
+    {
+      "pdf_page": 64,
+      "description": "Figures 5.6–5.7: login error placement and simulated loss of detail outside the focus of attention.",
+      "inspection": "Rendered the source PDF page and visually inspected layout, figure/table relationships, labels, and the cited lesson; no source image is included in the skill.",
+      "principle_ids": [
+        "JJ-05"
+      ]
+    },
+    {
+      "pdf_page": 197,
+      "description": "Figure 13.11: narrow versus wider menu paths; associated constrained-scrollbar discussion.",
+      "inspection": "Rendered the source PDF page and visually inspected layout, figure/table relationships, labels, and the cited lesson; no source image is included in the skill.",
+      "principle_ids": [
+        "JJ-17"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mobbin-design-director",
+  "owner": {
+    "name": "simplyjackfoster"
+  },
+  "plugins": [
+    {
+      "name": "mobbin-design-director",
+      "source": ".",
+      "description": "Goal-led UX, Mobbin research, visual direction, implementation, and evaluation for native iPhone and web.",
+      "version": "2.2.0"
+    }
+  ],
+  "description": "Goal-led UX, Mobbin research, visual direction, implementation, and evaluation for native iPhone and web."
+}

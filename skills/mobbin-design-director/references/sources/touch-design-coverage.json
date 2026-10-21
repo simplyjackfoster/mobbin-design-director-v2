@@ -1,0 +1,581 @@
+{
+  "source_id": "touch-design",
+  "title": "Touch Design for Mobile Interfaces",
+  "authors": [
+    "Steven Hoober"
+  ],
+  "edition": "2021 publication; no numbered edition stated on supplied title/copyright pages",
+  "year": 2021,
+  "pdf_pages": 402,
+  "sha256": "a5ebc59b114fee795c96e581a4179c9939227eb1f0ae120ac8ada07c314811c6",
+  "extraction_notes": [
+    "Title/copyright PDF1–3 and contents PDF6 inspected; foreword/introduction PDF7–18 read. PDF4–5 and19 are blank. Copyright2021 governs bibliographic identity, not2024 scan metadata.",
+    "Pypdf extraction of supplied ABBYY-processed PDF contains soft hyphens, broken line wraps, spaced headings, and flattened diagram/table layout. Critical visuals were separately rendered; no raw book text or images are distributed.",
+    "All chapter text PDF20–375 read across three bounded reader assignments; dividers and blank leaves were assessed, with no unread prose exclusions. Master checklist PDF376–383 also read. Index384–398 inventoried by boundary, not studied as new prose; printer mark/promotional/cover pages399–402 assessed and excluded from lessons.",
+    "PDF pages are one-based; chapter body printed labels are PDF minus1, verified in selected rendered pages. Divider and blank pages may not display a numeral.",
+    "Full-study describes text coverage, not exhaustive visual inspection. Thirty-five selected figure/table pages and one additional prose page were rendered. Other figures were understood from captions/surrounding prose only.",
+    "Underlying studies and historical standards cited by the author were not independently audited or replicated. Source assertions remain qualified; current platform guidance and operational recommendations are distinct."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Defining Mobile Devices",
+      "pdf_start": 20,
+      "pdf_end": 35,
+      "printed_start": 19,
+      "printed_end": 34,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          20,
+          35
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-01. Full chapter text, including device-lab sidebar, read. Historical market/OS classifications are not adopted as current facts."
+    },
+    {
+      "number": 2,
+      "title": "The History and Technology of Touch",
+      "pdf_start": 36,
+      "pdf_end": 59,
+      "printed_start": 35,
+      "printed_end": 58,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          36,
+          59
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-02, TD-07. Full history, technology, keyscan/digitizer sidebars and gesture discussion read. No cited technical primary sources independently verified; hardware imperatives treated as contextual recommendations."
+    },
+    {
+      "number": 3,
+      "title": "Capacitive Touch",
+      "pdf_start": 60,
+      "pdf_end": 71,
+      "printed_start": 59,
+      "printed_end": 70,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          60,
+          71
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-02, TD-03. Full chapter read. Contact-patch/centroid/obscuration diagram on PDF67 visually inspected. Sensor and physiology assertions treated as author account, not universal current-device behavior."
+    },
+    {
+      "number": 4,
+      "title": "Standards, Assumptions, and Problems",
+      "pdf_start": 72,
+      "pdf_end": 83,
+      "printed_start": 71,
+      "printed_end": 82,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          72,
+          83
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-03, TD-04. Full chapter read. Finger/contact schematic on PDF80 inspected. Historical normative numbers not recast as current requirements; standards criticism does not authorize overriding binding guidance."
+    },
+    {
+      "number": 5,
+      "title": "Finding Out How People Hold and Touch",
+      "pdf_start": 84,
+      "pdf_end": 113,
+      "printed_start": 83,
+      "printed_end": 112,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          84,
+          113
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-01, TD-05, TD-06, TD-07, TD-08. Entire research narrative, figures captions, application guidance and checklist read. Eight figure pages inspected; historical samples, changing denominators, missing subgroup precision, and null-result limits recorded. No inference that all people can change grip or that demographics/access needs never matter."
+    },
+    {
+      "number": 6,
+      "title": "Touch Accuracy and the Center-Out Preference",
+      "pdf_start": 114,
+      "pdf_end": 141,
+      "printed_start": 113,
+      "printed_end": 140,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          114,
+          141
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-11/12. Complete extracted prose studied, including historical F-pattern discussion, author research method, positional accuracy, changing grips, center-oriented viewing, and kiosk exclusions. Divider114 and blank115 assessed. The numeric/center-out prescriptions are contextual source proposals, not current normative guidance."
+    },
+    {
+      "number": 7,
+      "title": "How Fingers Get In the Way",
+      "pdf_start": 142,
+      "pdf_end": 175,
+      "printed_start": 141,
+      "printed_end": 174,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          142,
+          175
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-13/14/15. Complete extracted prose studied, including contact patch versus occlusion, magnification, parallax, liftoff, pressed feedback, scrolling/content avoidance, two-axis and RTL qualifications. Divider142 and blank143 assessed. The left-alignment checklist is interpreted with explicit RTL context; no universal haptic, icon-label, or horizontal-scroll mandate adopted."
+    },
+    {
+      "number": 8,
+      "title": "Imprecision and Probability",
+      "pdf_start": 176,
+      "pdf_end": 195,
+      "printed_start": 175,
+      "printed_end": 194,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          176,
+          195
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-16/17. Complete extracted prose studied, including author-selected R95 tradeoff, near-miss overlays, actual hit areas, consequence-sensitive spacing, recovery, and resilience sidebar. Divider176 and blank177 assessed. Numeric probability and categorical anti-Cancel/Clear statements are not adopted as requirements."
+    },
+    {
+      "number": 9,
+      "title": "Phones Are Not Flat",
+      "pdf_start": 196,
+      "pdf_end": 219,
+      "printed_start": 195,
+      "printed_end": 218,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          196,
+          219
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "TD-18/19/20. Complete extracted prose studied, including environmental/access conditions, encumbrance, repeated input, historical OS/browser edges, cases and bezels. Divider196 and blank197 assessed. Timeouts, bottom bars, 20% allowances, and accessibility completeness claims are contextualized rather than adopted literally."
+    },
+    {
+      "number": 10,
+      "title": "People Only Touch What They See",
+      "pdf_start": 220,
+      "pdf_end": 263,
+      "printed_start": 219,
+      "printed_end": 262,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          220,
+          234
+        ],
+        [
+          235,
+          249
+        ],
+        [
+          250,
+          263
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Read all extracted prose, captions, sidebars, checklists, and reference labels. Retained redundant cues, meaningful signifiers, viewing conditions, and feedback. Typography conversions, contrast claims, prevalence, shape psychology, and categorical styling/availability rules were assessed rather than adopted as specifications."
+    },
+    {
+      "number": 11,
+      "title": "1, 2, 3: Designing by Zones",
+      "pdf_start": 264,
+      "pdf_end": 289,
+      "printed_start": 263,
+      "printed_end": 288,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          264,
+          277
+        ],
+        [
+          278,
+          289
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Read all chapter text and example discussion. Retained coherent task-based templates and direct-entry orientation. Fixed zone geometry, ranked visual attributes, heading counts, and simplified attention claims remain contextual author proposals."
+    },
+    {
+      "number": 12,
+      "title": "Progressive Disclosure",
+      "pdf_start": 290,
+      "pdf_end": 341,
+      "printed_start": 289,
+      "printed_end": 340,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          290,
+          305
+        ],
+        [
+          306,
+          323
+        ],
+        [
+          324,
+          341
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Read every disclosure/display method, benefit/downside list, historical example, and summary. Retained context, comparison, history, adaptive controls, data decision support, and discoverable collection extent. Strong tab/accordion/table/list prescriptions were explicitly bounded."
+    },
+    {
+      "number": 13,
+      "title": "Practical Mobile Touchscreen Design",
+      "pdf_start": 342,
+      "pdf_end": 375,
+      "printed_start": 341,
+      "printed_end": 374,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          342,
+          358
+        ],
+        [
+          359,
+          375
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Read all process sections, technology assertions, recommended-reference prose, and final summary. Retained audience/context investigation, actual capability checks, iterative delivery, and method-matched evaluation. Linked works and claims were not independently verified; no participant or physical calibration activity occurred."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 67,
+      "description": "Contact patch, centroid, and obscured area shown separately on a held-phone illustration.",
+      "inspection": "Visually checked the three distinct labels and arrows: the covered area extends beyond the contact patch. Conceptual image does not supply target dimensions or demonstrate every device reports the centroid.",
+      "principle_ids": [
+        "TD-03"
+      ]
+    },
+    {
+      "pdf_page": 80,
+      "description": "Finger profile and small contact patch below the screen line.",
+      "inspection": "Visually inspected finger-size and contact-patch labels and categorical caption. Diagram distinguishes quantities but cannot establish a universal zero correlation between size and accuracy.",
+      "principle_ids": [
+        "TD-03",
+        "TD-04"
+      ]
+    },
+    {
+      "pdf_page": 93,
+      "description": "2013 holding/interaction summary pie with grip sketches, listening icon and calling icon.",
+      "inspection": "Verified listening and talking categories coexist with touch grips. No numeric percentage labels or subgroup denominators in figure; do not substitute the780 touching subset as denominator for the whole pie.",
+      "principle_ids": [
+        "TD-06"
+      ]
+    },
+    {
+      "pdf_page": 94,
+      "description": "Six illustrated phone grip/interaction forms.",
+      "inspection": "Read all six labels and examined hand arrangements: cradled, held-and-tapped, two hands landscape, one hand first/second order, and two hands portrait. Taxonomy illustration is not a preference ranking or exhaustive access model.",
+      "principle_ids": [
+        "TD-05"
+      ]
+    },
+    {
+      "pdf_page": 96,
+      "description": "Hold/tap bar chart for historically over-five-inch phones.",
+      "inspection": "Compared relative heights: held-and-tapped highest, cradled next, one-hand/thumb and two-finger/thumb lower. Vertical axis has no numeric calibration; exact percentages and population certainty cannot be recovered.",
+      "principle_ids": [
+        "TD-05",
+        "TD-06"
+      ]
+    },
+    {
+      "pdf_page": 97,
+      "description": "Body position/activity trend by illustrated device size with approximate viewing-distance endpoints.",
+      "inspection": "Read standing/walking versus sitting/reclining regions and approximate25cm/60cm endpoint labels. Device silhouettes have no measured class definitions, confidence intervals, or subgroup counts; treated as trend illustration.",
+      "principle_ids": [
+        "TD-08"
+      ]
+    },
+    {
+      "pdf_page": 99,
+      "description": "Stacked device-support trend: in hand, on a surface, in a stand.",
+      "inspection": "Verified larger illustrative devices show greater surface/stand share. Y-axis endpoints0/100% but no per-class counts or precision; no exact layout breakpoint inferred.",
+      "principle_ids": [
+        "TD-08"
+      ]
+    },
+    {
+      "pdf_page": 100,
+      "description": "Four still frames from a usability test described as four interaction changes in14seconds.",
+      "inspection": "Inspected visibly different hand positions in the four frames. Images establish illustrated variation; still frames do not independently establish timing, transition sequence, frequency, or causality.",
+      "principle_ids": [
+        "TD-05"
+      ]
+    },
+    {
+      "pdf_page": 102,
+      "description": "Stacked grip-type bars for tapping a link, checkbox, typing, short scrolling, and long scrolling.",
+      "inspection": "Matched color legend to grip sketches; typing has a visibly larger two-finger/thumb component. Bars show different task mixes but do not provide subgroup sample sizes or uncertainty.",
+      "principle_ids": [
+        "TD-05",
+        "TD-06"
+      ]
+    },
+    {
+      "pdf_page": 110,
+      "description": "Phone and tablet/laptop viewing drawings with projected sight lines.",
+      "inspection": "Examined relative distance and visual-angle depiction. This is an explanatory diagram, not a validated universal size/distance formula or measurement of a user population.",
+      "principle_ids": [
+        "TD-08"
+      ]
+    },
+    {
+      "pdf_page": 123,
+      "description": "Position-specific observed touch scatter drawn on a phone; compared spread and target positions, without claiming access to raw dataset.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-11"
+      ]
+    },
+    {
+      "pdf_page": 126,
+      "description": "Author accuracy-zone diagram labels 11/9/7/9/12 mm with associated pt labels; lower sidebar explicitly distinguishes fixed kiosk use. Labels are source proposals, not current platform units.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-11"
+      ]
+    },
+    {
+      "pdf_page": 150,
+      "description": "Exaggerated layered-screen parallax geometry contrasts actual vertical contact position with apparent line-of-sight position.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-14"
+      ]
+    },
+    {
+      "pdf_page": 154,
+      "description": "Two-frame liftoff illustration shows movement between initial contact and release, supporting a correction/threshold question rather than a numeric displacement rule.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-14"
+      ]
+    },
+    {
+      "pdf_page": 159,
+      "description": "Diagram separately labels centroid, contact patch, and substantially larger finger-obscured area.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-13"
+      ]
+    },
+    {
+      "pdf_page": 163,
+      "description": "Author mock-up extends selection feedback around a finger near historical Twitter action icons; treated as proposed design, not implemented or tested evidence.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-13"
+      ]
+    },
+    {
+      "pdf_page": 168,
+      "description": "Two phone/content examples place gesture overlays differently: short numbered choices leave central space; longer text pushes gestures into right-side space.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-15"
+      ]
+    },
+    {
+      "pdf_page": 181,
+      "description": "Observed-tap illustration includes points outside the drawn probability region and even touchscreen edge, showing residual error rather than guaranteed accuracy.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-11",
+        "TD-16"
+      ]
+    },
+    {
+      "pdf_page": 185,
+      "description": "Finger/target overlay over historical YouTube geometry illustrates neighboring controls and obscured content; qualitative inspection aid, not measured usability.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-16"
+      ]
+    },
+    {
+      "pdf_page": 203,
+      "description": "Inline destructive confirmation shifts final Remove target from the initiating right-side icon; checked actual relative positions.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-19"
+      ]
+    },
+    {
+      "pdf_page": 205,
+      "description": "Two encumbered grip drawings show different spreads at nine positions; no absolute measurement derived from this illustration.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-11",
+        "TD-18"
+      ]
+    },
+    {
+      "pdf_page": 208,
+      "description": "Historical mobile Safari before/after toolbar views change bottom viewport/content positions; cannot establish current runtime behavior.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-12",
+        "TD-20"
+      ]
+    },
+    {
+      "pdf_page": 215,
+      "description": "Exaggerated bezel cross-section shows finger deformation and centroid/contact relationships near raised edge.",
+      "inspection": "Rendered this source PDF page with pdftoppm at 105 dpi and visually inspected the described geometry, labels, relative positions, and interpretive limits. Raw image retained only in private reader cache.",
+      "principle_ids": [
+        "TD-20"
+      ]
+    },
+    {
+      "pdf_page": 228,
+      "description": "Status symbols with different shapes, colors, and labels",
+      "inspection": "Observed a circle/check, square/information symbol, and triangle/exclamation with separate labels. Confirms redundant visible encoding in the illustration, not universal shape meaning or participant comprehension.",
+      "principle_ids": [
+        "TD-21"
+      ]
+    },
+    {
+      "pdf_page": 243,
+      "description": "Unavailable device and update controls",
+      "inspection": "Observed dimmed/struck-through device treatment, a not-connected label, and an unavailable update with an explanatory connection instruction. Confirms visible cues, not actual control behavior or legibility for every viewer.",
+      "principle_ids": [
+        "TD-22"
+      ]
+    },
+    {
+      "pdf_page": 251,
+      "description": "Minimum/basic/enhanced typography table",
+      "inspection": "Inspected row/column mapping across device classes and three size categories. Numbers are the author's physical-point recommendations; not adopted as framework tokens or current accessibility requirements.",
+      "principle_ids": [
+        "TD-23"
+      ]
+    },
+    {
+      "pdf_page": 275,
+      "description": "Illustration of visual reading priority",
+      "inspection": "Observed a small upper line, very large central phrase, and decreasing lower labels. Confirms authored emphasis; the predicted reading sequence is not a measured observation from this review.",
+      "principle_ids": [
+        "TD-23",
+        "TD-25"
+      ]
+    },
+    {
+      "pdf_page": 281,
+      "description": "Three-zone annotations on a historical YouTube screen",
+      "inspection": "Observed central scrolling media, edge controls, and corner-menu annotation. Illustrates task ranking through one layout; no universal best placement or current YouTube behavior established.",
+      "principle_ids": [
+        "TD-25"
+      ]
+    },
+    {
+      "pdf_page": 305,
+      "description": "Product-detail accordion example",
+      "inspection": "Observed collapsed overview/specifications and expanded reviews with ratings, filters, and content continuing below. Shows potential section-length/context issue; no scrolling or usability test occurred.",
+      "principle_ids": [
+        "TD-26"
+      ]
+    },
+    {
+      "pdf_page": 310,
+      "description": "Original Quora tab example",
+      "inspection": "Observed Stats underlined/red with neighboring gray labels in a horizontal tab row. Inspected alongside PDF311; source image is not a contemporary platform audit.",
+      "principle_ids": [
+        "TD-27"
+      ]
+    },
+    {
+      "pdf_page": 311,
+      "description": "Author-modified Quora tab mock-up",
+      "inspection": "Observed the selected label enclosed by folder-like boundaries continuous with content. This is explicitly a mock-up, not evidence of shipped behavior or improved comprehension over PDF310.",
+      "principle_ids": [
+        "TD-27"
+      ]
+    },
+    {
+      "pdf_page": 326,
+      "description": "Photos collection before and during batch selection",
+      "inspection": "Observed peer-destination bar in one image and a selected-count/action bar in the other, plus checkmarks on selected thumbnails. Static pair illustrates changing scope; it does not establish persistence or exact transitions.",
+      "principle_ids": [
+        "TD-28"
+      ]
+    },
+    {
+      "pdf_page": 335,
+      "description": "Service-center list/table with disclosed actions",
+      "inspection": "Observed name and distance-like values in compact rows, an expanded row with Call/Message/Schedule actions, and further location detail below. Supports visible decision-detail separation, not verified row semantics or decision sufficiency.",
+      "principle_ids": [
+        "TD-29"
+      ]
+    },
+    {
+      "pdf_page": 337,
+      "description": "Category carousel with labeled item previews",
+      "inspection": "Observed two category rows, partially cut-off trailing cards, labels, and View all and manage routes. Confirms visible extent/disclosure cues; gesture, keyboard, and full-list behavior remain unverified.",
+      "principle_ids": [
+        "TD-30"
+      ]
+    },
+    {
+      "pdf_page": 374,
+      "description": "Printed touch-size and typography measurement templates",
+      "inspection": "Inspected concentric target rings with position-specific dimensions and a typography ruler/conversion legend. Rendering was scaled for inspection; no physical calibration performed. Tables are historical author tools, not adopted numeric requirements.",
+      "principle_ids": [
+        "TD-32",
+        "TD-23"
+      ]
+    }
+  ],
+  "supplemental_sections": [
+    {
+      "title": "Master Checklist: Tips, Principles, and Best Practices",
+      "pdf_start": 376,
+      "pdf_end": 383,
+      "printed_start": 375,
+      "printed_end": 382,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          376,
+          383
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Explicitly summarizes chapters5–11. All wording read and assessed against source context; no independent new evidence or new lesson IDs inferred. The web-chyron caution at381 qualifies chapter12 fixed-control advocacy. Full assessment in dated-details.md."
+    }
+  ],
+  "rendered_prose_checks": [
+    {
+      "pdf_page": 338,
+      "description": "Category-carousel prose on cues, labels, alternative inputs and category access",
+      "inspection": "Rendered and read; page contains prose and is deliberately not counted as a figure inspection."
+    }
+  ]
+}

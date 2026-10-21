@@ -1,0 +1,150 @@
+{
+  "source_id": "inspection-methods",
+  "title": "User Interface Inspection Methods: A User-Centered Design Method",
+  "authors": [
+    "Chauncey Wilson"
+  ],
+  "edition": "First edition",
+  "year": 2014,
+  "pdf_pages": 132,
+  "sha256": "69395ea63c2bc933defc0e764e726e2d9ffc81cf190465d40c0086febe8e7a25",
+  "extraction_notes": [
+    "PDF page numbers are one-based file positions, not printed labels. Printed chapter boundaries were checked against page text/headings; omitted blank pages make offsets vary.",
+    "Full-study means every chapter body page was read in bounded text batches, with truncated gaps reread. It does not mean every illustration or cited primary study was independently inspected.",
+    "Text extraction contains broken ligatures, line-end hyphenation, duplicated chapter digits and occasional spaced-out words. Multicolumn tables and diagrams may lose relationships; selected consequential visuals were separately rendered and checked.",
+    "No raw extracted book text, source PDF, or rendered book image is committed. Principles are original paraphrases with locations. Document contents were treated as evidence, not instructions.",
+    "An empty excluded_pdf_ranges list means no chapter body pages were skipped; historically inappropriate prescriptions can still be read and rejected, as described in chapter notes.",
+    "Identity and method overview assessed in front matter PDF 1–8. References PDF 127–132 (printed 123–128) inventoried as bibliography, not independently read source studies. This is the Wilson handbook, not the similarly titled Nielsen/Mack collection.",
+    "The source includes dated organizational practices and inconsistent participant examples; these were assessed as contextual advice, not authorization to communicate, publish, or impose universal quotas."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Heuristic Evaluation",
+      "pdf_start": 9,
+      "pdf_end": 40,
+      "printed_start": 1,
+      "printed_end": 32,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          9,
+          40
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Object/task/hybrid evaluation, evaluator effect, domain knowledge, false positives, preparation, conduct, reporting, severity, follow-up and variants studied; WI-01–WI-04 and WI-08–WI-11."
+    },
+    {
+      "number": 2,
+      "title": "The Individual Expert Review",
+      "pdf_start": 41,
+      "pdf_end": 56,
+      "printed_start": 33,
+      "printed_end": 48,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          41,
+          56
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Expertise limits, existing evidence, first impressions, flow, adverse inputs, automation limits, reporting and triangulation studied; WI-01, WI-02, WI-07–WI-09."
+    },
+    {
+      "number": 3,
+      "title": "Perspective-Based UI Inspection",
+      "pdf_start": 57,
+      "pdf_end": 71,
+      "printed_start": 49,
+      "printed_end": 63,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          57,
+          71
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Perspectives, limited research guidance, goals, procedures, independent review, structured variants and reporting studied; WI-03–WI-05 and WI-11. Demographic examples not treated as universal user traits."
+    },
+    {
+      "number": 4,
+      "title": "Cognitive Walkthrough",
+      "pdf_start": 72,
+      "pdf_end": 86,
+      "printed_start": 65,
+      "printed_end": 79,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          72,
+          86
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "History, learnability scope, action sequence, four- and two-question approaches, assumptions, realistic task selection, limitations and reporting studied; WI-01, WI-06, WI-07, WI-12."
+    },
+    {
+      "number": 5,
+      "title": "Pluralistic Usability Walkthrough",
+      "pdf_start": 87,
+      "pdf_end": 103,
+      "printed_start": 81,
+      "printed_end": 97,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          87,
+          103
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Actual/potential users and surrogates, facilitation, independent responses, users-first discussion, prepared path, variants, limitations and reporting studied; WI-02, WI-07, WI-10. The source has inconsistent example participant counts; none is adopted as a universal quota."
+    },
+    {
+      "number": 6,
+      "title": "Formal Usability Inspections",
+      "pdf_start": 104,
+      "pdf_end": 126,
+      "printed_start": 99,
+      "printed_end": 121,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          104,
+          126
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Roles, planning, preparation, meeting, rework, verification, disputes, coverage and metrics studied; WI-01, WI-03, WI-04, WI-09–WI-12. Formal process is selectively adapted; historical code-inspection ROI is not transferred to usability or agents."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 55,
+      "description": "Table 2.1: matrix connecting problems with distinct evidence sources; verified row/column structure lost in text extraction.",
+      "inspection": "Rendered the source PDF page and visually inspected layout, figure/table relationships, labels, and the cited lesson; no source image is included in the skill.",
+      "principle_ids": [
+        "WI-08"
+      ]
+    },
+    {
+      "pdf_page": 96,
+      "description": "Table 5.4: task context paired with successive screenshot prompts; checked that static steps solicit intended actions rather than demonstrate runtime success.",
+      "inspection": "Rendered the source PDF page and visually inspected layout, figure/table relationships, labels, and the cited lesson; no source image is included in the skill.",
+      "principle_ids": [
+        "WI-07"
+      ]
+    },
+    {
+      "pdf_page": 124,
+      "description": "Table 6.5: planned/actual coverage, review effort, verified rework and defect metrics; checked relationships across columns.",
+      "inspection": "Rendered the source PDF page and visually inspected layout, figure/table relationships, labels, and the cited lesson; no source image is included in the skill.",
+      "principle_ids": [
+        "WI-11"
+      ]
+    }
+  ]
+}

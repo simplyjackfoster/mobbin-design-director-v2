@@ -1,0 +1,705 @@
+{
+  "source_id": "ux-book",
+  "title": "The UX Book: Agile UX Design for a Quality User Experience",
+  "authors": [
+    "Rex Hartson",
+    "Pardha Pyla"
+  ],
+  "edition": "2nd",
+  "year": 2019,
+  "pdf_pages": 918,
+  "sha256": "0e1f8b6901aea2f3a27062191eb9321fd70bfde5b4805e8b9fd3697516d89a66",
+  "extraction_notes": [
+    "All 33 chapter texts were studied. Full-study means complete extracted chapter text was read in bounded sequential chunks, not every figure visually inspected or every assertion independently verified.",
+    "pypdf extracted text from all 918 PDF pages; extraction alone was not counted as reading. Front matter, bibliography, index, blanks and part dividers are outside chapter-study coverage. No chapter-text pages were excluded.",
+    "One-based PDF page numbers; printed chapter boundary labels were verified and equal PDF minus 29. Chapter ranges end at last content page, excluding intervening blanks and part dividers.",
+    "Text contains spacing/ligature artifacts and encoded symbols such as /C2. Side glossaries can interleave with body text; figures may have caption-only extraction. Fourteen selected pages were independently rendered and inspected; this is not an exhaustive visual audit.",
+    "Title and copyright metadata verified on PDF 4–5. Original PDF, extracted text and rendered images remain outside the repository. The durable source note contains original synthesis and provenance, not extracted book text.",
+    "The source is a historical edition. Current product behavior, platform requirements, accessibility thresholds, scientific mechanisms, statistical claims and questionnaire specifications require their own suitable evidence. Historical anecdotes and classroom exercises were read but are not operational commands."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "What Are UX and UX Design?",
+      "pdf_start": 32,
+      "pdf_end": 54,
+      "printed_start": 3,
+      "printed_end": 25,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          32,
+          54
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. UX scope, usefulness, emotional effects, and service journeys support UX-04 and UX-16. Historical business and accident narratives are illustrative, not verified causal evidence or current facts."
+    },
+    {
+      "number": 2,
+      "title": "The Wheel: UX Processes, Lifecycles, Methods, and Techniques",
+      "pdf_start": 56,
+      "pdf_end": 77,
+      "printed_start": 27,
+      "printed_end": 48,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          56,
+          77
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Method selection and iterative overlapping activities support UX-01, UX-09, and UX-18. Terminology hierarchy is source context; the skill need not impose all named methods."
+    },
+    {
+      "number": 3,
+      "title": "Scope, Rigor, Complexity, and Project Perspectives",
+      "pdf_start": 78,
+      "pdf_end": 91,
+      "printed_start": 49,
+      "printed_end": 62,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          78,
+          91
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Rigor, scope, domain and interaction complexity directly support UX-01. Adapt effort to uncertainty and consequence rather than fixed artifact quotas."
+    },
+    {
+      "number": 4,
+      "title": "Agile Lifecycle Processes and the Funnel Model of Agile UX",
+      "pdf_start": 92,
+      "pdf_end": 109,
+      "printed_start": 63,
+      "printed_end": 80,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          92,
+          109
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Funnel model supports UX-06 and UX-25: maintain an overarching concept while delivering coherent increments. The exact sprint process and historical claims about engineering are not mandated."
+    },
+    {
+      "number": 5,
+      "title": "Prelude to the Process Chapters",
+      "pdf_start": 110,
+      "pdf_end": 122,
+      "printed_start": 81,
+      "printed_end": 93,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          110,
+          122
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Concise product concept and interleaved activities support UX-01 and UX-25. Physical studio requirements, historical role definitions, and classroom scheduling are not runtime requirements."
+    },
+    {
+      "number": 6,
+      "title": "Background: Introduction",
+      "pdf_start": 124,
+      "pdf_end": 142,
+      "printed_start": 95,
+      "printed_end": 113,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          124,
+          142
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Full reference chapter studied. Contextual/embodied interaction, meaningfulness, and concentration-versus-fun support UX-04, UX-14, UX-16. Historical genealogy and tool examples retained as background rather than copied into runtime instructions."
+    },
+    {
+      "number": 7,
+      "title": "Usage Research Data Elicitation",
+      "pdf_start": 146,
+      "pdf_end": 171,
+      "printed_start": 117,
+      "printed_end": 142,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          146,
+          171
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Elicitation, observation, interviews, access to real users, and distinction from competitive analysis support UX-02 and UX-03. Research actions require the actual task and participant arrangements."
+    },
+    {
+      "number": 8,
+      "title": "Usage Research Data Analysis",
+      "pdf_start": 172,
+      "pdf_end": 205,
+      "printed_start": 143,
+      "printed_end": 176,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          172,
+          205
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Context-preserving notes, synthesis, affinities, and interpretation support UX-02. Detailed classroom sorting procedures are optional techniques, not mandatory rituals."
+    },
+    {
+      "number": 9,
+      "title": "Usage Research Data Modeling",
+      "pdf_start": 206,
+      "pdf_end": 254,
+      "printed_start": 177,
+      "printed_end": 225,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          206,
+          254
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Roles, personas, flow/sequence/task models, physical context, and information models support UX-03 through UX-07. Models are selected by the question rather than all required."
+    },
+    {
+      "number": 10,
+      "title": "UX Design Requirements: User Stories and Requirements",
+      "pdf_start": 256,
+      "pdf_end": 279,
+      "printed_start": 227,
+      "printed_end": 250,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          256,
+          279
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Stories, requirements, interpretation, scope, and underlying functional needs support UX-05. Extrapolated stories remain hypotheses, not attributed user statements."
+    },
+    {
+      "number": 11,
+      "title": "Background: Understand Needs",
+      "pdf_start": 280,
+      "pdf_end": 286,
+      "printed_start": 251,
+      "printed_end": 257,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          280,
+          286
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Full reference chapter studied. Contextual and participatory origins reinforce UX-02, UX-03 and UX-22. Historical office example supports realistic context; biography/history and classroom anecdote are background."
+    },
+    {
+      "number": 12,
+      "title": "The Nature of UX Design",
+      "pdf_start": 290,
+      "pdf_end": 306,
+      "printed_start": 261,
+      "printed_end": 277,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          290,
+          306
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Design integration, scope, ecological/interaction/emotional concerns, and production oversight support UX-06, UX-09, and UX-25."
+    },
+    {
+      "number": 13,
+      "title": "Bottom-Up Versus Top-Down Design",
+      "pdf_start": 308,
+      "pdf_end": 320,
+      "printed_start": 279,
+      "printed_end": 291,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          308,
+          320
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Bottom-up improvement versus top-down reframing supports UX-09. Neither approach justifies ignoring domain knowledge or validating assumptions as facts."
+    },
+    {
+      "number": 14,
+      "title": "Generative Design: Ideation, Sketching, and Critiquing",
+      "pdf_start": 322,
+      "pdf_end": 354,
+      "printed_start": 293,
+      "printed_end": 325,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          322,
+          354
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Generative ideation, sketching, critique, role differences, and objects support UX-03, UX-07 and UX-09. Examples and exercises studied, not reproduced as quotas."
+    },
+    {
+      "number": 15,
+      "title": "Mental Models and Conceptual Design",
+      "pdf_start": 356,
+      "pdf_end": 369,
+      "printed_start": 327,
+      "printed_end": 340,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          356,
+          369
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Conceptual design and mental-model prediction support UX-06. Metaphors are tested for fit, not mechanically applied."
+    },
+    {
+      "number": 16,
+      "title": "Designing the Ecology and Pervasive Information Architecture",
+      "pdf_start": 370,
+      "pdf_end": 387,
+      "printed_start": 341,
+      "printed_end": 358,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          370,
+          387
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Ecology, pervasive information architecture, and continuity support UX-04 and UX-08. Business-directed slanty design is not adopted as permission for user-hostile friction."
+    },
+    {
+      "number": 17,
+      "title": "Designing the Interaction",
+      "pdf_start": 388,
+      "pdf_end": 412,
+      "printed_start": 359,
+      "printed_end": 383,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          388,
+          412
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Interaction scenarios, wireflows, design specifications, and living style guides support UX-08, UX-10 and UX-17. Selected phone-flow and component-state figures visually checked."
+    },
+    {
+      "number": 18,
+      "title": "Designing for Emotional Impact",
+      "pdf_start": 414,
+      "pdf_end": 424,
+      "printed_start": 385,
+      "printed_end": 395,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          414,
+          424
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Emotional impact, visual vocabulary, mood boards, and meaning support UX-16. Emotional effects require appropriate user evidence, not designer assertion."
+    },
+    {
+      "number": 19,
+      "title": "Background: Design",
+      "pdf_start": 426,
+      "pdf_end": 430,
+      "printed_start": 397,
+      "printed_end": 401,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          426,
+          430
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Full reference chapter studied. Participatory reciprocal learning supports optional co-design and UX-09/UX-23. Historical method genealogy and movie illustration are contextual, not new operational mandates."
+    },
+    {
+      "number": 20,
+      "title": "Prototyping",
+      "pdf_start": 434,
+      "pdf_end": 461,
+      "printed_start": 405,
+      "printed_end": 432,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          434,
+          461
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Prototype purposes, breadth/depth/fidelity, wireflows, and realism support UX-10, UX-18 and UX-19. Historical software recommendations are not current tooling requirements."
+    },
+    {
+      "number": 21,
+      "title": "UX Evaluation Methods and Techniques",
+      "pdf_start": 464,
+      "pdf_end": 480,
+      "printed_start": 435,
+      "printed_end": 451,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          464,
+          480
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Evaluation purpose and evidence distinctions support UX-20 and UX-21. Analytic prediction must not be reported as empirical observation."
+    },
+    {
+      "number": 22,
+      "title": "Empirical UX Evaluation: UX Goals, Metrics, and Targets",
+      "pdf_start": 482,
+      "pdf_end": 510,
+      "printed_start": 453,
+      "printed_end": 481,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          482,
+          510
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Goals, targets, instruments, representative tasks, and task wording support UX-21 through UX-23. Informal numerical data does not establish statistical confidence."
+    },
+    {
+      "number": 23,
+      "title": "Empirical UX Evaluation: Preparation",
+      "pdf_start": 512,
+      "pdf_end": 532,
+      "printed_start": 483,
+      "printed_end": 503,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          512,
+          532
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Recruitment, task preparation, facilities, participant briefings and piloting support UX-19, UX-22 and UX-23. Compensation examples and academic review-board procedures are context-specific."
+    },
+    {
+      "number": 24,
+      "title": "Empirical UX Evaluation: Data Collection Methods and Techniques",
+      "pdf_start": 534,
+      "pdf_end": 572,
+      "printed_start": 505,
+      "printed_end": 543,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          534,
+          572
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Incidents, think-aloud, subjective measures, emotional/longitudinal evaluation, sessions and iteration support UX-16 and UX-19 through UX-24. Questionnaire modification/scoring and emotion interpretation need explicit limits."
+    },
+    {
+      "number": 25,
+      "title": "Analytic UX Evaluation: Data Collection Methods and Techniques",
+      "pdf_start": 574,
+      "pdf_end": 589,
+      "printed_start": 545,
+      "printed_end": 560,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          574,
+          589
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Inspection, heuristics and walkthroughs support UX-20 and UX-24. Expert or agent findings remain predictions; domain familiarity and evidence affect confidence."
+    },
+    {
+      "number": 26,
+      "title": "UX Evaluation: Data Analysis",
+      "pdf_start": 590,
+      "pdf_end": 616,
+      "printed_start": 561,
+      "printed_end": 587,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          590,
+          616
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Diagnosis, consolidation, importance/cost, prioritization and iteration support UX-24 and UX-25. Severity, evidence strength and effort remain distinct."
+    },
+    {
+      "number": 27,
+      "title": "UX Evaluation: Reporting Results",
+      "pdf_start": 618,
+      "pdf_end": 628,
+      "printed_start": 589,
+      "printed_end": 599,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          618,
+          628
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Actionable reporting and audience/context support UX-24 and UX-25. Preserve problem rationale, evidence and resolution; do not copy categorical statistical-reporting restrictions."
+    },
+    {
+      "number": 28,
+      "title": "Background: UX Evaluation",
+      "pdf_start": 630,
+      "pdf_end": 650,
+      "printed_start": 601,
+      "printed_end": 621,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          630,
+          650
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Full reference chapter studied. Evaluator effects, ecological validity, participant-count assumptions and problem histories support UX-20, UX-22 and UX-24. Historical method roots are background; physiological emotion inference is not a routine capability or reliable diagnosis."
+    },
+    {
+      "number": 29,
+      "title": "Connecting Agile UX With Agile Software Development",
+      "pdf_start": 654,
+      "pdf_end": 676,
+      "printed_start": 625,
+      "printed_end": 647,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          654,
+          676
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Coordinating design and implementation, review, information exchange and sprint coherence support UX-25. Specific schedules, tools and organizational structures are not mandatory."
+    },
+    {
+      "number": 30,
+      "title": "Affordances in UX Design",
+      "pdf_start": 680,
+      "pdf_end": 722,
+      "printed_start": 651,
+      "printed_end": 693,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          680,
+          722
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Five affordance roles, their cooperation, physical and sensory constraints support UX-12 through UX-16. Selected taxonomy table visually verified; current platform guidance remains separate."
+    },
+    {
+      "number": 31,
+      "title": "The Interaction Cycle",
+      "pdf_start": 724,
+      "pdf_end": 736,
+      "printed_start": 695,
+      "printed_end": 707,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          724,
+          736
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Interaction cycle and nested task context support UX-10, UX-11 and UX-12. Both core diagrams visually inspected."
+    },
+    {
+      "number": 32,
+      "title": "UX Design Guidelines",
+      "pdf_start": 738,
+      "pdf_end": 853,
+      "printed_start": 709,
+      "printed_end": 824,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          738,
+          853
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. All 116 chapter pages studied. Planning, labeling, grouping, defaults, task continuity, control, physical action, feedback and consistency reinforce UX-10 through UX-17. Historical screenshots and context-dependent palette/physiology/anthropomorphism recommendations are not universal rules; accessibility and internationalization are explicitly not comprehensive."
+    },
+    {
+      "number": 33,
+      "title": "Background: Affordances, the Interaction Cycle, and UX Design Guidelines",
+      "pdf_start": 854,
+      "pdf_end": 861,
+      "printed_start": 825,
+      "printed_end": 832,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          854,
+          861
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Complete extracted chapter text studied in bounded sequential chunks; visual inspection is selective. Full reference chapter studied. Taxonomy provenance, cultural conventions and evidence strength support UX-12 and UX-13. Historical genealogy and film anecdote retained as context, not contemporary guidance."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 104,
+      "description": "Figure 4-3 funnel model",
+      "inspection": "Rendered diagram inspected: vertical scope narrows from initial broad UX work to smaller feature increments along time; narrow late funnel does not eliminate an overall model.",
+      "principle_ids": [
+        "UX-01",
+        "UX-25"
+      ]
+    },
+    {
+      "pdf_page": 404,
+      "description": "Figure17-9 campsite workflow",
+      "inspection": "Rendered page inspected: seven ordered phone wireframes, map/list alternatives, reservation and saved states; reinforces transitions and target-selection questions.",
+      "principle_ids": [
+        "UX-10",
+        "UX-14"
+      ]
+    },
+    {
+      "pdf_page": 412,
+      "description": "Figure17-14 style-guide states",
+      "inspection": "Rendered page inspected: checkbox,radio,toggle and input examples cover selected,indeterminate,disabled and error states; visual vocabulary is behavioral.",
+      "principle_ids": [
+        "UX-17"
+      ]
+    },
+    {
+      "pdf_page": 417,
+      "description": "Figure18-2 emotional inputs",
+      "inspection": "Rendered page inspected: aesthetics,pleasure,identity,meaningfulness,connection and motivation converge on emotional design; no universal delight target.",
+      "principle_ids": [
+        "UX-16"
+      ]
+    },
+    {
+      "pdf_page": 419,
+      "description": "Figure18-3 nature mood board",
+      "inspection": "Rendered page inspected: nature photography establishes a coherent theme; supports deriving a vocabulary rather than copying a screen.",
+      "principle_ids": [
+        "UX-16"
+      ]
+    },
+    {
+      "pdf_page": 441,
+      "description": "Figures20-3 and20-4 wireflow development",
+      "inspection": "Rendered page inspected: arrows connect specific action objects to destination wireframes; model-to-state-diagram-to-fidelity sequence.",
+      "principle_ids": [
+        "UX-10",
+        "UX-18"
+      ]
+    },
+    {
+      "pdf_page": 638,
+      "description": "Figure 28-1 discovery-rate curves",
+      "inspection": "Rendered graph inspected: predicted cumulative detection varies substantially with assumed per-participant detection rate. It does not establish a universal participant count or real measured coverage.",
+      "principle_ids": [
+        "UX-20",
+        "UX-22"
+      ]
+    },
+    {
+      "pdf_page": 639,
+      "description": "Section 28.6.3 probability formula",
+      "inspection": "Rendered equation inspected to resolve extraction symbols: discovery likelihood is 1 minus (1 minus p) to power n. Adjacent text and later assumptions limit application; no numeric rule is imported.",
+      "principle_ids": [
+        "UX-22"
+      ]
+    },
+    {
+      "pdf_page": 683,
+      "description": "Table30-1 five affordance types",
+      "inspection": "Rendered table inspected: distinct cognitive,physical,sensory,functional and emotional roles verified against extracted text.",
+      "principle_ids": [
+        "UX-12"
+      ]
+    },
+    {
+      "pdf_page": 728,
+      "description": "Figure31-2 interaction-cycle partition",
+      "inspection": "Rendered page inspected: planning,translation,physical action and assessment surround system outcomes; outcomes must become perceptible feedback.",
+      "principle_ids": [
+        "UX-10",
+        "UX-12"
+      ]
+    },
+    {
+      "pdf_page": 736,
+      "description": "Figure31-4 task-context stacking",
+      "inspection": "Rendered page inspected: primary,exploratory and error-recovery cycles have explicit stack and restore paths.",
+      "principle_ids": [
+        "UX-11"
+      ]
+    },
+    {
+      "pdf_page": 776,
+      "description": "Figure 32-26 action scope within a tab",
+      "inspection": "Rendered screenshot inspected: OK and Cancel appear inside the selected tab, implying narrower scope than the whole dialog. Compared with PDF 777.",
+      "principle_ids": [
+        "UX-13",
+        "UX-17"
+      ]
+    },
+    {
+      "pdf_page": 777,
+      "description": "Figure 32-27 action scope across tabs",
+      "inspection": "Rendered screenshot inspected: OK and Cancel are placed on the outer dialog background below all tabs, communicating whole-dialog scope. Compared with PDF 776.",
+      "principle_ids": [
+        "UX-13",
+        "UX-17"
+      ]
+    },
+    {
+      "pdf_page": 831,
+      "description": "Figure 32-61 departure and arrival labels",
+      "inspection": "Rendered screenshot inspected: Add New Entry leads to a differently titled Document Data Entry view; departure/destination vocabulary mismatch makes arrival uncertain.",
+      "principle_ids": [
+        "UX-10",
+        "UX-17"
+      ]
+    }
+  ]
+}

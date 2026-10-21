@@ -1,0 +1,577 @@
+{
+  "source_id": "practical-ui",
+  "title": "Practical UI",
+  "authors": [
+    "Adham Dannaway"
+  ],
+  "edition": "Second edition, verified interior PDF2",
+  "year": 2024,
+  "isbn": "978-0-6456766-1-7",
+  "pdf_pages": 373,
+  "sha256": "17df66c266e4060cb76e42d98a3c1b328c7ad3943b00cd2a8535c5bacff5a7c7",
+  "extraction_notes": [
+    "Interior PDF2 identifies second edition and copyright2024. PDF creation metadata2022 and archive naming are not used as edition evidence.",
+    "All373 pages extracted externally with pypdf. Text contains pervasive intra-word spaces, line-wrap artifacts, and flattened example layouts. Selected consequential examples were separately rendered at1400px and visually inspected.",
+    "Full text read or assessed for PDF1\u2013373 in sequential bounded batches, including all eight chapters, exercises, captions, introduction, and closing material. No unread chapter-prose exclusions. Cover, credits, contents, progress dividers, and closing requests were assessed as source content rather than instructions.",
+    "One-based PDF pages match printed labels on inspected body pages; cover, chapter dividers, and other unnumbered leaves may not show a printed numeral.",
+    "Full-study refers to complete textual chapter assessment. Forty-six selected figure pages plus one prose page were rendered and inspected; remaining illustrations were assessed through extracted text and surrounding explanations only. No exhaustive image-inspection claim is made.",
+    "Underlying studies and cited research were not independently audited or replicated. Pedagogical before/after comparisons are not treated as experiments; some change multiple variables or omit information.",
+    "Raw PDF, extraction, and rendered pages stay outside Git. Figma assets from the supplied archive were not extracted or reused as project assets."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Fundamentals",
+      "pdf_start": 16,
+      "pdf_end": 54,
+      "printed_start": 16,
+      "printed_end": 54,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          16,
+          54
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "PU-01, PU-03, PU-04. Accessibility, rationale, interaction effort, reusable systems, conventions, and states assessed. Sample system values are not adopted as universal rules."
+    },
+    {
+      "number": 2,
+      "title": "Less is more",
+      "pdf_start": 55,
+      "pdf_end": 77,
+      "printed_start": 55,
+      "printed_end": 77,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          55,
+          77
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "PU-02, PU-03. Redundancy, progressive disclosure, action visibility, choice organization, and minimalist-affordance tradeoffs assessed. Decorative expression remains contextual."
+    },
+    {
+      "number": 3,
+      "title": "Colour",
+      "pdf_start": 78,
+      "pdf_end": 162,
+      "printed_start": 78,
+      "printed_end": 162,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          78,
+          162
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "PU-04, PU-05, PU-06, PU-07. Full contrast, color roles, palette construction, surfaces, dark mode, transparency, states, photography, exercise, and recap assessed. Future-WCAG3/APCA claim corrected; numeric recipes and color psychology qualified."
+    },
+    {
+      "number": 4,
+      "title": "Layout and spacing",
+      "pdf_start": 163,
+      "pdf_end": 228,
+      "printed_start": 163,
+      "printed_end": 228,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          163,
+          228
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "PU-08, PU-09, PU-10, PU-11, PU-19. Full grouping, hierarchy, spacing, grids, alignment, proximity, variable content, image composition, exercise, and recap assessed. Point/pixel conversion issue and universal placement claims not adopted."
+    },
+    {
+      "number": 5,
+      "title": "Typography",
+      "pdf_start": 229,
+      "pdf_end": 265,
+      "printed_start": 229,
+      "printed_end": 265,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          229,
+          265
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "PU-12, PU-13, PU-04, PU-07. Full family selection, character, weights, scales, leading, line length, tracking, image text, exercise, and recap assessed. Fixed ranges, universal sans-serif preference, and pure-black warning qualified."
+    },
+    {
+      "number": 6,
+      "title": "Copywriting",
+      "pdf_start": 266,
+      "pdf_end": 294,
+      "printed_start": 266,
+      "printed_end": 294,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          266,
+          294
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "PU-14, PU-15, PU-16. Full editing, scanning, vocabulary, voice, numbers, links, errors, exercise, and recap assessed. Material meaning preserved; invented failure causes and needless equal-length copy rejected."
+    },
+    {
+      "number": 7,
+      "title": "Buttons",
+      "pdf_start": 295,
+      "pdf_end": 329,
+      "printed_start": 295,
+      "printed_end": 329,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          295,
+          329
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "PU-17, PU-18, PU-19, PU-20. Full button hierarchy, disabled states, alignment, labels, targets, icon balance, destructive action, exercise, and recap assessed. Platform exceptions, genuine recovery, and proportionate friction retained."
+    },
+    {
+      "number": 8,
+      "title": "Forms",
+      "pdf_start": 330,
+      "pdf_end": 370,
+      "printed_start": 330,
+      "printed_end": 370,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          330,
+          370
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "PU-21, PU-22, PU-23, PU-24. Full sequence, labels, minimal data, required status, field widths, selection, help, placeholders, autocomplete, steppers, toggles, steps, borders, validation tradeoffs, and recap assessed. Fixed thresholds and web-to-native control prescriptions qualified."
+    }
+  ],
+  "supplemental_sections": [
+    {
+      "title": "Front matter and introduction",
+      "pdf_start": 1,
+      "pdf_end": 15,
+      "printed_start": 1,
+      "printed_end": 15,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          1,
+          15
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Cover, copyright, contents, author framing, and instructions assessed. Editorial/promotional material contributes provenance and scope, not new operational requirements."
+    },
+    {
+      "title": "Closing material",
+      "pdf_start": 371,
+      "pdf_end": 373,
+      "printed_start": 371,
+      "printed_end": 373,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          371,
+          373
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Conclusion, recap, and author contact/review request read. Requests within the book are source material, not instructions to contact or review."
+    }
+  ],
+  "rendered_prose_checks": [
+    {
+      "pdf_page": 364,
+      "description": "Validation strategy overview",
+      "inspection": "Rendered and read the prose explaining submission, blur, and typing-time approaches and their tradeoffs. Not counted as a figure inspection."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 18,
+      "description": "Property-screen before/after",
+      "inspection": "Observed changes in text weight, contrast, labels, spacing, and emphasis. The combined intervention cannot isolate the effect of any single change.",
+      "principle_ids": [
+        "PU-04",
+        "PU-09"
+      ]
+    },
+    {
+      "pdf_page": 41,
+      "description": "Input familiarity comparison",
+      "inspection": "Observed thin underline/placeholder presentation compared with bordered fields and persistent labels. Supports examining discoverability, not a ban on every native borderless field.",
+      "principle_ids": [
+        "PU-01",
+        "PU-22"
+      ]
+    },
+    {
+      "pdf_page": 57,
+      "description": "Team-list decorative color comparison",
+      "inspection": "Observed brightly differentiated rows converted to a more consistent neutral treatment. The lesson concerns competition and implied meaning; it does not establish that neutral styling is always preferable.",
+      "principle_ids": [
+        "PU-02",
+        "PU-05"
+      ]
+    },
+    {
+      "pdf_page": 63,
+      "description": "Photo-editor minimalism comparison",
+      "inspection": "Observed added labels, selected-state cues, and visible actions in the fuller variant. Fewer visible elements are not necessarily easier to understand.",
+      "principle_ids": [
+        "PU-02"
+      ]
+    },
+    {
+      "pdf_page": 65,
+      "description": "Navigation and carousel discoverability examples",
+      "inspection": "Observed visible navigation alternatives and a clipped trailing carousel item. Partial content suggests continuation; the screenshot cannot establish swipe behavior or that users discover it.",
+      "principle_ids": [
+        "PU-02"
+      ]
+    },
+    {
+      "pdf_page": 80,
+      "description": "Control contrast comparison",
+      "inspection": "Observed low-contrast component boundaries and text compared with more distinct treatment. No independent contrast measurement was performed on the rasterized figure.",
+      "principle_ids": [
+        "PU-04"
+      ]
+    },
+    {
+      "pdf_page": 85,
+      "description": "Color and grayscale error examples",
+      "inspection": "Observed color plus error treatment and grayscale renditions. The bad grayscale rendition also removes an error label visible in its colored counterpart, confounding a purported color-only comparison. Retain redundant cues principle without treating the pair as controlled evidence.",
+      "principle_ids": [
+        "PU-05"
+      ]
+    },
+    {
+      "pdf_page": 99,
+      "description": "Light brand fill and action contrast",
+      "inspection": "Observed yellow action fill with dark text and differentiated secondary treatment. White text on every brand fill is not a requirement.",
+      "principle_ids": [
+        "PU-05"
+      ]
+    },
+    {
+      "pdf_page": 128,
+      "description": "Transparent badges across layered dark surfaces",
+      "inspection": "Observed a consistent transparent badge adapting to several surface values. Relative appearance changes with the composite; actual contrast must be measured in each use.",
+      "principle_ids": [
+        "PU-06"
+      ]
+    },
+    {
+      "pdf_page": 138,
+      "description": "Light and dark palette overview",
+      "inspection": "Observed semantic text, surface, stroke, and status samples in both appearances. Visual consistency does not establish complete state coverage or compliance.",
+      "principle_ids": [
+        "PU-06"
+      ]
+    },
+    {
+      "pdf_page": 153,
+      "description": "Warm and cool imagery comparisons",
+      "inspection": "Observed temperature differences across photo selections. Coherence can be intentional, but image fidelity and context constrain recoloring.",
+      "principle_ids": [
+        "PU-07"
+      ]
+    },
+    {
+      "pdf_page": 167,
+      "description": "Article-author ownership with containers",
+      "inspection": "Observed author information ambiguously located between articles, then contained with its corresponding item. The region boundary clarifies ownership in this example.",
+      "principle_ids": [
+        "PU-08"
+      ]
+    },
+    {
+      "pdf_page": 168,
+      "description": "Grouping with spacing instead of containers",
+      "inspection": "Observed related article elements grouped through proximity without enclosing cards. Common region is optional when relationships remain clear.",
+      "principle_ids": [
+        "PU-08"
+      ]
+    },
+    {
+      "pdf_page": 172,
+      "description": "Static icons resembling controls",
+      "inspection": "Observed rounded background treatment making informational icons look button-like, then a lighter treatment. Actual tappability was not tested.",
+      "principle_ids": [
+        "PU-08"
+      ]
+    },
+    {
+      "pdf_page": 173,
+      "description": "Static badge and action differentiation",
+      "inspection": "Observed badge treatment competing with the primary action, then visually differentiated. Distinct purpose should have distinguishable treatment.",
+      "principle_ids": [
+        "PU-08",
+        "PU-17"
+      ]
+    },
+    {
+      "pdf_page": 181,
+      "description": "Property hierarchy example",
+      "inspection": "Observed deliberate emphasis on key decision data and action over supporting details. This hierarchy is task-specific rather than a universal prescription that the button must always dominate.",
+      "principle_ids": [
+        "PU-09"
+      ]
+    },
+    {
+      "pdf_page": 194,
+      "description": "Related versus unrelated spacing",
+      "inspection": "Observed schematic gaps demonstrating nearer within-group relationships and larger separations between groups. Values are illustrative, not fixed requirements.",
+      "principle_ids": [
+        "PU-10"
+      ]
+    },
+    {
+      "pdf_page": 196,
+      "description": "Nested spacing examples",
+      "inspection": "Observed inner component spacing and outer grouping distances. Equal gaps everywhere weaken the intended nesting relationship.",
+      "principle_ids": [
+        "PU-10"
+      ]
+    },
+    {
+      "pdf_page": 209,
+      "description": "Amount and unit baseline alignment",
+      "inspection": "Observed mixed-size monetary amount and unit aligned by baseline rather than their bounding-box centers. Baseline choice preserves a more coherent reading unit.",
+      "principle_ids": [
+        "PU-10",
+        "PU-13"
+      ]
+    },
+    {
+      "pdf_page": 216,
+      "description": "Long repeated names and truncation",
+      "inspection": "Observed prefix-based truncation making multiple names look identical, with wrapping or alternative truncation preserving distinguishing text. Text shrinking is not adopted as a default accessibility solution.",
+      "principle_ids": [
+        "PU-11"
+      ]
+    },
+    {
+      "pdf_page": 235,
+      "description": "Mixed typeface comparison",
+      "inspection": "Observed several contrasting fonts replaced by a more coherent sans-serif treatment. The example does not prove all serif or multi-family systems are inferior.",
+      "principle_ids": [
+        "PU-12"
+      ]
+    },
+    {
+      "pdf_page": 238,
+      "description": "Typographic mood panels",
+      "inspection": "Observed six directions whose fonts, colors, shapes, and imagery differ together. Useful coherent art directions, not evidence isolating typeface as the cause of an emotional effect.",
+      "principle_ids": [
+        "PU-12"
+      ]
+    },
+    {
+      "pdf_page": 240,
+      "description": "Weight-count comparison",
+      "inspection": "Observed many weights reduced to a clearer smaller set, including a prominent price. Semantic hierarchy matters more than an absolute two-weight limit.",
+      "principle_ids": [
+        "PU-12"
+      ]
+    },
+    {
+      "pdf_page": 246,
+      "description": "Body leading comparison",
+      "inspection": "Observed tight lines separated by increased body leading. The example illustrates line separation, not a universal multiplier.",
+      "principle_ids": [
+        "PU-13"
+      ]
+    },
+    {
+      "pdf_page": 247,
+      "description": "Heading leading comparison",
+      "inspection": "Observed tighter heading leading while the body retains more open leading. Distinct role-specific rhythm helps the heading read as one unit.",
+      "principle_ids": [
+        "PU-13"
+      ]
+    },
+    {
+      "pdf_page": 255,
+      "description": "Photo text with gradients and scrims",
+      "inspection": "Observed background treatments improving text separation from image detail. The illustrated opacity is not a contrast guarantee for arbitrary photos.",
+      "principle_ids": [
+        "PU-07"
+      ]
+    },
+    {
+      "pdf_page": 261,
+      "description": "Thin versus regular typography",
+      "inspection": "Observed thin letterforms replaced by more legible weight despite the page discussing nominal contrast compliance. Weight remains relevant alongside color ratio.",
+      "principle_ids": [
+        "PU-04"
+      ]
+    },
+    {
+      "pdf_page": 267,
+      "description": "Concise save dialog",
+      "inspection": "Observed verbose language shortened while retaining destination and later-publication meaning. Concision is valuable when the essential information survives.",
+      "principle_ids": [
+        "PU-14"
+      ]
+    },
+    {
+      "pdf_page": 273,
+      "description": "Contact-sync heading hierarchy",
+      "inspection": "Observed benefit-led heading with account storage information in body text. Our application requires judging whether that material persistence detail remains prominent enough for informed choice.",
+      "principle_ids": [
+        "PU-14"
+      ]
+    },
+    {
+      "pdf_page": 277,
+      "description": "Descriptive heading comparisons",
+      "inspection": "Observed generic section titles replaced by titles that explain their contents. Headings become more useful during scanning and out of visual context.",
+      "principle_ids": [
+        "PU-14",
+        "PU-15"
+      ]
+    },
+    {
+      "pdf_page": 285,
+      "description": "Descriptive links",
+      "inspection": "Observed generic Learn more links replaced with destination-specific labels. Meaning survives a link-only reading context.",
+      "principle_ids": [
+        "PU-15"
+      ]
+    },
+    {
+      "pdf_page": 287,
+      "description": "Error-message comparison",
+      "inspection": "Observed vague technical error replaced with payment-failure explanation and suggested update. That recovery advice is only honest if the actual cause is known to involve payment details.",
+      "principle_ids": [
+        "PU-16"
+      ]
+    },
+    {
+      "pdf_page": 304,
+      "description": "Repeated follow actions",
+      "inspection": "Observed multiple filled row buttons reduced to outlined treatment, lowering their competition with other page content. Presence of outline alone does not prove correct hierarchy in every screen.",
+      "principle_ids": [
+        "PU-17"
+      ]
+    },
+    {
+      "pdf_page": 307,
+      "description": "Disabled login action comparison",
+      "inspection": "Observed disabled versus available submit treatment. Static frames cannot establish that safe validation and accessible explanation actually exist.",
+      "principle_ids": [
+        "PU-18"
+      ]
+    },
+    {
+      "pdf_page": 310,
+      "description": "Locked/unavailable actions",
+      "inspection": "Observed lock indicators and explanation replacing silently unavailable actions. A lock still requires context because privacy, permissions, and paid access are different meanings.",
+      "principle_ids": [
+        "PU-18"
+      ]
+    },
+    {
+      "pdf_page": 314,
+      "description": "Left and right dialog action groups",
+      "inspection": "Observed both action layouts and the author\u2019s explicit acceptance of right alignment when hierarchy is clear. Supports retaining platform conventions rather than a universal left-align rule.",
+      "principle_ids": [
+        "PU-19"
+      ]
+    },
+    {
+      "pdf_page": 320,
+      "description": "Icon and label optical balance",
+      "inspection": "Observed icon weight and size adjusted to relate more closely to adjacent text. Balance concerns perceived weight, not identical geometry in every icon.",
+      "principle_ids": [
+        "PU-12",
+        "PU-19"
+      ]
+    },
+    {
+      "pdf_page": 322,
+      "description": "Destructive row action prominence",
+      "inspection": "Observed repeated filled red removal buttons replaced with lighter link treatment. The proposed salience reduction does not justify overriding native destructive color roles categorically.",
+      "principle_ids": [
+        "PU-20"
+      ]
+    },
+    {
+      "pdf_page": 324,
+      "description": "Severe confirmation and undo presentation",
+      "inspection": "Observed deletion consequences, a confirmation checkbox, and a separate restore-message example. These depict safeguards but do not establish implementation or actual reversibility.",
+      "principle_ids": [
+        "PU-20"
+      ]
+    },
+    {
+      "pdf_page": 332,
+      "description": "Labels beside versus above fields",
+      "inspection": "Observed variable lateral gaps and a zigzag schematic contrasted with vertically stacked labels. The path is an illustration, not measured gaze data or a prohibition on native inline forms.",
+      "principle_ids": [
+        "PU-21"
+      ]
+    },
+    {
+      "pdf_page": 339,
+      "description": "Required and optional field labeling",
+      "inspection": "Observed unlabeled completion status compared with asterisk, required, and optional text treatments. Surrounding prose supplies exceptions; this is not a mandatory marker on every single-question screen.",
+      "principle_ids": [
+        "PU-21"
+      ]
+    },
+    {
+      "pdf_page": 344,
+      "description": "Field width and expected input",
+      "inspection": "Observed shorter expiry and CVC fields beside the same longer-name/card-number context. Width can signal content expectation but must accommodate real formats and usable targets.",
+      "principle_ids": [
+        "PU-21"
+      ]
+    },
+    {
+      "pdf_page": 348,
+      "description": "Visible help before input",
+      "inspection": "Observed essential gas-meter guidance hidden in tooltip, below input, and before input. The visible pre-input version makes the requirement available without opening a tooltip.",
+      "principle_ids": [
+        "PU-22"
+      ]
+    },
+    {
+      "pdf_page": 350,
+      "description": "Persistent label versus placeholder",
+      "inspection": "Observed email placeholder replaced by a label above the field. The persistent label remains conceptually available after entry; actual accessibility association requires runtime verification.",
+      "principle_ids": [
+        "PU-22"
+      ]
+    },
+    {
+      "pdf_page": 354,
+      "description": "Long dropdown versus autocomplete",
+      "inspection": "Observed country list compared with typed prefix and differentiated result endings. Known-item search can reduce scanning, but browsing and unknown vocabulary need separate consideration.",
+      "principle_ids": [
+        "PU-23"
+      ]
+    },
+    {
+      "pdf_page": 367,
+      "description": "Validation after leaving field",
+      "inspection": "Observed the same incomplete email before and after error display, using text, icon, and border. The static example cannot establish focus timing, announcement behavior, or correct clearing after repair.",
+      "principle_ids": [
+        "PU-24"
+      ]
+    }
+  ]
+}

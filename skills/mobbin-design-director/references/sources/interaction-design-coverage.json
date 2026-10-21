@@ -1,0 +1,704 @@
+{
+  "source_id": "interaction-design",
+  "title": "Interaction Design: Beyond Human–Computer Interaction",
+  "authors": [
+    "Yvonne Rogers",
+    "Helen Sharp",
+    "Jennifer Preece"
+  ],
+  "edition": "6th edition",
+  "year": 2023,
+  "isbn": "9781119901099",
+  "pdf_pages": 716,
+  "sha256": "62a8d174db4c7edcfdd5a388cdedbd1fad268331935f31b318991b17e69126c3",
+  "extraction_notes": [
+    "Title/copyright PDF11–15 and contents/preface PDF17–23 read. Body printed page plus26 equals one-based PDF page, checked in selected rendered pages.",
+    "All16 chapter text PDF27–640 and epilogue641–644 read in bounded batches. Includes boxes, activities, captions, interviews and further-reading annotations; no unread chapter prose exclusions. All exercises treated as source content, not commands.",
+    "Extraction has joined words, nonbreaking spaces, broken wraps, headers within text and occasional mojibake (notably PDF173,473,498). Meaning recoverable from surrounding text. Important figures/tables separately rendered; malformed equation at637 visually verified.",
+    "Thirty-eight selected visual pages inspected: figures, tables, one conceptual-model box and one equation. Full-study refers to text coverage, not exhaustive inspection of every image. Other figures assessed via captions/prose. No raw source pages or full extraction included in repository candidate.",
+    "Underlying studies, bibliography entries, external videos and links not independently audited or replicated. Historical app statistics, legal claims and platform specifications are not treated as current facts.",
+    "Bibliography PDF645–699 and index701–715 inventoried by boundaries as lookup apparatus, not fully read as new instructional prose. PDF700 blank; PDF716 ebook EULA link assessed. Promotional/front matter1–10 and blank/half-title16,24–26 assessed, not used for lessons."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "What Is Interaction Design?",
+      "printed_start": 1,
+      "printed_end": 36,
+      "pdf_start": 27,
+      "pdf_end": 62,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          27,
+          62
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-01/09/21/22. Full prose/activities read; no body exclusions. Broad demographic/color simplifications and historical examples not promoted."
+    },
+    {
+      "number": 2,
+      "title": "The Process of Interaction Design",
+      "printed_start": 37,
+      "printed_end": 68,
+      "pdf_start": 63,
+      "pdf_end": 94,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          63,
+          94
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-19/20/23. Full prose read. Fixed sprint practices, old law/examples and mandatory method sequences not promoted."
+    },
+    {
+      "number": 3,
+      "title": "Conceptualizing Interaction",
+      "printed_start": 69,
+      "printed_end": 100,
+      "pdf_start": 95,
+      "pdf_end": 126,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          95,
+          126
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-02/03/04. Full prose read. Metaphor benefits and limitations preserved; interaction type distinguished from interface type."
+    },
+    {
+      "number": 4,
+      "title": "Cognitive Aspects",
+      "printed_start": 101,
+      "printed_end": 134,
+      "pdf_start": 127,
+      "pdf_end": 160,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          127,
+          160
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-05. Full prose read. Seven-plus-or-minus-two menu limit explicitly rejected; external cognition and model feedback retained."
+    },
+    {
+      "number": 5,
+      "title": "Social Interaction",
+      "printed_start": 135,
+      "printed_end": 170,
+      "pdf_start": 161,
+      "pdf_end": 196,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          161,
+          196
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-04/07. Full prose read. Social timing/awareness/control retained; specialist immersive equipment not default skill process."
+    },
+    {
+      "number": 6,
+      "title": "Emotional Interaction",
+      "printed_start": 171,
+      "printed_end": 198,
+      "pdf_start": 197,
+      "pdf_end": 224,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          197,
+          224
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-03/06/14. Full prose read. Emotion across a journey, appearance/use/meaning, unsolicited-assistance costs retained. False404 explanation and emotion-detection certainty excluded."
+    },
+    {
+      "number": 7,
+      "title": "Interfaces",
+      "printed_start": 199,
+      "printed_end": 272,
+      "pdf_start": 225,
+      "pdf_end": 298,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          225,
+          298
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-04/08/09/13. Full prose read including specialized interfaces. Retained input fit, labels, context and access; hardware history/current numeric prescriptions excluded."
+    },
+    {
+      "number": 8,
+      "title": "Data Gathering",
+      "printed_start": 273,
+      "printed_end": 324,
+      "pdf_start": 299,
+      "pdf_end": 350,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          299,
+          350
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-10/11/26. Full prose read. Question/method fit, neutral prompts and instrument validity retained; sampling/consent and numerical simplifications not adopted."
+    },
+    {
+      "number": 9,
+      "title": "Data Analysis, Interpretation, and Presentation",
+      "printed_start": 325,
+      "printed_end": 370,
+      "pdf_start": 351,
+      "pdf_end": 396,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          351,
+          396
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-12. Full prose read. Units/context/disconfirming evidence retained; casual outlier removal and simplified statistics excluded."
+    },
+    {
+      "number": 10,
+      "title": "Data at Scale and Ethical Concerns",
+      "printed_start": 371,
+      "printed_end": 406,
+      "pdf_start": 397,
+      "pdf_end": 432,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          397,
+          432
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-13/14. Full prose read. Visual literacy, question-specific views, uncertainty retained. Old law, fairness and biomedical/surveillance claims not adopted."
+    },
+    {
+      "number": 11,
+      "title": "Discovering Requirements",
+      "printed_start": 407,
+      "printed_end": 440,
+      "pdf_start": 433,
+      "pdf_end": 466,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          433,
+          466
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-02/15/16. Full prose read. Requirements include data/context; scenarios/personas need evidence labels; bad-reset example is not recommended behavior."
+    },
+    {
+      "number": 12,
+      "title": "Design, Prototyping, and Construction",
+      "printed_start": 441,
+      "printed_end": 490,
+      "pdf_start": 467,
+      "pdf_end": 516,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          467,
+          516
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-03/09/16/17/18/22. Full prose read. Multidimensional fidelity, negative scenarios, journey breadth and limits of disability simulations retained; specialist construction tools contextual."
+    },
+    {
+      "number": 13,
+      "title": "Interaction Design in Practice",
+      "printed_start": 491,
+      "printed_end": 518,
+      "pdf_start": 517,
+      "pdf_end": 544,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          517,
+          544
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-19/20. Full prose read. Patterns need problem/context/rationale; findings must survive delivery. Dated frameworks/licenses not operational guidance."
+    },
+    {
+      "number": 14,
+      "title": "Introducing Evaluation",
+      "printed_start": 519,
+      "printed_end": 548,
+      "pdf_start": 545,
+      "pdf_end": 574,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          545,
+          574
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-23/24/26. Integrating lead read entire chapter including activities/cases. Claim-method fit, formative revisions and context limits retained; old demographics/prices/percentages excluded."
+    },
+    {
+      "number": 15,
+      "title": "Evaluation Studies: From Controlled to Natural Settings",
+      "printed_start": 549,
+      "printed_end": 582,
+      "pdf_start": 575,
+      "pdf_end": 608,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          575,
+          608
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-12/23/25/26. Integrating lead read entire chapter including interview and blank separator. Sample/order/context retained; p-value explanation and magic sample-size rule excluded."
+    },
+    {
+      "number": 16,
+      "title": "Evaluation: Inspections, Analytics, and Models",
+      "printed_start": 583,
+      "printed_end": 614,
+      "pdf_start": 609,
+      "pdf_end": 640,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          609,
+          640
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "ID-25/27; corroborates WI-03/04/06/07/08 and TD touch rules. Bounded reader read all chapter text and inspected all five numbered figures plus equation. Analytics definitions and comparison confounds retained; fixed reviewer/detection/bounce thresholds excluded."
+    }
+  ],
+  "supplemental_sections": [
+    {
+      "title": "Epilogue",
+      "pdf_start": 641,
+      "pdf_end": 644,
+      "printed_start": 615,
+      "printed_end": 618,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          641,
+          644
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Full text read. Inclusive/adaptive/global-context reflections reinforce ID-22; no additional universal process rule."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 48,
+      "printed_page": 22,
+      "description": "Fig1.8: close/save/quit menu neighborhoods and deletion warning",
+      "inspection": "Rendered and visually inspected. Adjacent destructive/ordinary actions have consequence; generic OK is not a modern label template.",
+      "principle_ids": [
+        "ID-01",
+        "ID-21"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 29,
+      "description": "Fig1.11: active versus dimmed menu choices",
+      "inspection": "Rendered and visually inspected. Availability is visible; pixels do not establish explanation or accessible contrast.",
+      "principle_ids": [
+        "ID-09"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 106,
+      "printed_page": 80,
+      "description": "Fig3.6: restaurant kiosk product cards and categories",
+      "inspection": "Rendered and visually inspected. Cards chunk product information; no need to literalize a physical stack.",
+      "principle_ids": [
+        "ID-03"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 109,
+      "printed_page": 83,
+      "description": "Fig3.7: three vending-machine interaction mappings",
+      "inspection": "Rendered and visually inspected. Same broad interaction type can have different selection and memory costs.",
+      "principle_ids": [
+        "ID-04"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": 94,
+      "description": "Box3.5: designer/system-image/user-model text",
+      "inspection": "Rendered and visually inspected. Rendered prose/box check of model mediation, deliberately not counted as a figure.",
+      "principle_ids": [
+        "ID-02"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 130,
+      "printed_page": 104,
+      "description": "Fig4.1: hotel data with different organization",
+      "inspection": "Rendered and visually inspected. Aligned structure aids comparison; names and states differ between examples, so not controlled identical-data evidence.",
+      "principle_ids": [
+        "ID-05"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 152,
+      "printed_page": 126,
+      "description": "Fig4.6: execution/evaluation gulfs",
+      "inspection": "Rendered and visually inspected. Action discovery and understanding resulting state are different questions.",
+      "principle_ids": [
+        "ID-05"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 175,
+      "printed_page": 149,
+      "description": "Fig5.5: playful virtual-office rooms and avatars",
+      "inspection": "Rendered and visually inspected. Visible location/presence does not establish availability, attention or social comfort.",
+      "principle_ids": [
+        "ID-07"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 204,
+      "printed_page": 178,
+      "description": "Fig6.3: three-level emotional-processing diagram",
+      "inspection": "Rendered and visually inspected. Conceptual lens for appearance/use/meaning; not a verified brain pipeline.",
+      "principle_ids": [
+        "ID-06"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 207,
+      "printed_page": 181,
+      "description": "Fig6.6: expressive Levi’s fashion website",
+      "inspection": "Rendered and visually inspected. Typography/image treatment communicates character; not a finance layout prescription.",
+      "principle_ids": [
+        "ID-06"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 208,
+      "printed_page": 182,
+      "description": "Fig6.7: Clippy unsolicited-help bubble and Anna assistance",
+      "inspection": "Rendered and visually inspected. Visible help framing; repetition and annoyance derive from prose, not pixels. Does not ban passive resident art.",
+      "principle_ids": [
+        "ID-06"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 209,
+      "printed_page": 183,
+      "description": "Fig6.8: Lego404 with character and Start shopping action",
+      "inspection": "Rendered and visually inspected. Warmth can coexist with an error; oversized404 and small recovery text do not prove clear finance recovery. CTA says Start shopping, not home.",
+      "principle_ids": [
+        "ID-06"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 220,
+      "printed_page": 194,
+      "description": "Fig6.14: Aibo and rounded faceless creature",
+      "inspection": "Rendered and visually inspected. Appearance may set capability expectations; behavior and reactions derive from prose.",
+      "principle_ids": [
+        "ID-03",
+        "ID-06"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 233,
+      "printed_page": 207,
+      "description": "Fig7.5: long country dropdown over checkout",
+      "inspection": "Rendered and visually inspected. Known-value entry can beat long scanning. Historical web screenshot is not a native picker mandate.",
+      "principle_ids": [
+        "ID-08"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 235,
+      "printed_page": 209,
+      "description": "Fig7.6: country selector with A–Z filter and columns",
+      "inspection": "Rendered and visually inspected. Alternative reduces some scrolling but has its own scanning/spatial costs.",
+      "principle_ids": [
+        "ID-08"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 240,
+      "printed_page": 214,
+      "description": "Figs7.9–7.10: historical Apple icon styles and labeled/unlabeled home grids",
+      "inspection": "Rendered and visually inspected. Familiar visual style does not establish understood action meaning.",
+      "principle_ids": [
+        "ID-09"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 254,
+      "printed_page": 228,
+      "description": "Fig7.17: illustrated Goodside screen with score and actions",
+      "inspection": "Rendered and visually inspected. Illustration and numerical summary can coexist; score accuracy, interpretation and interaction are not established by pixels.",
+      "principle_ids": [
+        "ID-13"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 325,
+      "printed_page": 299,
+      "description": "Fig8.7: flawed survey response design",
+      "inspection": "Rendered and visually inspected. Checkbox semantics, overlapping ranges and omitted options can distort answers.",
+      "principle_ids": [
+        "ID-11"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 365,
+      "printed_page": 339,
+      "description": "Fig9.3: distributions of modern–dated phone ratings",
+      "inspection": "Rendered and visually inspected. Perceived quality distributions are not objective usability or task-performance measures.",
+      "principle_ids": [
+        "ID-12"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 421,
+      "printed_page": 395,
+      "description": "Fig10.14: weather summary and detailed geographic conditions",
+      "inspection": "Rendered and visually inspected. Different representations answer different questions; visual literacy and context matter.",
+      "principle_ids": [
+        "ID-13"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 423,
+      "printed_page": 397,
+      "description": "Fig10.15: public bat-call kiosk and research spectrogram",
+      "inspection": "Rendered and visually inspected. Audience-specific representation; photo itself does not prove engagement.",
+      "principle_ids": [
+        "ID-13"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 458,
+      "printed_page": 432,
+      "description": "Fig11.8: church journey scenario with quotes and stages",
+      "inspection": "Rendered and visually inspected. Distinguish reported existing journey from proposed future solution; real quote provenance matters.",
+      "principle_ids": [
+        "ID-15",
+        "ID-16"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 479,
+      "printed_page": 453,
+      "description": "Tables12.1–12.2: dimensions of prototype fidelity",
+      "inspection": "Rendered and visually inspected. Appearance/data/function/interactivity/spatial dimensions differ from breadth/depth and materials.",
+      "principle_ids": [
+        "ID-17"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 485,
+      "printed_page": 459,
+      "description": "Fig12.9: positive/negative diet-glasses social scenarios",
+      "inspection": "Rendered and visually inspected. Contrasting hypothetical narratives reveal value conflicts; not participant testimony.",
+      "principle_ids": [
+        "ID-18"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 503,
+      "printed_page": 477,
+      "description": "Fig12.17: circular air-travel journey and timeline with questions",
+      "inspection": "Rendered and visually inspected. Before/during/after scope; questions and ideas must not silently become approved decisions.",
+      "principle_ids": [
+        "ID-16"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 533,
+      "printed_page": 507,
+      "description": "Fig13.5: five pagination treatments",
+      "inspection": "Rendered and visually inspected. Shared pattern has differing extent/current/next cues; static comparison does not establish interaction quality.",
+      "principle_ids": [
+        "ID-19"
+      ],
+      "reader": "interaction_design_study"
+    },
+    {
+      "pdf_page": 563,
+      "printed_page": 537,
+      "description": "Ethnobot directed prompts and closed experience choices",
+      "inspection": "Rendered and visually inspected. Allowed responses constrain the evidence; not spontaneous unprompted preference.",
+      "principle_ids": [
+        "ID-11",
+        "ID-23"
+      ],
+      "reader": "integrating-lead"
+    },
+    {
+      "pdf_page": 564,
+      "printed_page": 538,
+      "description": "Ethnobot response-count chart",
+      "inspection": "Rendered and visually inspected. 70 response instances, not70 participants or one independent verdict per participant.",
+      "principle_ids": [
+        "ID-12",
+        "ID-23"
+      ],
+      "reader": "integrating-lead"
+    },
+    {
+      "pdf_page": 583,
+      "printed_page": 557,
+      "description": "Table15.1: goal-based app tasks",
+      "inspection": "Rendered and visually inspected. Equivalent task goals plus counterbalanced order, not identical click scripts across different apps.",
+      "principle_ids": [
+        "ID-25"
+      ],
+      "reader": "integrating-lead"
+    },
+    {
+      "pdf_page": 584,
+      "printed_page": 558,
+      "description": "Fig15.3: iPad on table within camera rig",
+      "inspection": "Rendered and visually inspected. Touch recording setup does not establish walking or one-handed ordinary use.",
+      "principle_ids": [
+        "ID-23",
+        "ID-25"
+      ],
+      "reader": "integrating-lead"
+    },
+    {
+      "pdf_page": 596,
+      "printed_page": 570,
+      "description": "Fig15.7: Painpad keypad and status lights",
+      "inspection": "Rendered and visually inspected. Physical device and field-use context; not a reusable financial UI pattern.",
+      "principle_ids": [
+        "ID-23"
+      ],
+      "reader": "integrating-lead"
+    },
+    {
+      "pdf_page": 613,
+      "printed_page": 587,
+      "description": "Fig16.1: diminishing-returns inspector curve",
+      "inspection": "Rendered and visually inspected. Historical illustration is not guaranteed agent detection coverage or a fixed reviewer quota.",
+      "principle_ids": [
+        "ID-23"
+      ],
+      "reader": "prototype-contract-review"
+    },
+    {
+      "pdf_page": 615,
+      "printed_page": 589,
+      "description": "Fig16.2: evaluator radar scores and mean",
+      "inspection": "Rendered and visually inspected. Variation and an aggregate do not resolve false positives or establish reviewer validity.",
+      "principle_ids": [
+        "ID-12",
+        "ID-23"
+      ],
+      "reader": "prototype-contract-review"
+    },
+    {
+      "pdf_page": 623,
+      "printed_page": 597,
+      "description": "Fig16.3: patient check-in four similarly salient tiles",
+      "inspection": "Rendered and visually inspected. Visible controls can remain conceptually ambiguous; compare Table16.1/PDF624 for goal mapping.",
+      "principle_ids": [
+        "ID-02",
+        "ID-04"
+      ],
+      "reader": "prototype-contract-review"
+    },
+    {
+      "pdf_page": 630,
+      "printed_page": 604,
+      "description": "Fig16.4a/b: analytics overview and lower dashboard panels",
+      "inspection": "Rendered and visually inspected. Different time scopes across panels; do not merge counts as one denominator.",
+      "principle_ids": [
+        "ID-27"
+      ],
+      "reader": "prototype-contract-review"
+    },
+    {
+      "pdf_page": 631,
+      "printed_page": 605,
+      "description": "Fig16.4c: language table",
+      "inspection": "Rendered and visually inspected. Total699 differs from overview2988; scope/filter must be retained.",
+      "principle_ids": [
+        "ID-27"
+      ],
+      "reader": "prototype-contract-review"
+    },
+    {
+      "pdf_page": 635,
+      "printed_page": 609,
+      "description": "Fig16.5: Bing ad comparison",
+      "inspection": "Rendered and visually inspected. Description text moves into headline; not merely a font or color change.",
+      "principle_ids": [
+        "ID-25"
+      ],
+      "reader": "prototype-contract-review"
+    },
+    {
+      "pdf_page": 637,
+      "printed_page": 611,
+      "description": "Fitts equation, no numbered figure",
+      "inspection": "Rendered and visually inspected. Rendered formula verifies text extraction; constant and pointer-corner advice are not universal touch rules.",
+      "principle_ids": [
+        "ID-09"
+      ],
+      "reader": "prototype-contract-review"
+    }
+  ]
+}
