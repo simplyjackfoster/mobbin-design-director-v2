@@ -96,7 +96,9 @@ tests/                unit tests for the scripts
 
 Codex: `$mobbin-design-director [mode] [ios|web] <task>`
 
-Claude Code: `/mobbin-design-director [mode] [ios|web] <task>`
+Claude Code, bare skill: `/mobbin-design-director [mode] [ios|web] <task>`
+
+Claude Code, as a plugin: `/mobbin-design-director:mobbin-design-director [mode] [ios|web] <task>`
 
 Plain-language requests work too.
 
@@ -118,6 +120,14 @@ distinct from owner approvals. Missing files don't block work. Starter versions
 are in [`templates/`](skills/mobbin-design-director/templates/).
 
 ## Install
+
+As a Claude Code plugin, one step on Claude Code 2.1.275 or later:
+
+```
+/plugin install mobbin-design-director --marketplace simplyjackfoster/mobbin-design-director-v2
+```
+
+Or as a bare skill:
 
 Keep this repository as the source of truth and copy the skill into a directory
 your agent discovers. A shared `~/.agents/skills/mobbin-design-director` can be
@@ -147,6 +157,14 @@ python3 -m unittest discover -s tests -v
 These are structural checks. They can't prove reading depth or design quality.
 Behavioral cases live in [`evals/`](evals/README.md), which covers matched runs,
 evidence and runtime limits.
+
+## Privacy
+
+This plugin stores nothing and sends nothing on its own. Its one remote
+dependency is Mobbin's MCP server, declared in `.mcp.json`. Mobbin logs search
+queries, parameters, and user ids, and runs query interpretation through
+third-party AI services. Read Mobbin's statement before connecting:
+https://docs.mobbin.com/mcp/privacy-and-data
 
 ## License
 

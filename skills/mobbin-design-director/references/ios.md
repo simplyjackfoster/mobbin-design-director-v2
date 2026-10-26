@@ -8,8 +8,10 @@ Do not silently migrate UIKit or React Native to SwiftUI.
 ## Current guidance, durable reasoning
 
 Books explain goals, perception, and interaction tradeoffs. Current Apple guidance
-and framework behavior supply present-day native conventions. Official references
-reviewed for this revision on 2026-10-21:
+and framework behavior supply present-day native conventions. The HIG is on
+iOS 27. Pick the native element with [components](ios-components.md), the
+behavior with [craft](ios-craft.md), and the words with [writing](ios-writing.md).
+Official references (see the CHANGELOG for the last review date):
 
 - [Designing for iOS](https://developer.apple.com/design/human-interface-guidelines/designing-for-ios)
 - [Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)
@@ -19,7 +21,8 @@ reviewed for this revision on 2026-10-21:
 - [Navigation and search](https://developer.apple.com/design/human-interface-guidelines/navigation-and-search)
 
 Recheck relevant pages when a convention, measurement, new OS feature, or API
-availability determines the decision. Do not turn book-era drawers, motion
+availability determines the decision. `scripts/hig.py <slug>` prints the current
+page as text in one call, so there is no reason to trust a stale summary. Do not turn book-era drawers, motion
 thresholds, or keyboard examples into modern rules. Native system components
 adapt over OS versions; do not recreate a screenshot of an obsolete bar.
 
@@ -66,9 +69,25 @@ nearby-action risk, and the limits of simulator-based ergonomics checks.
 - Verify long/localized text, selected states, slow/error responses, and interruption
   or relaunch where the flow promises persistence.
 
+## Accessibility beyond labels
+
+- Switch Control: explicit element order, `accessibilityNavigationStyle = .combined`
+  for grouped rows, no timeouts, confirm destructive actions.
+- Dynamic Type: text styles and `@ScaledMetric`; swap HStack for VStack when
+  `dynamicTypeSize.isAccessibilitySize`; Large Content Viewer for custom bars.
+- Honor `accessibilityReduceMotion`, `accessibilityDifferentiateWithoutColor`,
+  `accessibilityShowButtonShapes`, `legibilityWeight`.
+- Voice Control needs spoken names that match visible labels.
+- Assistive Access: one interaction per screen, confirm destructive actions twice.
+- Audit in UI tests with `performAccessibilityAudit(for: .all)`. Export the
+  attachments. The audit does not replace a VoiceOver walk.
+
 ## Runtime loop
 
-Discover available simulators with `xcrun simctl list devices available`. Use the
+Discover available simulators with `xcrun simctl list devices available`.
+Use `scripts/sim-prepare.sh`, `sim-matrix.sh`, and `flow-step.sh` for the
+capture loop, `proxy-grep.sh` for haptics, sound, and glass adoption, and
+`swiftui_slop_lint.py` as a diagnostic. They are untested on the authoring Mac. Use the
 project's build commands and an explicitly identified simulator; never reset a
 shared simulator or interrupt another agent's app. Serialize heavy builds when
 project instructions require it. Use a disposable harness for isolated experiments.

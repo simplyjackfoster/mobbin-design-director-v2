@@ -96,6 +96,24 @@ def validate(root, allow_partial=False):
     spec.loader.exec_module(coverage)
     registry_errors, _ = coverage.validate_registry(root)
     errors.extend(registry_errors)
+    # One version everywhere. plugin.json is the source; marketplace.json must
+    # match. sync_local.py reads plugin.json at run time, so it needs no check.
+    repo = root.parent.parent
+    plugin = repo / '.claude-plugin/plugin.json'
+    market = repo / '.claude-plugin/marketplace.json'
+    if plugin.exists() and market.exists():
+        pv = json.loads(plugin.read_text()).get('version')
+        mv = [p.get('version') for p in json.loads(market.read_text()).get('plugins', [])]
+        if any(v != pv for v in mv):
+            errors.append(f'version drift: plugin.json {pv} vs marketplace.json {mv}')
+    # The one-line index must ship with the full registry. Test fixtures carry
+    # a small registry and no index, so the check applies to the real tree only.
+    registry = root / 'references/principles.json'
+    index = root / 'references/principles-index.md'
+    if registry.exists() and not index.exists():
+        count = len(json.loads(registry.read_text()).get('principles', []))
+        if count >= 100:
+            errors.append('references/principles-index.md missing; run scripts/principles_index.py')
     return errors, partial
 
 

@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: dark-light-parity
+tags: [ios, build, needs-xcode]
+context:
+  scaffold_script: scaffold.sh

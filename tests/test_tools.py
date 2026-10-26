@@ -52,6 +52,16 @@ def fixture(root):
         shutil.copy2(SCRIPTS / name, root / 'scripts' / name)
 
 
+def plugin_fixture(root):
+    """A skill inside a plugin layout: sync_local.py reads <root>/.claude-plugin/plugin.json."""
+    (root / '.claude-plugin').mkdir()
+    (root / '.claude-plugin/plugin.json').write_text(json.dumps(dict(
+        name='mobbin-design-director', version='0.0.0-test', repository='example/test')))
+    src = root / 'skills/source'
+    fixture(src)
+    return src
+
+
 class ToolTests(unittest.TestCase):
     def test_sheet_is_portable_and_escapes_text(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -69,6 +79,35 @@ class ToolTests(unittest.TestCase):
                 sheet.build({'rows': [{'items': [{'img': 'missing.png'}]}]}, root)
             with self.assertRaises(ValueError):
                 sheet.build({'rows': [{'items': [{'img': 'image.png', 'url': 'javascript:alert(1)'}]}]}, root)
+
+    def test_sheet_from_dir_groups_captures_by_config_in_step_order(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            png = base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Y9ZlZAAAAAASUVORK5CYII=')
+            for name in ('step-10_dark-large.png', 'step-02_dark-large.png', 'step-01_light-large.png',
+                         'step-01_dark-large.png', 'step-01_dark-large.json', 'notes.png'):
+                (root / name).write_bytes(png)
+            spec = sheet.spec_from_dir(root)
+            self.assertEqual([row['label'] for row in spec['rows']], ['dark-large', 'light-large'])
+            self.assertEqual([it['name'] for it in spec['rows'][0]['items']],
+                             ['step-01_dark-large.png', 'step-02_dark-large.png', 'step-10_dark-large.png'])
+            out = root / 'sheet.html'
+            p = subprocess.run([sys.executable, str(SCRIPTS / 'sheet.py'), '--from-dir', str(root), str(out)],
+                               capture_output=True, text=True)
+            self.assertEqual(p.returncode, 0, p.stderr)
+            self.assertIn('step-10_dark-large.png', out.read_text())
+            self.assertNotIn('notes.png', out.read_text())
+            # The JSON-spec path still works unchanged.
+            spec_path = root / 'spec.json'
+            spec_path.write_text(json.dumps({'title': 'Spec', 'rows': [{'items': [{'img': 'notes.png', 'name': 'n'}]}]}))
+            p = subprocess.run([sys.executable, str(SCRIPTS / 'sheet.py'), str(spec_path), str(out)],
+                               capture_output=True, text=True)
+            self.assertEqual(p.returncode, 0, p.stderr)
+            self.assertIn('<title>Spec</title>', out.read_text())
+            empty = root / 'empty'
+            empty.mkdir()
+            with self.assertRaises(ValueError):
+                sheet.spec_from_dir(empty)
 
     def test_validation_catches_false_complete_and_bad_links(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -93,7 +132,7 @@ class ToolTests(unittest.TestCase):
 
     def test_sync_dry_run_backup_and_content_hash(self):
         with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory); src = root / 'source'; fixture(src)
+            root = Path(directory); src = plugin_fixture(root)
             dst = root / 'installed'; dst.mkdir(); (dst / 'local-note').write_text('preserve me')
             backup = root / 'backups'
             command = [sys.executable, str(SCRIPTS / 'sync_local.py'), str(dst), '--source', str(src)]
@@ -114,7 +153,7 @@ class ToolTests(unittest.TestCase):
 
     def test_sync_refuses_symlink_destination(self):
         with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory); src = root / 'source'; fixture(src)
+            root = Path(directory); src = plugin_fixture(root)
             target = root / 'target'; target.mkdir()
             link = root / 'link'; link.symlink_to(target)
             p = subprocess.run([sys.executable, str(SCRIPTS / 'sync_local.py'), str(link), '--source', str(src)], capture_output=True, text=True)

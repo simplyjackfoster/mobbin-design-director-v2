@@ -2,3 +2,10 @@ interface:
   display_name: "Mobbin Design Director"
   short_description: "Design complete iPhone and web experiences"
   default_prompt: "Use $mobbin-design-director to research, design, build, and evaluate this screen or flow."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: mcp
+      value: mobbin
+      description: "Mobbin screen and flow search. Optional."

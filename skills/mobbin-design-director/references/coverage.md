@@ -2,7 +2,7 @@
 
 Use this alongside the design packet for substantial screens and journeys. An
 approved routine edit needs the affected behavior checked, not a generated ledger.
-The [registry](principles.json) indexes every retained source lesson; it is a
+The registry (`principles.json`, read through `coverage.py search` or the one-line `principles-index.md`, never loaded whole) indexes every retained source lesson; it is a
 retrieval aid, not a command to apply every principle or a claim of complete UX
 knowledge. Read relevant source cards for rationale, context, and exceptions.
 

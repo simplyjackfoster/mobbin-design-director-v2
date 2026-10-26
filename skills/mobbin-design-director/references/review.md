@@ -5,6 +5,23 @@ both interaction evidence and visual inspection. Routine changes need the releva
 checks, not a full study. Method rationale: [Inspection Methods](sources/inspection-methods.md)
 and [The UX Book](sources/ux-book.md).
 
+## 0. Ask the director's questions first
+
+Answer these before any detail. They come from how Figma, Airbnb, and Apple
+leads run critique (Dill, Zhuo, Baxley).
+
+- Who arrived here, from where, with what on their mind?
+- What must they feel and achieve on this screen?
+- How high are the stakes? Higher stakes mean every detail is inspected.
+- Does the whole flow cohere before any one screen is judged?
+- Which tenet decides this call? A tenet decides a case. "Simple" does not.
+- What shipped example proves the alternative? Show it, do not describe it.
+- What is the product's signature idea, and where did it come from? A product
+  with none reads as stock. Hero screens show it. Utility screens stay plain
+  and carry it only through shared type, color, and spacing. An idea that
+  breaks native behavior is a defect.
+- Ask, do not direct. A question that exposes the problem beats an instruction.
+
 ## 1. Choose what the review can establish
 
 Name the consequential claim before choosing a method. Specify the observation

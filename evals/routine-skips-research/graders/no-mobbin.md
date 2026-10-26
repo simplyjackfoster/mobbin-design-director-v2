@@ -1,7 +1,7 @@
 ---
-type: tool_used
-tool: "mcp__mobbin__*"
-min: 0
-max: 0
+type: regex
+target: mock_calls
+pattern: "search_(screens|flows)"
+match: not_contains
+arm: both
 ---
-A typo fix inside an approved design must not trigger Mobbin research.

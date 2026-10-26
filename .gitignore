@@ -3,3 +3,16 @@ evals/results/
 
 __pycache__/
 *.pyc
+
+# Mobbin reference images and simulator captures never belong in Git.
+# Eval fixtures are the one exception.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+!evals/**/*.png
+!evals/**/*.jpg
+!evals/**/*.webp
+!.claude-plugin/icon.png

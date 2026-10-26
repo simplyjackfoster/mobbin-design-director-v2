@@ -21,16 +21,24 @@ Spec (JSON):
 }
 
 Usage: python3 sheet.py spec.json out.html
+       python3 sheet.py --from-dir DIR out.html
 Image paths are relative to the spec file. Raster images are embedded so the
 HTML can be opened locally or served without file:// access.
+
+--from-dir builds the spec from simulator captures named step-NN_<cfg>.png
+(the sim-matrix.sh / flow-step.sh contract): one row per <cfg>, ordered by NN,
+with the filename as the caption.
 """
+import argparse
 import base64
 import html
 import mimetypes
+import re
 from urllib.parse import urlparse
 import json
-import sys
 from pathlib import Path
+
+CAPTURE = re.compile(r'^step-(\d+)_(.+)\.png$')
 
 CSS = """
 :root{--bg:#f7f7f5;--ink:#141414;--ink2:#5f5f5f;--line:#e3e3df}
@@ -83,13 +91,39 @@ def build(spec: dict, base: Path) -> str:
     return "".join(out)
 
 
-def main() -> None:
-    if len(sys.argv) != 3:
-        sys.exit("usage: sheet.py spec.json out.html")
-    spec_path = Path(sys.argv[1])
-    spec = json.loads(spec_path.read_text())
-    Path(sys.argv[2]).write_text(build(spec, spec_path.parent))
-    print(sys.argv[2])
+def spec_from_dir(directory: Path) -> dict:
+    """One row per capture configuration, from files named step-NN_<cfg>.png."""
+    rows = {}
+    for path in sorted(directory.iterdir()):
+        match = CAPTURE.match(path.name)
+        if match:
+            rows.setdefault(match.group(2), []).append((int(match.group(1)), path.name))
+    if not rows:
+        raise ValueError(f"no step-NN_<cfg>.png captures in {directory}")
+    return {
+        "title": f"Captures: {directory.name}",
+        "rows": [{"label": cfg,
+                  "items": [{"img": name, "name": name} for _, name in sorted(steps)]}
+                 for cfg, steps in sorted(rows.items())],
+    }
+
+
+def main(argv=None) -> None:
+    parser = argparse.ArgumentParser(description="Build a contact sheet from a JSON spec or a capture dir.")
+    parser.add_argument("spec", nargs="?", type=Path, help="spec JSON (omit with --from-dir)")
+    parser.add_argument("out", type=Path, help="output HTML path")
+    parser.add_argument("--from-dir", type=Path, help="directory of step-NN_<cfg>.png captures")
+    args = parser.parse_args(argv)
+    if bool(args.spec) == bool(args.from_dir):
+        parser.error("give either spec.json or --from-dir DIR")
+    if args.from_dir:
+        base = args.from_dir
+        spec = spec_from_dir(base)
+    else:
+        base = args.spec.parent
+        spec = json.loads(args.spec.read_text())
+    args.out.write_text(build(spec, base))
+    print(args.out)
 
 
 if __name__ == "__main__":

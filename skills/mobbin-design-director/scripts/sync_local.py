@@ -7,6 +7,7 @@ Does not fetch, push, install a CLI, edit project instructions, or change symlin
 import argparse
 from datetime import datetime, timezone
 import hashlib
+import json
 from pathlib import Path
 import shutil
 import subprocess
@@ -58,9 +59,10 @@ def main():
         base = subprocess.check_output(['git', '-C', str(src), 'rev-parse', 'HEAD'], text=True).strip()
     except (subprocess.CalledProcessError, FileNotFoundError):
         base = 'not available'
+    manifest = json.loads((src.parent.parent / '.claude-plugin/plugin.json').read_text())
     (staging / 'SOURCE').write_text(
-        'Locally synchronized mobbin-design-director v2.2.0.\n'
-        'Canonical repository: simplyjackfoster/mobbin-design-director.\n'
+        f"Locally synchronized {manifest['name']} v{manifest['version']}.\n"
+        f"Canonical repository: {manifest.get('repository', 'not recorded')}.\n"
         f'Base commit: {base}\n'
         f'Content SHA-256 (excluding SOURCE): {source_hash}\n'
         'The content hash identifies the local tree, including uncommitted changes.\n'

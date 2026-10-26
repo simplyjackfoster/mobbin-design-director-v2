@@ -10,6 +10,43 @@ marketing sections when available. Match the actual platform. Keep task intent
 and output destination consistent with the deliverable; send a concise generic
 intent, not private project context. Use the connected service, not a scraper.
 
+## Mobbin MCP rules
+
+What the connector returns, checked 2026-10-23: a search gives id, image URL,
+Mobbin URL, app name, and platform. Pattern tags, UI element tags, flow actions,
+and team comments come back only on saved items. No capture date, OS version,
+or category is returned.
+
+1. Set `task_intent`, `output_destination`, and `output_tool` once per task.
+   Never vary them.
+2. Default `mode: "standard"`. Deep is the schema default and costs 5 credits
+   per call (Pro: 300 a month). Use deep for one or two nuanced queries per
+   decision. Never leave `mode` unset.
+3. Budget per decision: about three standard screen searches, one flow search,
+   up to two deep searches. Stay under 60 calls a minute.
+4. One screen or one journey per query. Name the app kind. Add an element only
+   when the decision depends on it. Name an app to study a high-craft app
+   instead of the most common one.
+5. Use `search_flows` (free) for the full ordered screen list and the actions
+   tag. Fetch every screen by its returned image URL, not the few inline
+   previews. Record which positions you opened.
+6. Page with `exclude_screen_ids` in standard mode.
+7. Save to a collection only with the user's standing consent to a named working
+   collection. The save tool forbids saving to remember results for yourself.
+   With consent, read back with a constant `limit` to recover `screen_patterns`
+   and `ui_elements`.
+8. Query vocabulary: the count-bearing terms on Mobbin's explore pages. Mobbin
+   publishes no taxonomy document.
+9. Show `ai_usage_notice` word for word as its own block. Cite `mobbin_url` for
+   every reference. Never link an `image_url`. Image URLs expire after 30 days.
+   Use `scripts/mobbin_cache.py` to keep inspected images in the scratchpad,
+   never in Git.
+10. Freshness is a heuristic. A floating glass tab bar, a separate search pill,
+    and capsule toolbar buttons mean iOS 26 or later. Deep Search ordering
+    favors each app's latest version when recency matters. A fetch of the
+    `mobbin_url` page has shown a `publishedAt` value. That is page data, not
+    an API, and may not hold for every screen.
+
 ## Form a question the evidence can answer
 
 Name the decision and the burden it may change: what must the person remember,

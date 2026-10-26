@@ -1,11 +1,24 @@
 {
   "name": "mobbin-design-director",
-  "version": "2.2.0",
-  "description": "Goal-led UX, Mobbin research, visual direction, implementation, and evaluation for native iPhone and web.",
-  "skills": [
-    "./skills/"
-  ],
+  "version": "3.0.0",
+  "description": "Design director for native iPhone and web: goals, Mobbin research, visual direction, a defaults detector against generic AI-looking UI, native build rules, and runtime review.",
   "author": {
     "name": "simplyjackfoster"
-  }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/simplyjackfoster/mobbin-design-director-v2",
+  "keywords": [
+    "design",
+    "ux",
+    "ios",
+    "swiftui",
+    "mobbin",
+    "hig",
+    "critique"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "agents": [
+    "./agents/critic.md"
+  ],
+  "mcpServers": "./.mcp.json"
 }
