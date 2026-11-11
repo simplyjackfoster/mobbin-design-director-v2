@@ -45,6 +45,10 @@ modified by evaluation. An isolated prototype is not a shipping product change.
 - [Cross-channel content model](ia-content-model/prompt.md) with shared identities,
   multiple classifications, migration and deep-entry requirements.
 - Attractive UI with reproduced flow failures.
+- [Dashboard metric integrity](dashboard-metric-integrity/prompt.md): incompatible
+  periods/definitions, incorrect rate aggregation, misleading scales and stale data.
+- [Accessible mobile monitoring](dashboard-mobile-context/prompt.md): meaningful
+  station comparisons, enlarged text, status encoding and scope-preserving details.
 
 Reports state exact runtime coverage, untested accessibility/hardware conditions,
 source audit scope, and host limitations. Structural validation and tool unit tests

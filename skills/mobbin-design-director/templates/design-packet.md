@@ -17,6 +17,11 @@ representative objects/content, organization and labels, browse/search/refind
 paths, metadata/search dependencies, and unresolved evidence. Add ownership or
 migration decisions only when the requested change needs them.
 
+For dashboards/data displays, include the relevant [metric/display contract](../references/dashboards.md):
+question and action, measure/unit/period/scope, comparison/target, encoding/scale,
+freshness/missing states and verification. Keep this in shared decision/check rows
+rather than creating a second repetitive packet.
+
 ## Evidence and recommendation
 | Decision | Evidence / source | Fit and tradeoff | Confidence / unknown |
 |---|---|---|---|

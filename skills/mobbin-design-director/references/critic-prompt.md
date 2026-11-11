@@ -37,6 +37,13 @@ Check that proposed facets, counts, aliases, and result scope have content/data
 support. Separate an observed retrieval failure from a hypothesis about user
 understanding; neither attractive screens nor a sitemap proves findability.
 
+For quantitative displays, check whether the measure and comparison answer the
+stated question: units, periods, population, denominator, reference/target, scale,
+direction and freshness. Identify misleading encodings or hidden exceptions;
+distinguish absent/stale/failed data from zero or normal status. Inspect the actual
+viewport and text sizes, then drill-down and return behavior where available.
+Do not mistake a clean layout or repeated reference pattern for numerical truth.
+
 Prioritize consequential findings; no minimum count. For each give:
 - Concrete fact and affected task/state, with artifact location.
 - Why it matters and the applicable criterion or source rationale.

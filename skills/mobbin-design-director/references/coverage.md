@@ -69,7 +69,7 @@ runtime pass for an implementation that was never in scope.
 Tags: core, onboarding, navigation, selection, comparison, input, persistence,
 interruption, permissions, errors, latency, content, visual, motion, accessibility,
 localization, data, expert, discovery, evaluation, implementation, touch, findability,
-labeling, search, taxonomy, metadata. Choose actual
+labeling, search, taxonomy, metadata, dashboard, charts, metrics, monitoring. Choose actual
 uncertainties, not every tag. `init` refuses overwrite and creates unresolved
 candidates, never pre-approved passes.
 
