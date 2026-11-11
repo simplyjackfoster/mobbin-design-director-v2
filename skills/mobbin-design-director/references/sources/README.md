@@ -17,8 +17,9 @@ use does not require the PDFs.
 | [Practical UI, second edition](practical-ui.md), PU | Hierarchy, color, typography, grouping, composition, controls and forms | [JSON](practical-ui-coverage.json) |
 | [Information Architecture: For the Web and Beyond](information-architecture.md), IA | Finding/understanding, organization, labels, navigation, search, vocabularies, content models and governance | [JSON](information-architecture-coverage.json) |
 | [Information Dashboard Design](dashboard-design.md), DD | Monitoring, metric context, quantitative encodings, comparisons, salience and evaluation | [JSON](dashboard-design-coverage.json) |
+| [Laws of UX](laws-of-ux.md), LU | Familiarity, acquisition, memory, choice, tolerance, remembered experience, aesthetics, attention, complexity, responsiveness and agency | [JSON](laws-of-ux-coverage.json) |
 
-The ten coverage manifests together are the source manifest. Each records title,
+The eleven coverage manifests together are the source manifest. Each records title,
 authors, edition/year, PDF page count and SHA-256; chapter boundaries, actual read
 ranges and justified exclusions; extraction caveats and rendered figure checks.
 PDF page numbers are one-based. Printed labels can differ and are only supplied
@@ -85,3 +86,10 @@ blinking and coached-testing advice is explicitly qualified. Metric contracts,
 freshness/error states and accessible drill-down are operational extensions. The
 supplied reflowed PDF shares one chapter boundary page; its manifest records that
 boundary explicitly rather than assigning false printed-page numbers.
+
+Laws of UX adds mechanisms and counterexamples for named psychological principles.
+The second edition explicitly presents them as contextual guidance. Memory counts,
+latency figures, platform target tables and illustrative team rules are not current
+standards or fixed quotas. The skill qualifies the book's artificial-delay and
+inaccurate-progress advice, and keeps user agency and actual outcomes ahead of
+engagement or favorable recollection.

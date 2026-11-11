@@ -14,7 +14,7 @@ import sys
 EXPECTED = {'ux-book': 33, 'about-face': 21, 'designing-interfaces': 12,
             'mind-in-mind': 14, 'inspection-methods': 6, 'touch-design': 13,
             'interaction-design': 16, 'practical-ui': 8,
-            'information-architecture': 13, 'dashboard-design': 8}
+            'information-architecture': 13, 'dashboard-design': 8, 'laws-of-ux': 12}
 
 
 def validate_region(region, pdf_pages, label):

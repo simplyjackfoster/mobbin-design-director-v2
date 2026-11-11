@@ -166,6 +166,41 @@ class CoverageTests(unittest.TestCase):
         self.assertIn('DD-15 —', cards)
         self.assertNotIn('DD-08 —', cards)
 
+    def test_laws_retrieval_keeps_mechanisms_and_exceptions_together(self):
+        skill = ROOT / 'skills/mobbin-design-director'
+        _, records = coverage.validate_registry(skill)
+        for query, expected in [('Jakob', 'LU-02'), ('Fitts', 'LU-03'),
+                                ('Miller', 'LU-06'), ('Hick', 'LU-08'),
+                                ('Postel', 'LU-09'), ('peak end', 'LU-11'),
+                                ('aesthetic usability', 'LU-13'), ('Restorff', 'LU-15'),
+                                ('Tesler', 'LU-17'), ('Doherty', 'LU-19'),
+                                ('400ms', 'LU-19'), ('400 ms', 'LU-19')]:
+            with self.subTest(query=query):
+                self.assertIn(expected, [r['id'] for r in coverage.search(records, [query])])
+        cards = coverage.show_cards(skill, records, ['LU-06', 'LU-20'])
+        self.assertIn('LU-06 —', cards)
+        self.assertIn('LU-20 —', cards)
+        self.assertIn('Exception / conflict', cards)
+        self.assertNotIn('LU-07 —', cards)
+        self.assertNotIn('LU-21 —', cards)
+
+    def test_laws_guidance_remains_scoped_and_unverified(self):
+        skill = ROOT / 'skills/mobbin-design-director'
+        _, records = coverage.validate_registry(skill)
+        new = [r for r in records if r['id'].startswith('LU-')]
+        self.assertEqual(len(new), 24)
+        self.assertFalse(any('core' in r['tags'] for r in new))
+        for tag, expected in [('latency', 'LU-20'), ('touch', 'LU-03'),
+                              ('input', 'LU-09'), ('evaluation', 'LU-14')]:
+            brief = dict(self.brief, tags=[tag])
+            packet = coverage.init_packet(brief, skill, records)
+            rows = {row['id']: row for row in packet['guidance']}
+            self.assertIn(expected, rows)
+            self.assertEqual(rows[expected]['verification']['status'], 'not_verified')
+            self.assertEqual(coverage.candidates(dict(brief, depth='routine'), records), [])
+        unrelated = coverage.candidates(dict(self.brief, tags=['charts']), records)
+        self.assertFalse(any(r['id'].startswith('LU-') for r in unrelated))
+
     def test_invalid_brief_and_stale_registry(self):
         for field, value in [('platform', 'android'), ('mode', 'publish'), ('tags', ['bogus']), ('tags', None), ('summary', 'TODO')]:
             with self.subTest(field=field, value=value):
@@ -347,7 +382,7 @@ class CoverageTests(unittest.TestCase):
             self.skipTest('Registry authoring in progress')
         errors, records = coverage.validate_registry(root)
         self.assertEqual(errors, [])
-        self.assertEqual(len(records), 244)
+        self.assertEqual(len(records), 268)
 
     def test_new_sources_selective_retrieval_and_routine_boundary(self):
         root = SCRIPT.parents[1]

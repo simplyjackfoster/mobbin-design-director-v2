@@ -59,8 +59,10 @@ chosen depth briefly. Read only the relevant modules from the
    combine user evidence, book principles, platform guidance, observed patterns,
    and constraints. Explain the useful mechanism, fit, and tradeoffs, then carry
    it into build criteria. Improve on references where justified; guidelines
-   inform judgment rather than set a ceiling. Check novel solutions against
-   their assumptions and intended effects.
+   inform judgment rather than set a ceiling. When using a named UX law or
+   persuasive pattern, use [psychology in context](references/psychology.md) to
+   explain the mechanism, its limits, and whose outcome improves. Check novel
+   solutions against their assumptions and intended effects.
 5. **Establish visual direction.** Use [visual direction](references/visual.md)
    and [taste](references/taste.md). Rank real decision content, compose a coherent
    direction, and give expression a useful role. Recommend it; bring the owner only consequential

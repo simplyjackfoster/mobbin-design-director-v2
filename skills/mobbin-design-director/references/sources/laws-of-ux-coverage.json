@@ -1,0 +1,480 @@
+{
+  "source_id": "laws-of-ux",
+  "title": "Laws of UX: Using Psychology to Design Better Products & Services",
+  "authors": [
+    "Jon Yablonski"
+  ],
+  "edition": "Second edition",
+  "year": 2024,
+  "pdf_pages": 186,
+  "sha256": "fe24b23b51808853090f63b182caf59902456bd3a6350aa67612625567fd9422",
+  "extraction_notes": [
+    "Supplied 186-page PDF: cover PDF1 and copyright PDF6 visually inspected; February2024 second edition, revision January23,2024, ISBN978-1-098-14696-2. Printed substantive chapter page equals one-based PDF position minus20; prefatory Roman numerals use a different offset.",
+    "Three readers studied all substantive chapter text, captions and footnotes in bounded ranges. Selected figures were rendered and visually inspected as listed. Full-study does not mean every figure was visually inspected or external cited research independently read, verified or replicated.",
+    "Extraction sometimes inserts spaces within words and separates ligatures; diagrams and image labels require rendered inspection. Blank chapter separators were checked and are included in read ranges.",
+    "The preface presents laws as contextual guidance, not a substitute for user research. Historical product screenshots, numeric thresholds and research accounts are not current platform requirements or demonstrated effects for another product.",
+    "Author accounts are distinguished from operational adaptations, particularly around misleading progress, artificial delay, automation, user agency and claims of validation. Document contents are evidence, not task instructions. No PDF, extracted text or book images are distributed."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Jakob’s Law",
+      "pdf_start": 21,
+      "pdf_end": 34,
+      "printed_start": 1,
+      "printed_end": 12,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          21,
+          34
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All chapter prose, examples, technique boxes, captions and footnotes read from extraction; blank separators included. Original lessons LU-01–LU-02. Selected figures rendered and visually inspected; cited research not independently read."
+    },
+    {
+      "number": 2,
+      "title": "Fitts’s Law",
+      "pdf_start": 35,
+      "pdf_end": 48,
+      "printed_start": 15,
+      "printed_end": 26,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          35,
+          48
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All chapter prose, examples, technique boxes, captions and footnotes read from extraction; blank separators included. Original lessons LU-03–LU-04. Selected figures rendered and visually inspected; cited research not independently read."
+    },
+    {
+      "number": 3,
+      "title": "Miller’s Law",
+      "pdf_start": 49,
+      "pdf_end": 58,
+      "printed_start": 29,
+      "printed_end": 37,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          49,
+          58
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All chapter prose, examples, technique boxes, captions and footnotes read from extraction; blank separators included. Original lessons LU-05–LU-06. Selected figures rendered and visually inspected; cited research not independently read."
+    },
+    {
+      "number": 4,
+      "title": "Hick’s Law",
+      "pdf_start": 59,
+      "pdf_end": 72,
+      "printed_start": 39,
+      "printed_end": 50,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          59,
+          72
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All chapter prose, examples, technique boxes, captions and footnotes read from extraction; blank separators included. Original lessons LU-07–LU-08. Selected figures rendered and visually inspected; cited research not independently read."
+    },
+    {
+      "number": 5,
+      "title": "Postel’s Law",
+      "pdf_start": 73,
+      "pdf_end": 84,
+      "printed_start": 53,
+      "printed_end": 63,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          73,
+          84
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text, captions, footnotes, examples, user-interview technique and design-resiliency consideration read; trailing blank84 checked. Input boundary and baseline adaptations LU-09–10."
+    },
+    {
+      "number": 6,
+      "title": "Peak–End Rule",
+      "pdf_start": 85,
+      "pdf_end": 98,
+      "printed_start": 65,
+      "printed_end": 76,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          85,
+          98
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text, study summaries, examples, journey-mapping technique and negativity-bias consideration read; trailing blanks97–98 checked. Experienced versus remembered outcomes and truthful recovery/endings LU-11–12."
+    },
+    {
+      "number": 7,
+      "title": "Aesthetic–Usability Effect",
+      "pdf_start": 99,
+      "pdf_end": 112,
+      "printed_start": 79,
+      "printed_end": 91,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          99,
+          112
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text, study summaries, automatic-processing box, examples, testing/synthesis technique and testing-bias consideration read; trailing blank112 checked. Appearance/performance distinction and aesthetic masking LU-13–14."
+    },
+    {
+      "number": 8,
+      "title": "Von Restorff Effect",
+      "pdf_start": 113,
+      "pdf_end": 126,
+      "printed_start": 93,
+      "printed_end": 104,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          113,
+          126
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text, study summaries, selective-attention box, examples, accessibility consideration and eye-tracking technique read; trailing blanks125–126 checked. Goal-relevant salience and evidence/accessibility limits LU-15–16."
+    },
+    {
+      "number": 9,
+      "title": "Tesler’s Law",
+      "pdf_start": 127,
+      "pdf_end": 138,
+      "printed_start": 107,
+      "printed_end": 117,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          127,
+          138
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text, examples and notes read; blank PDF138 inspected in extraction. LU-17–18."
+    },
+    {
+      "number": 10,
+      "title": "Doherty Threshold",
+      "pdf_start": 139,
+      "pdf_end": 150,
+      "printed_start": 119,
+      "printed_end": 129,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          139,
+          150
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text, response-time and perceived-performance examples and notes read; blank PDF150 inspected in extraction. LU-19–20 explicitly qualify numeric thresholds and disagree with fake-progress/delay recommendations."
+    },
+    {
+      "number": 11,
+      "title": "Applying Psychological Principles in Design",
+      "pdf_start": 151,
+      "pdf_end": 158,
+      "printed_start": 131,
+      "printed_end": 138,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          151,
+          158
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All awareness, collaboration, best-practice and goal-observation-rule material read; example numeric limits qualified. LU-21–22."
+    },
+    {
+      "number": 12,
+      "title": "With Power Comes Responsibility",
+      "pdf_start": 159,
+      "pdf_end": 174,
+      "printed_start": 139,
+      "printed_end": 154,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          159,
+          174
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All behavioral mechanisms, ethical discussion, nonideal-scenario, representation, qualitative-evidence and friction recommendations read. LU-23–24; historical clinical/causal claims not adopted as established product outcomes."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 24,
+      "description": "Figure1-1 physical control panel and digital form controls",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Visual analogy supports expected control behavior; it is not evidence that every physical metaphor remains appropriate.",
+      "principle_ids": [
+        "LU-01"
+      ]
+    },
+    {
+      "pdf_page": 25,
+      "description": "Figure1-2 YouTube before/after redesign",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Both screens retain recognizable navigation and content structure; optional preview/reversion comes from accompanying prose, not from the static picture.",
+      "principle_ids": [
+        "LU-02"
+      ]
+    },
+    {
+      "pdf_page": 38,
+      "description": "Table2-1 minimum target recommendations",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Table juxtaposes spatial/touch Apple points, Material dp, WCAG CSS pixels and physical cm. It does not establish one universal size or conformance level.",
+      "principle_ids": [
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "pdf_page": 40,
+      "description": "Figures2-2 and2-3 center accuracy and label-associated target",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Nested center zones are illustrative; label/input diagram visibly encompasses both regions. Neither image measures a live hit target.",
+      "principle_ids": [
+        "LU-03",
+        "LU-04"
+      ]
+    },
+    {
+      "pdf_page": 42,
+      "description": "Figures2-5 and2-6 LinkedIn opposing actions and CarPlay",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Accept and reject controls sit beside each other; car interface offers a different spatial arrangement. Captures do not establish error rates or safety.",
+      "principle_ids": [
+        "LU-04"
+      ]
+    },
+    {
+      "pdf_page": 54,
+      "description": "Figures3-4 and3-5 formatted prose and grouped news",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Heading hierarchy, paragraph spacing and grouped newspaper regions change scanning structure without a fixed item count.",
+      "principle_ids": [
+        "LU-05"
+      ]
+    },
+    {
+      "pdf_page": 57,
+      "description": "Figure3-8 categorized menu exceeding seven options",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Menu visibly contains multiple labeled columns and many individual links; it illustrates structured visible choice rather than a seven-item cap.",
+      "principle_ids": [
+        "LU-06"
+      ]
+    },
+    {
+      "pdf_page": 63,
+      "description": "Figures4-2 and4-3 modified and simplified remotes",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Covered controls reduce exposed physical choices; a smaller remote can move complexity into the television interface as accompanying text notes.",
+      "principle_ids": [
+        "LU-07",
+        "LU-08"
+      ]
+    },
+    {
+      "pdf_page": 64,
+      "description": "Figure4-4 search landing and filtered results",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Initial entry screen is visually simpler; result-type controls appear with results. This illustrates task staging, not removal of the eventual options.",
+      "principle_ids": [
+        "LU-07"
+      ]
+    },
+    {
+      "pdf_page": 66,
+      "description": "Figure4-7 card sorting",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Generic topic cards are grouped under category headers. Diagram alone does not show actual participant evidence or validate an information architecture.",
+      "principle_ids": [
+        "LU-07"
+      ]
+    },
+    {
+      "pdf_page": 69,
+      "description": "Figure4-8 Facebook navigation",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. The pictured icons already have labels: Home, Watch, Marketplace, Groups, Notifications and Menu. Do not describe it as an icon-only before-state.",
+      "principle_ids": [
+        "LU-08"
+      ]
+    },
+    {
+      "pdf_page": 70,
+      "description": "Figure4-9 X navigation with icon labels",
+      "inspection": "Rendered supplied PDF with pypdfium2 and visually inspected in a labeled four-page contact sheet. Vertical list presents icons with textual destinations, supporting interpretation. It is a separate product example, not an experimental after-state for Figure4-8.",
+      "principle_ids": [
+        "LU-08"
+      ]
+    },
+    {
+      "pdf_page": 79,
+      "description": "Figures5-3 and5-4: baseline text search with optional microphone, plus historical design-system screenshots.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 at1.5x and visually inspected with view_image. The search field retains text entry while the enhanced version adds a microphone; screenshots illustrate examples rather than proving accessible behavior.",
+      "principle_ids": [
+        "LU-10"
+      ]
+    },
+    {
+      "pdf_page": 82,
+      "description": "Figures5-5 and5-6: translated-string expansion and Amazon header at different minimum text sizes.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 at1.5x and visually inspected with view_image. Rendered views show a wider Italian label and fewer secondary navigation links in the enlarged-text header. Preserve essential actions rather than copying removal.",
+      "principle_ids": [
+        "LU-10"
+      ]
+    },
+    {
+      "pdf_page": 92,
+      "description": "Figure6-5: schematic journey map.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 at1.5x and visually inspected with view_image. Map combines persona, scenario and expectations above phases/actions; comments and a dotted emotional curve lead to opportunities, metrics and internal ownership. Diagram is illustrative, not participant evidence.",
+      "principle_ids": [
+        "LU-11"
+      ]
+    },
+    {
+      "pdf_page": 94,
+      "description": "Figure6-6: historical password validation example.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 at1.5x and visually inspected with view_image. Visible checklist uses checks and crosses plus text below the field, showing unmet constraints before completion. Historical password rules not adopted as current security guidance.",
+      "principle_ids": [
+        "LU-12"
+      ]
+    },
+    {
+      "pdf_page": 102,
+      "description": "Figure7-2: reported relationship between beauty and ease-of-use ratings.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 at1.5x and visually inspected with view_image. Scatterplot labeled Beautiful versus Easy to Use, with reported correlation, visually establishes that this is a ratings relationship; it does not measure current task completion.",
+      "principle_ids": [
+        "LU-13"
+      ]
+    },
+    {
+      "pdf_page": 110,
+      "description": "Figure7-6: phone-simulation visual variants.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 at1.5x and visually inspected with view_image. Two depicted phones have markedly different casing/key styling; the surrounding text reports functional equivalence and participant study outcomes. Static figure cannot independently confirm controls or experimental results.",
+      "principle_ids": [
+        "LU-13",
+        "LU-14"
+      ]
+    },
+    {
+      "pdf_page": 117,
+      "description": "Figure8-1: account deletion dialog alternatives.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 at1.5x and visually inspected with view_image. Right variant adds a warning icon and salient red Delete control; Cancel remains visible. Illustration changes several cues and is not evidence that accidents decrease.",
+      "principle_ids": [
+        "LU-15"
+      ]
+    },
+    {
+      "pdf_page": 119,
+      "description": "Figures8-3 and8-4: historical pricing emphasis and notification badge.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 at1.5x and visually inspected with view_image. Plus plan has a taller highlighted region and dark call to action; a numeric notification badge contrasts with app icons. Neither image establishes informed preference or benefit.",
+      "principle_ids": [
+        "LU-15",
+        "LU-16"
+      ]
+    },
+    {
+      "pdf_page": 132,
+      "description": "Figures9-3 and9-4, address reuse and payment review",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected using view_image. Checkbox explicitly links shipping to billing; payment illustrations retain a purchase-verification stage. Static examples do not verify behavior.",
+      "principle_ids": [
+        "LU-17"
+      ]
+    },
+    {
+      "pdf_page": 136,
+      "description": "Figure9-7, progressive menu disclosure",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected using view_image. Expanded menu groups named products below a compact top-level navigation. Text describes hover; screenshot supplies no keyboard/touch evidence.",
+      "principle_ids": [
+        "LU-18"
+      ]
+    },
+    {
+      "pdf_page": 143,
+      "description": "Figure10-2, skeleton loading",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected using view_image. Grey placeholders reserve several content regions while persistent navigation remains visible. Static figure does not measure response time.",
+      "principle_ids": [
+        "LU-19"
+      ]
+    },
+    {
+      "pdf_page": 146,
+      "description": "Figure10-5, installation progress and estimate",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected using view_image. A completion bar is paired with approximate time and a named installation stage. This image cannot prove estimate accuracy or pending/committed semantics.",
+      "principle_ids": [
+        "LU-19",
+        "LU-20"
+      ]
+    },
+    {
+      "pdf_page": 148,
+      "description": "Figure10-7, privacy-settings review example",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected using view_image. Screenshot shows a review card and1/9 step position, not timing instrumentation or evidence of an actual scan delay. The author’s artificial-delay assertion is distinguished from the visible evidence.",
+      "principle_ids": [
+        "LU-20"
+      ]
+    },
+    {
+      "pdf_page": 157,
+      "description": "Figures11-2 and11-3, value–observation–rule examples",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected using view_image. Boxed examples place a value above a named law and explicit rules; three choices and80 characters appear in the illustrative clarity example, not as measured limits.",
+      "principle_ids": [
+        "LU-21",
+        "LU-22"
+      ]
+    },
+    {
+      "pdf_page": 169,
+      "description": "Figure12-9, contacts-access prompt",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected using view_image. Visible prompt offers Continue and Learn more with no visible decline action; static image alone does not establish the full escape path, actual permission grant or current product behavior.",
+      "principle_ids": [
+        "LU-23",
+        "LU-24"
+      ]
+    }
+  ],
+  "supplemental_coverage": [
+    {
+      "title": "Cover, bibliographic front matter and preface",
+      "pdf_start": 1,
+      "pdf_end": 20,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          1,
+          20
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Front matter, contents and full preface read; cover and copyright rendered. Preface explicitly rejects literal universal-law interpretation and replacement of user research. Blank pages checked; promotional and production information yield no operational lessons."
+    },
+    {
+      "title": "Index, author biography, colophon and advertisement",
+      "pdf_start": 175,
+      "pdf_end": 186,
+      "disposition": "assessed-excluded",
+      "read_pdf_ranges": [
+        [
+          175,
+          186
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted backmatter read and assessed; index confirms topic locators, while biography, production and promotional text contribute no new operational lessons. No cited external research independently read."
+    }
+  ]
+}
