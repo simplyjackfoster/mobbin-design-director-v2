@@ -47,6 +47,14 @@ they determine behavior. Use the [IA module](information-architecture.md) for
 method selection; a card sort, expert walkthrough, and participant findability
 test answer different questions.
 
+For dashboards and charts, use the [dashboard contract](dashboards.md): verify
+metric definitions, calculation examples, units/periods, baselines/scales and
+comparison validity, then inspect their visual encoding. Exercise missing/stale
+data, refresh failures and detail/return where relevant. A valid calculation is
+not proof of an honest chart; an inspected chart is not evidence of a live feed.
+Keep current accessibility and text-scaling requirements ahead of a historical
+single-screen or minimal-decoration preference.
+
 Record action, expected response, actual response, and evidence for important
 checks. Distinguish fixture launches from actual transition tests. Do not infer
 state persistence or responsiveness from static captures. If the toolchain is

@@ -1,0 +1,521 @@
+{
+  "source_id": "dashboard-design",
+  "title": "Information Dashboard Design: The Effective Visual Communication of Data",
+  "authors": [
+    "Stephen Few"
+  ],
+  "edition": "First edition",
+  "year": 2006,
+  "pdf_pages": 166,
+  "sha256": "d4cb0d9d595f5d6f5ed6cf924309f411e69d5475f56fbb9bd1d4f1559be31792",
+  "extraction_notes": [
+    "Supplied PDF is a reflowed166-page version of the2006 first edition. Bibliographic front matter says223pages; source locators use one-based PDF positions, never invented original print labels. CoverPDF1 and copyrightPDF3 visually verified title, subtitle, author, edition and year.",
+    "Three readers consumed all substantive chapter text, captions and footnotes in bounded batches;41selected chart/example pages were rendered and visually inspected. Full-study does not mean exhaustive visual inspection of every image, verification of cited research, or runtime testing.",
+    "PDF138 contains chapter6 final text followed by chapter7 heading/body. Chapter7 shared_boundary_page and boundary_note explicitly account for that single-page overlap.",
+    "Extraction includes nonbreaking spaces, joined words, punctuation/negative-sign artifacts and repeated watermarks. Some embedded screenshots are low-resolution; exact numerical transcription is not assumed. Computational fixtures are original examples.",
+    "Historical vendor capabilities, perception counts, colors/fonts, platform conventions and usability assertions remain contextual. Author claims and skill adaptations are separated. Known caption/statistical wording issues are qualified beside their lessons.",
+    "Book contents were reference evidence, not instructions or authorization. No PDF, raw extraction, book image or copied worked-example dataset is committed."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Clarifying the Vision",
+      "pdf_start": 11,
+      "pdf_end": 28,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          11,
+          28
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Definition and scope, monitoring versus detail, meaningful purpose, history and dated vendor examples; DD-01–DD-03."
+    },
+    {
+      "number": 2,
+      "title": "Variations in Dashboard Uses and Data",
+      "pdf_start": 29,
+      "pdf_end": 37,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          29,
+          37
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Role/cadence/detail distinctions; measures, timing, comparisons, evaluation and nonquantitative content; DD-01, DD-02, DD-04."
+    },
+    {
+      "number": 3,
+      "title": "Thirteen Common Mistakes in Dashboard Design",
+      "pdf_start": 38,
+      "pdf_end": 63,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          38,
+          63
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All thirteen mistake categories studied; comparison fragmentation, context, measure/precision, medium selection, geometry, organization, emphasis, decoration, color and aesthetics; DD-03–DD-08."
+    },
+    {
+      "number": 4,
+      "title": "Tapping into the Power of Visual Perception",
+      "pdf_start": 64,
+      "pdf_end": 79,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          64,
+          79
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Memory, attention, quantitative/categorical attribute limits, contextual color effects and all six grouping mechanisms read. DD-09–DD-11; no fixed memory/palette quota adopted."
+    },
+    {
+      "number": 5,
+      "title": "Eloquence Through Simplicity",
+      "pdf_start": 80,
+      "pdf_end": 100,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          80,
+          100
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Summary and precision, data-ink qualification, useful grid/border/row shading, control/help advice, exception context, multiple history granularities and enduring versus situational emphasis read. DD-11–DD-13; control visibility/accessibility qualified."
+    },
+    {
+      "number": 6,
+      "title": "Effective Dashboard Display Media",
+      "pdf_start": 101,
+      "pdf_end": 138,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          101,
+          138
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text-versus-graph discussion and full media library read: bullet, bar, stacked, combination/Pareto, line, sparkline, box, scatter, treemap; rejected/qualified media; alert/direction/on-off icons; text/images/drawing objects; tables/maps/small multiples; final summary. DD-14–DD-20 and cross-links. PDF138 first paragraph closes ch6 before ch7 heading."
+    },
+    {
+      "number": 7,
+      "title": "Designing Dashboards for Usability",
+      "pdf_start": 138,
+      "pdf_end": 146,
+      "shared_boundary_page": 138,
+      "boundary_note": "Final chapter6 sentence precedes chapter7 heading on PDF138; all text on this page read.",
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          138,
+          146
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Organization, grouping, meaningful comparisons, semantic consistency, aesthetics, direct interaction and real-data usability testing. DD-21–DD-26. Historical preferences qualified."
+    },
+    {
+      "number": 8,
+      "title": "Putting It All Together",
+      "pdf_start": 147,
+      "pdf_end": 164,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          147,
+          164
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Original sales design, eight alternate sales critiques and separate key, CIO, telesales and marketing examples read and inspected. DD-21–DD-28. Static examples are not participant/runtime evidence."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 25,
+      "description": "Figure1-12: table-led GE overview, alongside project dashboard illustration; checked that literal cockpit styling is not required.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-01"
+      ]
+    },
+    {
+      "pdf_page": 35,
+      "description": "Table2-3: distinct comparison types and their associated examples; checked row relationships lost in plain text.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-04"
+      ]
+    },
+    {
+      "pdf_page": 43,
+      "description": "Figures3-3 and3-4: nested/whole-display scrolling and gauges lacking labeled quantitative context.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-03",
+        "DD-04"
+      ]
+    },
+    {
+      "pdf_page": 44,
+      "description": "Figure3-5 and Table3-1: named comparison references add context; gauge shape/presentation is not transferred wholesale.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-04"
+      ]
+    },
+    {
+      "pdf_page": 47,
+      "description": "Figures3-8 and3-9: zero-centered variance display and invalid part-to-whole presentation of independent cancer probabilities.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-05",
+        "DD-06"
+      ]
+    },
+    {
+      "pdf_page": 49,
+      "description": "Figures3-12 and3-13: circle area versus length comparison; source caption incorrectly describes actual/budget although plot shows revenue/costs.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-06"
+      ]
+    },
+    {
+      "pdf_page": 55,
+      "description": "Figures3-23 and3-24: poorly paired actual/budget marks and 3-D occlusion that hides a quarter/category value.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-07",
+        "DD-08"
+      ]
+    },
+    {
+      "pdf_page": 56,
+      "description": "Figure3-25: bar origin at500000 inflates length ratios despite numerical scale labels.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-07"
+      ]
+    },
+    {
+      "pdf_page": 57,
+      "description": "Figure3-26: separated related histories, dominant headers and imbalanced group placement.",
+      "inspection": "Rendered supplied PDF page with pypdfium2 and visually inspected the full page with view_image; source image remains outside repository.",
+      "principle_ids": [
+        "DD-08"
+      ]
+    },
+    {
+      "pdf_page": 67,
+      "description": "Figures4-1 and4-2",
+      "inspection": "Contrasting intensity isolates the repeated digit while its shape alone does not stand out among other digits. This verifies the attention mechanism, not a measured perception speed.",
+      "principle_ids": [
+        "DD-09"
+      ]
+    },
+    {
+      "pdf_page": 72,
+      "description": "Table4-2 and Figure4-7",
+      "inspection": "Table separates categorical from quantitative attributes. The two circles demonstrate poor exact area estimation; no empirical accuracy threshold inferred.",
+      "principle_ids": [
+        "DD-09"
+      ]
+    },
+    {
+      "pdf_page": 79,
+      "description": "Figures4-18 and4-19",
+      "inspection": "Connected nodes group across competing proximity/similarity cues; an enclosure changes the visually dominant grouping in the rightmost example.",
+      "principle_ids": [
+        "DD-10"
+      ]
+    },
+    {
+      "pdf_page": 91,
+      "description": "Figures5-18 and5-19",
+      "inspection": "Side-by-side designs retain but lighten panel dividers and comparison grids; the example supports selective scaffolding, not removing all nondata marks.",
+      "principle_ids": [
+        "DD-12"
+      ]
+    },
+    {
+      "pdf_page": 96,
+      "description": "Figure5-24",
+      "inspection": "Historical, year-to-date and current-month ridership occupy three panels with different visibly labeled time intervals. Persistent-versus-situational priority discussion also read.",
+      "principle_ids": [
+        "DD-11",
+        "DD-13"
+      ]
+    },
+    {
+      "pdf_page": 108,
+      "description": "Figures6-6 and6-7",
+      "inspection": "Horizontal bullet graph displays a zero-origin numeric scale, actual bar, target marker and background ranges. Caption and annotation map each component.",
+      "principle_ids": [
+        "DD-15"
+      ]
+    },
+    {
+      "pdf_page": 111,
+      "description": "Figures6-13 and6-14",
+      "inspection": "A nonzero-range bullet uses a point instead of a length bar; the following example distinguishes actual quarter-to-date from projected quarter-end quantity.",
+      "principle_ids": [
+        "DD-15"
+      ]
+    },
+    {
+      "pdf_page": 117,
+      "description": "Figures6-24 and6-25",
+      "inspection": "Stacked segments lack a common comparison baseline except the bottom segment; grouped alternatives change emphasis toward component comparisons.",
+      "principle_ids": [
+        "DD-16"
+      ]
+    },
+    {
+      "pdf_page": 119,
+      "description": "Figure6-28",
+      "inspection": "Ranked individual contributions appear as bars and their cumulative percentages as a line; accumulation supplies a meaningful connection across named categories.",
+      "principle_ids": [
+        "DD-16"
+      ]
+    },
+    {
+      "pdf_page": 121,
+      "description": "Figures6-31,6-32 and6-33",
+      "inspection": "Sparkline example combines a reference band and endpoint/current-value cue; the isolated arrow leaves the comparison window ambiguous. The miniature revenue history still needs contextual window/scale disclosure in application.",
+      "principle_ids": [
+        "DD-17"
+      ]
+    },
+    {
+      "pdf_page": 125,
+      "description": "Figure6-38",
+      "inspection": "Box illustrates quartiles and median with alternative percentile whiskers and separate outliers. This particular whisker convention is not universal.",
+      "principle_ids": [
+        "DD-18"
+      ]
+    },
+    {
+      "pdf_page": 127,
+      "description": "Figure6-41",
+      "inspection": "Two scatter groups and fitted lines have different slopes; the visual does not establish that slope difference alone is a difference in correlation strength.",
+      "principle_ids": [
+        "DD-19"
+      ]
+    },
+    {
+      "pdf_page": 129,
+      "description": "Figure6-43",
+      "inspection": "Treemap uses area for revenue and intensity for quota achievement within regional hierarchy. Large red rectangles combine high revenue and low relative attainment, not an independently demonstrated ranking of every business-loss measure.",
+      "principle_ids": [
+        "DD-14"
+      ]
+    },
+    {
+      "pdf_page": 137,
+      "description": "Figures6-56 and6-57",
+      "inspection": "Single regional chart is expanded to small multiples by sales channel; repeated numeric scales, category alignment and shared legend support comparison.",
+      "principle_ids": [
+        "DD-20"
+      ]
+    },
+    {
+      "pdf_page": 140,
+      "description": "Figure7-1: whitespace-only and light-border group delineation.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-21"
+      ]
+    },
+    {
+      "pdf_page": 141,
+      "description": "Figure7-2: same-unit overlay and explicitly dual-axis revenue/order-volume comparison.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-22"
+      ]
+    },
+    {
+      "pdf_page": 142,
+      "description": "Figures7-3/7-4: comparative table fields and yellow reused for forecast, June and satisfactory status.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-22",
+        "DD-23"
+      ]
+    },
+    {
+      "pdf_page": 144,
+      "description": "Figure7-5: a dense dashboard example with competing graphical decoration and color.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-24"
+      ]
+    },
+    {
+      "pdf_page": 145,
+      "description": "Figures7-6/7-7: historical palette and font recommendations checked as illustrative preferences.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-24"
+      ]
+    },
+    {
+      "pdf_page": 149,
+      "description": "Figure8-1: original sales dashboard; concise bullet/sparkline/actual-value layout, sections and alert emphasis.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-21",
+        "DD-22",
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 151,
+      "description": "Figure8-2: text-heavy sales alternative, centered numeric columns and colored cells; actual/target values separated.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-23",
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 152,
+      "description": "Figure8-3: percent attainment tables, dense strong grids, pie and shaded charts; read continued critique153.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-22",
+        "DD-24",
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 153,
+      "description": "Figure8-4: comparison fragmented by quarter selector, nominal-category targets linked by a line, decorative photos.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 154,
+      "description": "Figure8-5: dramatic differently colored panels and small tables surrounded by substantial empty space.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-21",
+        "DD-24",
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 155,
+      "description": "Figure8-6: single-series selectors and attention-dominating shaded pie charts.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-24",
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 156,
+      "description": "Figure8-7: status-only circular period displays and gradient bars; actual quantitative context absent in left-hand metrics.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-23",
+        "DD-24",
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 157,
+      "description": "Figure8-8: width/height both encode quantitative attributes, encouraging area comparison; asymmetric part-to-whole and target encodings.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 158,
+      "description": "Figure8-9: spatially repeated symbolic rectangles over complex shapes/maps; separate key required for values.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 159,
+      "description": "Figure8-10: separate symbolic range key for previous dashboard; bins do not recover precise magnitudes or trends.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-28"
+      ]
+    },
+    {
+      "pdf_page": 160,
+      "description": "Figure8-11: CIO overview separates current alerts from strategic panels; common alert emphasis and contextual thresholds.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-25",
+        "DD-27"
+      ]
+    },
+    {
+      "pdf_page": 162,
+      "description": "Figure8-12: telesales dashboard includes Unfreeze Data and Reset Alerts; static image does not verify proposed live signals.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-25",
+        "DD-27"
+      ]
+    },
+    {
+      "pdf_page": 164,
+      "description": "Figure8-13: marketing dashboard has differently bounded time intervals, comparison labels, ranked text explanations and follow-up candidates.",
+      "inspection": "Rendered supplied PDF page using pypdfium2 and visually inspected full page with view_image; no source image included in skill.",
+      "principle_ids": [
+        "DD-25",
+        "DD-28"
+      ]
+    }
+  ],
+  "supplemental_coverage": [
+    {
+      "title": "Cover and front matter",
+      "pdf_start": 1,
+      "pdf_end": 10,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          1,
+          10
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Cover identity read through rendered page1; copyright page3 also rendered. Bibliographic data, introduction, acknowledgments and table of contents assessed; no new operational lessons from promotional/production material."
+    },
+    {
+      "title": "Appendix A and Colophon",
+      "pdf_start": 165,
+      "pdf_end": 166,
+      "disposition": "assessed-excluded",
+      "read_pdf_ranges": [
+        [
+          165,
+          166
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Bibliography and production colophon assessed; excluded as new operational lessons. References not independently read."
+    }
+  ]
+}

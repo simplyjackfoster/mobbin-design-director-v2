@@ -10222,6 +10222,1290 @@
       "routes": [
         "references/information-architecture.md"
       ]
+    },
+    {
+      "id": "DD-01",
+      "title": "Define the monitoring decision before choosing dashboard furniture",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-01 — Define the monitoring decision before choosing dashboard furniture"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "content",
+        "research"
+      ],
+      "tags": [
+        "dashboard",
+        "monitoring"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design"
+      ],
+      "triggers": [
+        "Designing a dashboard, KPI overview, status screen, or a request to make a product look like an executive dashboard."
+      ],
+      "exceptions": "The author's definition is an explicitly chosen useful boundary, not a reason to reject the user's product because it calls a scrollable analytics workspace a dashboard. Do not insist on graphics when concise text or a table communicates better. Historical vendor examples illustrate approaches rather than endorse products or establish current capabilities. Role-based customization means fitting the information need; it does not automatically require user-configurable widgets.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Can each prominent item be connected to a stated monitoring objective and a useful next decision? Does the overview expose important conditions without pretending to contain every detail needed for diagnosis or action?"
+      },
+      "related": [
+        "DI-19",
+        "ID-13"
+      ],
+      "routes": [
+        "references/dashboards.md"
+      ]
+    },
+    {
+      "id": "DD-02",
+      "title": "Match cadence, detail, and interaction to the monitoring role",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-02 — Match cadence, detail, and interaction to the monitoring role"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "flows",
+        "content"
+      ],
+      "tags": [
+        "dashboard",
+        "monitoring",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing dashboard refresh behavior, alerting, detail level, historical context, or investigation controls."
+      ],
+      "exceptions": "The three roles are a useful lens, not exhaustive user types or mutually exclusive products. Do not inherit the source's dated assumptions that executives avoid computers or rarely analyze data. Strategic work can need interaction and analysts can investigate live data. Book examples of hover-to-detail do not justify hover-only access on touch or keyboard interfaces. Freshness/error-state checks are this skill's operational extension of the cadence argument.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Does the refresh/detail contract fit the time available to make the decision? Can someone distinguish a current condition, a historical snapshot, and stale or unavailable data, and reach the appropriate investigation or response without losing scope?"
+      },
+      "related": [
+        "IA-02"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "DD-03",
+      "title": "Keep decision-critical comparisons visible together",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-03 — Keep decision-critical comparisons visible together"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "cognition",
+        "visual",
+        "accessibility"
+      ],
+      "tags": [
+        "dashboard",
+        "comparison",
+        "accessibility"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Splitting a dashboard into tabs, a carousel, per-item views, nested scroll regions, or a dense mobile overview."
+      ],
+      "exceptions": "The book's strict single-screen definition reflects its monitoring focus. Do not shrink text, suppress necessary context, disable zoom, or violate native text-scaling/reflow behavior to satisfy a no-scroll rule. Scrolling and multiple views are legitimate for other purposes and accessibility configurations. Describe any loss of simultaneous comparison and compensate for it; this responsive/accessibility adaptation is the skill's judgment, not a claim that the 2006 book prescribed mobile behavior.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Can the intended comparison be made from the currently visible content without remembering hidden values? At supported narrow widths and enlarged text, are decision groups still understandable and critical conditions reachable without clipped or illegible content?"
+      },
+      "related": [
+        "JJ-07",
+        "TD-23"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-04",
+      "title": "Give each metric enough context to support an interpretation",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-04 — Give each metric enough context to support an interpretation"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "evaluation"
+      ],
+      "tags": [
+        "dashboard",
+        "metrics",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "KPI tiles, status indicators, targets, current-versus-prior comparisons, or an unlabeled gauge that looks informative."
+      ],
+      "exceptions": "More comparison data is not automatically better; omit references that do not change the decision. A target may be aspirational while a historical norm is descriptive. An annual target beside month-to-date performance is not inherently invalid, but must not imply a same-period performance comparison. Metric ownership, denominator validation, missing-state handling and data provenance are implementation checks extending the source's context principle. A screenshot cannot verify the underlying calculations or freshness.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source",
+          "visual"
+        ],
+        "question": "Can someone tell what this value measures, over which period and population, relative to what, and why its status was assigned? Do missing, partial, stale and incompatible comparisons remain visibly distinct from measured success or failure?"
+      },
+      "related": [
+        "ID-13"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-05",
+      "title": "Use a direct measure and precision appropriate to the decision",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-05 — Use a direct measure and precision appropriate to the decision"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "cognition",
+        "evaluation"
+      ],
+      "tags": [
+        "metrics",
+        "comparison",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Metric calculation, denominator or percentage-change questions; a dashboard makes users calculate a variance, displays many decimals, or compresses operational values into abbreviated numbers."
+      ],
+      "exceptions": "A percentage can exaggerate a change from a tiny base or conceal a large absolute impact. Reduced precision is inappropriate where a threshold, reconciliation, safety judgment or financial commitment depends on the exact value. Do not infer significance or certainty from decimal places. Denominator edge cases and percentage-point distinctions are the skill's computational checks, not explicit formulas supplied by this passage.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source",
+          "visual"
+        ],
+        "question": "Can the intended judgment be made without avoidable arithmetic, and does the derived measure retain the context needed to avoid a misleading conclusion? Test boundary values, negative values, missing/zero denominators and rounding near thresholds when those states are possible."
+      },
+      "related": [
+        "DI-19"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-06",
+      "title": "Choose an encoding for the question, not for visual variety",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-06 — Choose an encoding for the question, not for visual variety"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "content"
+      ],
+      "tags": [
+        "charts",
+        "dashboard",
+        "comparison"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Selecting charts for a dashboard, replacing tables with graphics, adding pies, bubbles, radar charts or maps, or trying to make repeated charts look less repetitive."
+      ],
+      "exceptions": "Few's blanket rejection of pie charts is the author's position; the skill should evaluate a requested chart by its task, valid data and comparison precision rather than impose an unsupported universal ban. Area or spatial encodings may serve other tasks, but do not treat them as equally precise for comparisons of close values. Preserve useful brand expression and approved choices while explaining an evidenced encoding problem. The source examples are expert critiques, not controlled comparative studies.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Does the chart's implied relationship actually exist in the data? Can the intended comparison be made without decoding unrelated shapes, memorizing a legend, or mistaking area for diameter? Is repeated visual treatment stable enough to reuse a reading strategy?"
+      },
+      "related": [
+        "DI-19"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-07",
+      "title": "Keep quantitative geometry truthful and important values visible",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-07 — Keep quantitative geometry truthful and important values visible"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "content",
+        "evaluation"
+      ],
+      "tags": [
+        "charts",
+        "metrics",
+        "comparison"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Bar chart baseline or truncated scales, decorative perspective, occluded marks, inconsistent axes, or a chart whose labels and marks imply different values."
+      ],
+      "exceptions": "Zero-baseline guidance for magnitude bars does not imply every line or point chart must start at zero, or that interval/range marks encode magnitude from zero. Data with negative values needs an honest zero reference and signed extent. Purposeful 3-D spatial work is outside the source's typical business-chart case. Current accessibility and interaction requirements govern how equivalent information is exposed.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Does the visible mark encode the value it claims, with the intended baseline, units and domain? Can a viewer inspect every consequential value without hidden marks or perspective errors, and are visual comparisons valid across neighboring plots?"
+      },
+      "related": [
+        "DI-19"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-08",
+      "title": "Reserve emphasis for meaningful differences and consequential conditions",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-08 — Reserve emphasis for meaningful differences and consequential conditions"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "cognition",
+        "accessibility"
+      ],
+      "tags": [
+        "dashboard",
+        "visual",
+        "monitoring"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Dashboards with competing card headers, multiple bright palettes, prominent chrome, arbitrary chart colors, or related measures placed far apart."
+      ],
+      "exceptions": "Do not turn the author's strong aesthetic opinions into a ban on personality, logos, gradients or all decoration throughout the product. A simulation may legitimately resemble equipment. A fixed top-left priority rule depends on reading direction, layout and use; the task's actual attention needs govern placement. Color-vision prevalence figures and claims that decoration inevitably becomes annoying are dated source assertions, not fresh evidence. Exact contrast, assistive output and motion behavior require applicable current standards and runtime checks.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "In the relevant task state, does the most consequential condition stand out for a reason, and can it be understood without relying only on color? Do grouping and repeated visual codes support the intended comparison rather than imply false relationships?"
+      },
+      "related": [
+        "PU-08",
+        "JJ-04"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-09",
+      "title": "Choose visual attributes for the kind of comparison",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-09 — Choose visual attributes for the kind of comparison"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "cognition",
+        "accessibility"
+      ],
+      "tags": [
+        "charts",
+        "comparison",
+        "visual"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Selecting marks, colors, sizes or positions to encode a measure or distinguish categories."
+      ],
+      "exceptions": "The book's suggested small counts of discriminable attributes are heuristics, not universal palette, menu or chart limits. Area can be useful for overview and hierarchy despite its weaker precision. Do not infer that all intensity encodings work for every viewer, that hue has an inherent numeric order, or that a fast visual pop-out guarantees comprehension. Motion advice in the book does not justify flashing alerts; use current accessibility and platform requirements.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Can someone answer the intended comparison without estimating an unreliable area ratio or memorizing a legend? Are category identity, numerical amount and significance encoded distinctly? Does the encoding remain understandable without color alone?"
+      },
+      "related": [
+        "JJ-04"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-10",
+      "title": "Group by relationships and reduce comparison memory",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-10 — Group by relationships and reduce comparison memory"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "cognition",
+        "flows"
+      ],
+      "tags": [
+        "dashboard",
+        "comparison",
+        "navigation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Arranging dashboard panels, tables, related measures or a process diagram."
+      ],
+      "exceptions": "Do not convert the author's memory figures into an arbitrary item limit, or his simultaneous-view preference into a prohibition on scrolling, zoom, accessible reflow or detail views. Preserve the comparison through pinned context, a summary or a dedicated comparison view when one screen cannot reasonably contain it. Similar-looking metrics must not imply shared units or interchangeable meaning when they differ.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "What must the person remember while moving between these items? Does whitespace imply the intended groups? Could a border, shared color or connecting line suggest a false relationship?"
+      },
+      "related": [
+        "JJ-02",
+        "IA-06"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-11",
+      "title": "Separate enduring priority from temporary exceptions",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-11 — Separate enduring priority from temporary exceptions"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "cognition",
+        "recovery"
+      ],
+      "tags": [
+        "monitoring",
+        "dashboard",
+        "errors"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Establishing dashboard hierarchy, alert states or updates to a frequently revisited monitoring view."
+      ],
+      "exceptions": "Do not rearrange the whole dashboard on every refresh just to promote the latest alert. Intentionally ranked exception queues can reorder when their ordering is visible and interaction remains stable. The book's preferred reading positions depend on reading direction and task. Its intensity-only accessibility claims and suggestion of at most two alert levels are not guarantees or quotas. Required controls, active filters and critical values must remain discoverable and sufficiently contrasted.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Can a returning user find the same measure? Can they explain the highlighted condition and its severity without color? Is the most vivid element actually the one requiring attention?"
+      },
+      "related": [
+        "JJ-05"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-12",
+      "title": "Remove visual interference while preserving useful scaffolding",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-12 — Remove visual interference while preserving useful scaffolding"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "accessibility",
+        "cognition"
+      ],
+      "tags": [
+        "dashboard",
+        "charts",
+        "visual",
+        "accessibility"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Simplifying an overloaded table, graph or dashboard, or applying a minimalist visual direction."
+      ],
+      "exceptions": "Data versus nondata is not the same as useful versus useless. Do not erase zero lines, scope, units, uncertainty, thresholds, source freshness or control affordances to make the screen look quieter. The book's advice to mute controls or put them toward the bottom right is contextual, not a rule for filters and actions essential to the task. Light styling must still satisfy current accessibility requirements at actual size.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Which specific task does each remaining line, label, background and control support? After simplification, can users still locate the scope, follow a row, estimate values and distinguish groups? Did visual quiet make an essential state invisible?"
+      },
+      "related": [
+        "PU-09"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-13",
+      "title": "Summarize for the decision without hiding the underlying situation",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-13 — Summarize for the decision without hiding the underlying situation"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "cognition"
+      ],
+      "tags": [
+        "metrics",
+        "dashboard",
+        "comparison",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing dashboard detail, aggregation, historical windows or an exception-only presentation."
+      ],
+      "exceptions": "Executive overview and transaction reconciliation demand different precision. Rounding should match the decision and retain exact values when required. An apparently stable aggregate can hide subgroups, tails or missing observations; add distribution or segmentation when those change the action. Additional periods are not useful merely because data exists. The book's preference for summary does not authorize discarding detail needed for diagnosis or audit.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source",
+          "visual"
+        ],
+        "question": "What could this summary conceal that would reverse the decision? Is the state still interpretable when no alerts exist? Are windows, aggregation and partial-period comparisons apparent without opening several unrelated screens?"
+      },
+      "related": [
+        "ID-13"
+      ],
+      "routes": [
+        "references/dashboards.md"
+      ]
+    },
+    {
+      "id": "DD-14",
+      "title": "Select text or graphics by the question, not the dashboard label",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-14 — Select text or graphics by the question, not the dashboard label"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "visual"
+      ],
+      "tags": [
+        "charts",
+        "dashboard",
+        "comparison"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing among a number, table, chart, map or treemap for a dashboard item."
+      ],
+      "exceptions": "Tables may legitimately contain sparklines or bullet graphs. A graph is not mandatory on every card. Treemap prominence identifies a candidate for investigation, not automatically the greatest business loss: revenue area plus percent-of-quota color alone does not establish every measure of impact. Use bars or a table for accurate ranking. The author's criticisms of pies, radar and area graphs explain comparison weaknesses; they should not become unqualified bans divorced from task or natural data structure.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "State the exact question this representation answers. Can users retrieve an exact value if necessary? Does geographic placement or nested area add information the decision actually uses? Could a simpler representation make the intended comparison more reliable?"
+      },
+      "related": [
+        "DI-19"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-15",
+      "title": "Make compact performance comparisons honest",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-15 — Make compact performance comparisons honest"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "visual",
+        "evaluation"
+      ],
+      "tags": [
+        "metrics",
+        "charts",
+        "monitoring"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Bullet graph or gauge selection; displaying actual performance against a target, acceptable range or forecast."
+      ],
+      "exceptions": "Threshold bands need a defensible source; do not invent bad/acceptable/good ranges to fill a component. Lower values may be better, and target crossing can be harmful. The book's preferred number of bands is not a universal limit. Bullet graphs are a useful option, not a required replacement for every gauge or number. Few explicitly describes his comparison experiments as too small to support scientific performance claims.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Is the bar baseline honest? Can the user distinguish actual, target, acceptable range and projection? Are target period, direction of improvement and units clear? Would removing unsupported bands make the display more truthful?"
+      },
+      "related": [
+        "DD-04",
+        "DD-07"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-16",
+      "title": "Let the relationship determine bars, lines and composition",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-16 — Let the relationship determine bars, lines and composition"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "visual",
+        "evaluation"
+      ],
+      "tags": [
+        "charts",
+        "comparison",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Comparing categories, changes over time, parts of a total or two related measures."
+      ],
+      "exceptions": "Chart types are means, not absolute rules: a cumulative relationship justifies connected categories, and coarse composition may justify stacking. The book recommends dual-axis combinations in some examples, but independently chosen scales can imply arbitrary relationships. Prefer a shared unit/scale or aligned separate panels when possible; if dual axes are essential, label the mapping and avoid interpreting crossings or slopes as evidence of a relationship. Avoid silently joining gaps or irregular observations as if equally spaced measurements existed.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "What does each connection mean? Which segments have a common baseline? Could the same data look strongly related merely by changing one axis? Are scale, ordering, intervals and denominator visible?"
+      },
+      "related": [
+        "DI-19"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-17",
+      "title": "Give miniature history enough context to mean something",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-17 — Give miniature history enough context to mean something"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "visual"
+      ],
+      "tags": [
+        "charts",
+        "metrics",
+        "comparison"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Adding a sparkline, trend arrow or compact historical display beside a current value."
+      ],
+      "exceptions": "An axis-free sparkline can be appropriate for a within-series shape question, but it does not establish exact magnitude or cross-series amplitude by itself. The author's claim that a sparkline removes ambiguity needs this qualification: an unlabeled window or independently rescaled series can still mislead. An arrow can work when its comparison and meaning are explicit; it is not intrinsically bad.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Over what period is this trend? Does the current label match the final mark? Are two apparently similar slopes actually comparable? Can someone distinguish zero, missing observations and a not-yet-complete period?"
+      },
+      "related": [
+        "DD-04"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-18",
+      "title": "Show variation when a center value conceals the decision",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-18 — Show variation when a center value conceals the decision"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "evaluation"
+      ],
+      "tags": [
+        "metrics",
+        "charts",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Monitoring compensation, latency, defects, delivery times or any measure where tails, spread or subgroups matter."
+      ],
+      "exceptions": "The book's statement that a median is the center of the range is imprecise: it is the ordered middle (the 50th percentile), not necessarily the midpoint of minimum and maximum. Its illustrated percentile whiskers are one convention, not the universal box-plot definition. Simplifying a plot for overview must not erase the tails the task is meant to detect; a small sample may be clearer as individual observations.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source",
+          "visual"
+        ],
+        "question": "Could two populations with the displayed summary require different actions? What exactly do whiskers and dots mean here? Are absent observations, sample size or changed population definitions affecting the comparison?"
+      },
+      "related": [
+        "ID-13"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-19",
+      "title": "Show associations without implying causation or confusing slope with strength",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-19 — Show associations without implying causation or confusing slope with strength"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "evaluation"
+      ],
+      "tags": [
+        "charts",
+        "comparison",
+        "data",
+        "evaluation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Investigating relationships between paired numerical measures or comparing relationships across groups."
+      ],
+      "exceptions": "Association is not evidence of causation. A steeper fitted line measures a different change per unit; it does not by itself indicate stronger correlation. Do not repeat the source's description of the steeper example as a more positive correlation. The book's preference for straight fits is not a reason to hide a nonlinear pattern. Axis changes can alter apparent slope, and aggregation or shared time trends can complicate interpretation.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source",
+          "visual"
+        ],
+        "question": "Are the observations paired correctly? Does the fit describe the points rather than impose a story? Would labels, subgroups, changed units or axis limits alter the claimed interpretation? Is a causal conclusion unsupported by this display?"
+      },
+      "related": [
+        "ID-13"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-20",
+      "title": "Use small multiples as a controlled comparison",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-20 — Use small multiples as a controlled comparison"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "content",
+        "accessibility"
+      ],
+      "tags": [
+        "charts",
+        "comparison",
+        "dashboard"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Comparing the same measures across regions, channels, cohorts or periods without overloading one plot."
+      ],
+      "exceptions": "A repeated chart is not comparable merely because it looks consistent. Different time windows, denominators or populations can invalidate the intended comparison. Remove duplicated labels only when readers can still associate them reliably; responsive stacking may require repeating them. The author's expectation of future vendor support is historical, not an implementation constraint, and his example does not prove that one chart can never represent another dimension.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "What stays constant across panels, and what changes? Can users compare the intended values without mentally translating scales or relocating missing labels? Does the layout preserve these conditions after reflow?"
+      },
+      "related": [
+        "DD-22"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-21",
+      "title": "Arrange the overview around the relationships people need to use",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-21 — Arrange the overview around the relationships people need to use"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "cognition",
+        "flows"
+      ],
+      "tags": [
+        "dashboard",
+        "comparison",
+        "visual"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "A monitoring screen contains many metrics, operational areas, business entities or related charts."
+      ],
+      "exceptions": "The organization chart is not automatically the user's mental model. Whitespace is a means of grouping, not a target to maximize: the sales critique on PDF154 points out that excessive blank space can leave tables needlessly small. The upper-left emphasis in the book's desktop examples is not a universal reading-order rule across writing systems, native layouts and assistive navigation.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Can the intended user follow the relevant overview-to-exception sequence without searching distant panels for the comparator or context? Does the grouping survive the actual viewport and text-size conditions?"
+      },
+      "related": [
+        "JJ-02",
+        "IA-06"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-22",
+      "title": "Make the comparison meaningful before making it visually easy",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-22 — Make the comparison meaningful before making it visually easy"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "evaluation",
+        "visual"
+      ],
+      "tags": [
+        "metrics",
+        "charts",
+        "comparison"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Comparing measures across panels, normalizing to targets, combining different units, or placing trends side by side."
+      ],
+      "exceptions": "Do not adopt the book's dual-axis example as a default: two arbitrary scale choices can create a false impression of agreement or relationship. Prefer aligned separate plots or a clearly explained normalization when they answer the task more honestly; justify a dual axis if retained. A time-normalized trend and a magnitude comparison are different tasks, and a universal shared numeric scale can hide useful variation. These scale and comparison-contract checks extend the source's contextual reasoning; static graphs cannot establish correlation or cause.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source",
+          "visual"
+        ],
+        "question": "Could someone infer an incorrect relationship because scales, denominators, periods or definitions differ? Can they distinguish relative attainment from actual amount and an observed result from an expectation?"
+      },
+      "related": [
+        "DD-04"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-23",
+      "title": "Keep visual meaning consistent across the whole dashboard",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-23 — Keep visual meaning consistent across the whole dashboard"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "cognition",
+        "accessibility"
+      ],
+      "tags": [
+        "charts",
+        "dashboard",
+        "visual"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Multiple teams or chart components contribute colors, status treatments, axes, legends or interaction styles to one dashboard."
+      ],
+      "exceptions": "Consistency does not mean every measure must use the same graph or every page the same composition. Different questions may require different encodings. A scoped legend can explain legitimate local differences, but repeatedly changing the meaning of a prominent status color still imposes a cost. The author's beliefs that certain historical hues remain distinguishable to color-blind viewers are not accessibility verification.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "If the same visual cue appears in two sections, does it communicate the same meaning or clearly establish a different scope? Can key states be identified without depending on hue alone?"
+      },
+      "related": [
+        "JJ-04"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-24",
+      "title": "Apply visual restraint without sacrificing legibility or useful character",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-24 — Apply visual restraint without sacrificing legibility or useful character"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "accessibility"
+      ],
+      "tags": [
+        "dashboard",
+        "visual",
+        "accessibility"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Dense metrics become visually exhausting, tables are too small, ornament competes with data, or a redesign strips away all personality in the name of simplicity."
+      ],
+      "exceptions": "The book's preferred off-white canvas, muted nature colors and restricted font palette are contextual design preferences, not universal requirements or a ban on dark mode. A photo or illustration can be task information, not mere decoration. Do not lower contrast until boundaries or marks disappear, or shrink text to satisfy the one-screen ideal. Current platform/accessibility requirements and the project's accepted visual direction govern implementation.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Does the visual emphasis lead to decision-relevant information, and is that information comfortably readable under actual display conditions? Which removed or retained element has a concrete role?"
+      },
+      "related": [
+        "PU-09",
+        "TD-23"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "DD-25",
+      "title": "Connect the overview to details through a coherent interaction contract",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-25 — Connect the overview to details through a coherent interaction contract"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "accessibility",
+        "recovery"
+      ],
+      "tags": [
+        "dashboard",
+        "navigation",
+        "persistence",
+        "touch"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Dashboard drill-down, filters or detail navigation after an exception; the overview needs to lead into investigation or action."
+      ],
+      "exceptions": "Do not make tiny graphical marks or hover the sole way to obtain necessary values or actions. Explicit controls can be clearer and more accessible than the source's preference for eliminating separate buttons. An overview can legitimately be static when the job does not require interaction. State preservation, accessibility and capability checks are this skill's extensions; a static source image does not show them working.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Starting from a consequential signal, can a person identify and activate the next step, retain the relevant scope, and return to the same investigation context on the intended platform?"
+      },
+      "related": [
+        "DI-20",
+        "IA-03"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "DD-26",
+      "title": "Validate interpretation with realistic tasks and state the coaching boundary",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-26 — Validate interpretation with realistic tasks and state the coaching boundary"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "research",
+        "evaluation"
+      ],
+      "tags": [
+        "dashboard",
+        "evaluation",
+        "discovery"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "research",
+        "verify"
+      ],
+      "triggers": [
+        "A dashboard introduces unfamiliar encodings, a team claims it is intuitive, or a polished prototype is being treated as evidence of user comprehension."
+      ],
+      "exceptions": "Do not make one-prototype-only a rule, block requested alternatives, or treat a user's disagreement as ignorance. Matched alternatives can test a real uncertainty. Do not assume only minor changes will be needed or coach someone and then claim first-use discoverability. Neither an agent walkthrough nor agreement with the author's examples is a participant study; no recruitment or external contact is authorized by this source.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "What did actual participants correctly detect and interpret, under what task and instruction conditions? If no such study occurred, is the report explicit about what remains untested?"
+      },
+      "related": [
+        "WI-07",
+        "ID-24"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-27",
+      "title": "Separate live, stale, paused, acknowledged and resolved states",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-27 — Separate live, stale, paused, acknowledged and resolved states"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "recovery",
+        "content"
+      ],
+      "tags": [
+        "monitoring",
+        "dashboard",
+        "errors",
+        "persistence",
+        "interruption"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Operational monitoring, frequent refreshes, temporary display freezing, alerts, or a dashboard mixing strategic and near-real-time information."
+      ],
+      "exceptions": "Do not automatically adopt blinking, escalating sound, or auto-reset behavior from the 2006 examples. Critical monitoring may require alerts to remain active while the visual snapshot is paused; confirm the domain's contract instead of inventing it. The source's statement that no red circles means nothing is wrong assumes functioning current input. Timestamps, stale-data states and distinct acknowledgment/resolution semantics are implementation safeguards derived from the example, not explicit book specifications.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Can someone tell whether the value is current, stale or intentionally frozen, and whether an alert was silenced or actually resolved? Have update failure, pause/resume and new-alert behavior been exercised rather than merely drawn?"
+      },
+      "related": [
+        "JJ-05"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/flows.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "DD-28",
+      "title": "Audit decision coverage before judging the dashboard's polish",
+      "source": {
+        "path": "references/sources/dashboard-design.md",
+        "heading": "DD-28 — Audit decision coverage before judging the dashboard's polish"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "content",
+        "evaluation"
+      ],
+      "tags": [
+        "dashboard",
+        "comparison",
+        "evaluation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Reviewing a complete dashboard, comparing design alternatives, or accepting a concise display that may hide important context."
+      ],
+      "exceptions": "The book explicitly says its example metric lists are illustrative, not universal sales/CIO/telesales requirements. Do not add pipeline, top-ten lists, employee rankings or behavioral tracking merely because they appear in an example. A dashboard with eight varied widgets is not inherently complete, and a table-only solution is not inherently wrong. The source's critiques predict costs; they do not establish measured performance gains. On small or enlarged-text screens, preserve coherent comparisons through adaptive grouping/detail rather than prohibiting scrolling or making data unreadable.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Which important question can no longer be answered after simplification or styling? Can the viewer determine both the signal and its consequence without an undocumented encoding or unavailable comparison?"
+      },
+      "related": [
+        "DD-01"
+      ],
+      "routes": [
+        "references/dashboards.md",
+        "references/review.md"
+      ]
     }
   ]
 }

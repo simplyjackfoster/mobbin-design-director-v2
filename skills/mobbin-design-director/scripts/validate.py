@@ -14,7 +14,7 @@ import sys
 EXPECTED = {'ux-book': 33, 'about-face': 21, 'designing-interfaces': 12,
             'mind-in-mind': 14, 'inspection-methods': 6, 'touch-design': 13,
             'interaction-design': 16, 'practical-ui': 8,
-            'information-architecture': 13}
+            'information-architecture': 13, 'dashboard-design': 8}
 
 
 def validate_region(region, pdf_pages, label):
@@ -80,7 +80,15 @@ def validate(root, allow_partial=False):
             previous_end = 0
             for expected_number, ch in enumerate(data['chapters'], 1):
                 lo, hi = ch['pdf_start'], ch['pdf_end']
-                if ch['number'] != expected_number or not (previous_end < lo <= hi <= data['pdf_pages']):
+                shared = ch.get('shared_boundary_page')
+                if shared is None:
+                    ordered = previous_end < lo
+                else:
+                    note = ch.get('boundary_note')
+                    ordered = (expected_number > 1 and type(shared) is int and
+                               shared == lo == previous_end and
+                               isinstance(note, str) and bool(note.strip()))
+                if ch['number'] != expected_number or not ordered or not (lo <= hi <= data['pdf_pages']):
                     raise ValueError('invalid chapter order or range')
                 previous_end = hi
                 if validate_region(ch, data['pdf_pages'], f'chapter {expected_number}'):

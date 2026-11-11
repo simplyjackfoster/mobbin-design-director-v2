@@ -16,8 +16,9 @@ use does not require the PDFs.
 | [Interaction Design, sixth edition](interaction-design.md), ID | Conceptual models, emotional and contextual interaction, evidence, prototype fidelity and evaluation | [JSON](interaction-design-coverage.json) |
 | [Practical UI, second edition](practical-ui.md), PU | Hierarchy, color, typography, grouping, composition, controls and forms | [JSON](practical-ui-coverage.json) |
 | [Information Architecture: For the Web and Beyond](information-architecture.md), IA | Finding/understanding, organization, labels, navigation, search, vocabularies, content models and governance | [JSON](information-architecture-coverage.json) |
+| [Information Dashboard Design](dashboard-design.md), DD | Monitoring, metric context, quantitative encodings, comparisons, salience and evaluation | [JSON](dashboard-design-coverage.json) |
 
-The nine coverage manifests together are the source manifest. Each records title,
+The ten coverage manifests together are the source manifest. Each records title,
 authors, edition/year, PDF page count and SHA-256; chapter boundaries, actual read
 ranges and justified exclusions; extraction caveats and rendered figure checks.
 PDF page numbers are one-based. Printed labels can differ and are only supplied
@@ -76,3 +77,11 @@ findability, and a sitemap alone does not specify behavior. Its search tradeoffs
 vocabulary examples, menu-depth advice and 2015 technology assumptions are
 qualified beside the relevant cards. The IA operating contract and concrete data,
 state-restoration and migration checks are this skill's adaptations.
+
+Information Dashboard Design strengthens quantitative display reasoning. Its
+single-screen definition is applied as a concurrent-comparison goal, not a ban on
+accessible scrolling or enlarged text. Historical dual-axis, palette, hover,
+blinking and coached-testing advice is explicitly qualified. Metric contracts,
+freshness/error states and accessible drill-down are operational extensions. The
+supplied reflowed PDF shares one chapter boundary page; its manifest records that
+boundary explicitly rather than assigning false printed-page numbers.

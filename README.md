@@ -8,7 +8,7 @@ result:
 **goals → journeys → relevant patterns → visual direction → build → evaluation**
 
 It researches real apps on [Mobbin](https://mobbin.com) when that connector is
-available, grounds its choices in nine design books, recommends a
+available, grounds its choices in ten design books, recommends a
 direction instead of listing options, and checks the running result rather than
 trusting a static mockup. Mobbin is useful but not required.
 
@@ -24,6 +24,9 @@ trusting a static mockup. Mobbin is useful but not required.
   search and metadata before choosing layouts. It distinguishes known-item lookup,
   exploration, comprehensive retrieval and re-finding, and checks the data and
   maintenance needed to support proposed features.
+- **Makes data displays interpretable.** It connects metric definitions and valid
+  comparisons to chart encodings, scales, context and follow-up actions. Historical
+  one-screen advice never overrides legibility or accessible mobile layouts.
 - **Researches with intent.** Mobbin searches answer specific open decisions. What
   it sees there counts as evidence that a convention exists, not proof that it is
   usable. It records links and the limits of what it observed, then says what to
@@ -46,7 +49,7 @@ trusting a static mockup. Mobbin is useful but not required.
 
 ## The books behind it
 
-The method draws on nine books. Each has a dossier in
+The method draws on ten books. Each has a dossier in
 [`references/sources/`](skills/mobbin-design-director/references/sources/README.md):
 an original, decision-oriented summary of lessons with principle IDs, plus a
 coverage file recording chapter-by-chapter reading, exclusions and figure checks.
@@ -62,8 +65,9 @@ coverage file recording chapter-by-chapter reading, exclusions and figure checks
 | [Interaction Design: Beyond Human–Computer Interaction](skills/mobbin-design-director/references/sources/interaction-design.md) | Yvonne Rogers, Helen Sharp, Jennifer Preece | 6th, 2023 | Conceptual models, emotional and contextual interaction, prototype fidelity |
 | [Practical UI](skills/mobbin-design-director/references/sources/practical-ui.md) | Adham Dannaway | 2nd, 2024 | Hierarchy, color, typography, grouping, controls and forms |
 | [Information Architecture: For the Web and Beyond](skills/mobbin-design-director/references/sources/information-architecture.md) | Louis Rosenfeld, Peter Morville, Jorge Arango | 4th, 2015 | Finding and understanding, organization, labels, navigation, search, metadata, content models and governance |
+| [Information Dashboard Design](skills/mobbin-design-director/references/sources/dashboard-design.md) | Stephen Few | 1st, 2006 | Monitoring decisions, meaningful metrics, chart encoding, comparisons, salience and dashboard evaluation |
 
-The lessons are collected in a registry of 216 principles
+The lessons are collected in a registry of 244 principles
 ([`principles.json`](skills/mobbin-design-director/references/principles.json)),
 each with its triggers, exceptions and review questions. A
 [coverage workflow](skills/mobbin-design-director/references/coverage.md) uses it to
@@ -84,7 +88,8 @@ extracted book text or book image is included. See
 ```
 skills/mobbin-design-director/
   SKILL.md            compact entrypoint: the working loop and modes
-  references/         topic modules (goals, flows, information-architecture, cognition, research, synthesis,
+  references/         topic modules (goals, flows, information-architecture, dashboards, cognition,
+                      research, synthesis,
                       visual, taste, input, touch, ios, web, quality, review,
                       critic prompt, agents), loaded only as needed via index.md
   references/sources/ book dossiers and coverage manifests

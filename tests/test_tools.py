@@ -92,6 +92,27 @@ class ToolTests(unittest.TestCase):
             dossier.write_text(dossier.read_text() + '\n### AF-02 — Missing from registry\n')
             self.assertTrue(any('AF-02: missing registry entry' in e for e in validator.validate(root)[0]))
 
+    def test_reflowed_chapters_require_documented_single_shared_page(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); fixture(root)
+            p = root / 'references/sources/about-face-coverage.json'
+            data = json.loads(p.read_text())
+            ch = data['chapters'][1]
+            ch.update(pdf_start=1, read_pdf_ranges=[[1, 2]])
+            p.write_text(json.dumps(data))
+            self.assertTrue(validator.validate(root)[0])
+            ch.update(shared_boundary_page=1, boundary_note='Previous chapter ends before this heading on page 1.')
+            p.write_text(json.dumps(data))
+            self.assertEqual(validator.validate(root)[0], [])
+            for change in [dict(shared_boundary_page=2), dict(boundary_note=''),
+                           dict(pdf_start=0), dict(pdf_start=2),
+                           dict(shared_boundary_page=True)]:
+                with self.subTest(change=change):
+                    mutated = copy.deepcopy(data)
+                    mutated['chapters'][1].update(change)
+                    p.write_text(json.dumps(mutated))
+                    self.assertTrue(validator.validate(root)[0])
+
     def test_validation_checks_supplemental_reading_and_exclusions(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory); fixture(root)

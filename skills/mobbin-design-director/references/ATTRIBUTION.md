@@ -70,7 +70,8 @@ for Mobile Interfaces (2021). v2.2 adds Yvonne Rogers, Helen Sharp and Jennifer
 Preece's Interaction Design: Beyond Human–Computer Interaction (6th ed., 2023)
 and Adham Dannaway's Practical UI (2nd ed., 2024). v2.3 adds Louis Rosenfeld,
 Peter Morville and Jorge Arango's Information Architecture: For the Web and Beyond
-(4th ed., 2015). Bibliographic identity, file hashes,
+(4th ed., 2015). v2.4 adds Stephen Few's Information Dashboard Design:
+The Effective Visual Communication of Data (1st ed., 2006). Bibliographic identity, file hashes,
 page locators, reading coverage, exclusions, and visual checks are maintained in
 [the source index](sources/README.md). The books and their illustrations retain
 their respective copyrights; no PDF, raw extraction, or book image is distributed

@@ -11,7 +11,7 @@ import re
 import sys
 
 DOMAINS = set('goals flows cognition content visual accessibility recovery platform research evaluation'.split())
-TAGS = set('core onboarding navigation selection comparison input persistence interruption permissions errors latency content visual motion accessibility localization data expert discovery evaluation implementation touch findability labeling search taxonomy metadata'.split())
+TAGS = set('core onboarding navigation selection comparison input persistence interruption permissions errors latency content visual motion accessibility localization data expert discovery evaluation implementation touch findability labeling search taxonomy metadata dashboard charts metrics monitoring'.split())
 PLATFORMS = {'ios', 'web'}
 STAGES = {'frame', 'research', 'design', 'build', 'verify'}
 METHODS = {'source', 'runtime', 'visual', 'participant', 'inspection'}

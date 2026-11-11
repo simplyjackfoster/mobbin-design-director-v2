@@ -28,6 +28,18 @@ coverage, ranking quality, populated fields, filter logic, or comprehension.
 Carry those claims into source/runtime or participant checks as appropriate.
 Source rationale: [IA-02, IA-09, IA-13–22 and IA-24–26](sources/information-architecture.md).
 
+## Dashboard reference questions
+
+Use [dashboards](dashboards.md) to define the monitoring question before collecting
+widget examples. Inspect metric context, actual-versus-target cues, paired values,
+scales, comparison groups and exception prominence. Compare the same underlying
+data/question when judging alternatives. An attractive gauge or trend screenshot
+cannot establish calculation correctness, compatible periods, source freshness,
+alert handling or drill-down continuity. Retrieve the relevant
+[DD source cards](sources/dashboard-design.md), then check the underlying data and
+runtime where those claims matter. Do not import a vendor's metric list as product
+requirements or treat the book's critique examples as measured user outcomes.
+
 ## Touch-specific reference questions
 
 Use [touch](touch.md) when the open question concerns target separation, an apparent

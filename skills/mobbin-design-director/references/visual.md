@@ -9,6 +9,10 @@ rules. Rationale: [Designing Interfaces](sources/designing-interfaces.md),
 ## Compose with real content
 
 Use realistic text, numbers, image proportions, and long/short content early.
+For dashboards, charts and metric cards, resolve the measure, comparison, encoding
+and scope using [dashboards](dashboards.md) before composing the widgets. Attractive
+data presentation can still be misleading through mismatched periods, scales or
+missing context. Keep necessary labels, units and uncertainty visible.
 Specify what the eye should encounter first, what follows, and which action or
 information should remain available. A single dominant element can be useful;
 comparison and expert work may require a balanced field instead.
