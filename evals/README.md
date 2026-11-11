@@ -53,6 +53,12 @@ modified by evaluation. An isolated prototype is not a shipping product change.
 - [Psychology in context](psychology-context/prompt.md): named-law misuse in navigation, acquisition, salience and migration.
 - [Honest feedback and agency](psychology-honest-feedback/prompt.md): ambiguous input, automation, asynchronous work and manipulative completion/retention proposals.
 
+- [Visual craft under constraints](visual-craft-constraints/prompt.md): content-led
+  widths, independent responsive sizing, semantic headings and contrast-preserving
+  emphasis without literal book rules.
+- [Visual craft with variable content](visual-craft-content/prompt.md): stateful depth,
+  optical assets, uploads, empty causes and component task contracts.
+
 Reports state exact runtime coverage, untested accessibility/hardware conditions,
 source audit scope, and host limitations. Structural validation and tool unit tests
 are separate from these behavioral evaluations.

@@ -24,6 +24,13 @@ Separate requirements (compare total costs) from premature solutions (three
 pricing cards). Ask the owner about product intent only when missing information
 changes the solution materially; otherwise state a working assumption and proceed.
 
+When a new feature is stalled on shell or navigation styling, sketch one useful
+feature slice with real inputs, content and a completion state. Keep enough of
+the journey and shared dependencies visible to avoid designing an isolated dead
+end; then refine it in the target medium before expanding speculative screens.
+This applies [RU-01](sources/refactoring-ui.md), pp. 8–19, without overriding
+approved architecture or the [flow model](flows.md).
+
 ## Keep evidence kinds visible
 
 | Kind | Supports | Does not establish |

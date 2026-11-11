@@ -12697,6 +12697,540 @@
         ],
         "question": "For each relevant consequential scenario, does the design preserve understanding and a feasible escape or correction path, and is retained friction proportionate to the consequence?"
       }
+    },
+    {
+      "id": "RU-01",
+      "title": "Resolve a useful feature slice before speculative shell styling",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-01 — Resolve a useful feature slice before speculative shell styling"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "flows"
+      ],
+      "tags": [
+        "discovery",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A new feature is stalled on app chrome or many speculative mockups."
+      ],
+      "exceptions": "This is not a ban on up-front information architecture, journey modeling or approved navigation. Grayscale and paper are optional tools; low fidelity is useful only while it answers the question.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Does the slice complete a useful task, and are consequential cross-feature dependencies still represented?"
+      },
+      "related": [
+        "AF-01",
+        "ID-17"
+      ],
+      "routes": [
+        "references/goals.md",
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-02",
+      "title": "Compare bounded choices in the real component",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-02 — Compare bounded choices in the real component"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual"
+      ],
+      "tags": [
+        "visual",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Spacing, sizing or token choices are drifting through nearly indistinguishable adjustments."
+      ],
+      "exceptions": "The sample base size, progression and approximate percentage step are examples, not invariants. Reuse the approved system; do not impose a new grid, prohibit fractional values, or require a complete token library before work begins.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Can the selected value be explained by its role and compared in context, rather than by an arbitrary pixel nudge?"
+      },
+      "related": [
+        "PU-01"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-03",
+      "title": "Rebalance competing visual weight before enlarging the focus",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-03 — Rebalance competing visual weight before enlarging the focus"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "cognition"
+      ],
+      "tags": [
+        "visual"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "The main task loses attention despite large type, or icons and surfaces overpower adjacent content."
+      ],
+      "exceptions": "Supporting content still needs contrast, readability and discoverability. Required control boundaries cannot disappear. The book’s claim that icon weight cannot be changed is not universal; style families and native symbols may provide weight variants.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Does the task become clearer while supporting content and control states remain readable and recognizable?"
+      },
+      "related": [
+        "PU-09"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-04",
+      "title": "Separate visual prominence from semantic structure",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-04 — Separate visual prominence from semantic structure"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "content",
+        "accessibility"
+      ],
+      "tags": [
+        "visual",
+        "labeling"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Utility headings, label/value pairs or destructive actions dominate solely because of their type."
+      ],
+      "exceptions": "Do not remove persistent form labels, units, periods, distinguishing terms or important visible headings. A quiet destructive entry still needs intelligible meaning and risk-appropriate handling; the example confirmation is not mandatory for every reversible action. Equally valid choices must not be hidden.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Can a reader find the relevant field and understand its meaning, and can assistive navigation still identify headings and actions?"
+      },
+      "related": [
+        "PU-15",
+        "PU-17",
+        "PU-20",
+        "PU-22"
+      ],
+      "routes": [
+        "references/visual-craft.md",
+        "references/web.md"
+      ]
+    },
+    {
+      "id": "RU-05",
+      "title": "Size content constraints and responsive proportions independently",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-05 — Size content constraints and responsive proportions independently"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "platform",
+        "accessibility"
+      ],
+      "tags": [
+        "visual",
+        "localization"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A form stretches across a wide viewport, a sidebar changes impractically, or a mobile view is a uniformly shrunk desktop."
+      ],
+      "exceptions": "The grid critique is not a prohibition on CSS Grid. The relative-sizing critique is not a ban on rem/em, fluid layout or user text scaling. Fixed widths must yield to available space and content. Generous whitespace is a starting exploration; dense comparison may be appropriate.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Do the layout and relationships survive intermediate widths, longer strings and enlarged text without shrinking necessary copy or targets?"
+      },
+      "related": [
+        "PU-10",
+        "PU-11",
+        "PU-13"
+      ],
+      "routes": [
+        "references/visual-craft.md",
+        "references/web.md"
+      ]
+    },
+    {
+      "id": "RU-06",
+      "title": "Fit typography scales to actual roles and font behavior",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-06 — Fit typography scales to actual roles and font behavior"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "accessibility",
+        "platform"
+      ],
+      "tags": [
+        "visual",
+        "localization"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A geometric type scale skips a needed UI role or nested components produce unintended text sizes."
+      ],
+      "exceptions": "No mandatory font weight count, geometric ratio, integer size, Latin line-length range or system font stack. Parent-relative units can compound but are not prohibited. Optical tracking and tight heading leading must preserve scripts, accents and enlarged text. Quiet links still need persistent discoverability and focus behavior.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Do the chosen roles render as intended with actual fonts, nested contexts, supported languages and text scaling?"
+      },
+      "related": [
+        "PU-10",
+        "PU-12",
+        "PU-13"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-07",
+      "title": "Construct color ramps through real component roles",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-07 — Construct color ramps through real component roles"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "accessibility"
+      ],
+      "tags": [
+        "visual"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A brand palette lacks useful text, surface, border or interaction-state shades."
+      ],
+      "exceptions": "Palette counts and hue-rotation limits are examples. HSL is an editing aid, not a required format or perceptual/compliance model. The brightness formula on pp. 153–154 is not WCAG relative luminance. Do not forbid true black, recolor meaningful categories, or replace approved color tooling.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Do the light, middle and dark choices solve actual component roles across states rather than only form an attractive swatch strip?"
+      },
+      "related": [
+        "PU-05",
+        "PU-06"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-08",
+      "title": "Reconcile readable contrast with secondary emphasis",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-08 — Reconcile readable contrast with secondary emphasis"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "accessibility"
+      ],
+      "tags": [
+        "visual"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A secondary colored badge becomes dominant, or muted text fails on a colored surface."
+      ],
+      "exceptions": "The p. 162 approximation of an 18px large-text boundary is inaccurate. WCAG 2.2 SC 1.4.3 uses 18pt regular or 14pt bold (or equivalent); apply the project’s current requirements and exceptions. Sample ratios and hue shifts are not reusable guarantees. Lightness differences can be useful cues, but the chart illustration does not establish accessible category mapping.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Can secondary information remain readable while yielding attention to the primary task, with meaningful distinctions independently understandable?"
+      },
+      "related": [
+        "PU-04",
+        "PU-05",
+        "PU-06"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-09",
+      "title": "Make visual depth agree with layer order and state",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-09 — Make visual depth agree with layer order and state"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "platform"
+      ],
+      "tags": [
+        "visual"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A shadow looks muddy or arbitrary, or raised/inset styling conflicts with interaction state."
+      ],
+      "exceptions": "No mandatory light direction, five-shadow scale or photorealistic rendering. Preserve native materials and project conventions. Depth does not supply accessible state semantics or prove behavior; overlap must not obscure controls, focus or essential content.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Do visual elevation and actual state agree, with coherent layer order and unobscured content in supported appearances?"
+      },
+      "related": [
+        "PU-06",
+        "PU-08"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-10",
+      "title": "Validate image text contrast across local variation",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-10 — Validate image text contrast across local variation"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "accessibility"
+      ],
+      "tags": [
+        "visual",
+        "content"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Text overlays a photograph, a variable crop or user imagery."
+      ],
+      "exceptions": "An overlay, global tint, glow or shadow is only a candidate treatment, not contrast proof. Preserve faithful evidence/product imagery; do not recolor it just to match a brand. Decorative photography cannot substitute for explanatory content.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Is text readable over the actual worst relevant crop and wrapping, including missing or changed images?"
+      },
+      "related": [
+        "PU-07",
+        "PU-04"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-11",
+      "title": "Choose image detail and framing for actual rendered use",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-11 — Choose image detail and framing for actual rendered use"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "content"
+      ],
+      "tags": [
+        "visual",
+        "content"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "An optical asset-size mismatch makes a sharp vector look coarse when enlarged, a screenshot loses detail, or an upload crop loses meaning or breaks visual framing."
+      ],
+      "exceptions": "Do not reduce hit targets to match small glyphs, crop meaningful logos/diagrams indiscriminately, or universally convert semantic images to CSS backgrounds. An illustrative reconstruction is not a capture of shipped behavior. Use size-aware scalable families where they fit; the book’s pixel examples are not limits.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Do key details and subjects survive the actual display size and varied uploads, with honest representation and appropriate fallback?"
+      },
+      "related": [
+        "PU-07",
+        "PU-11"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
+    },
+    {
+      "id": "RU-12",
+      "title": "Refine component composition without losing its task contract",
+      "source": {
+        "path": "references/sources/refactoring-ui.md",
+        "heading": "RU-12 — Refine component composition without losing its task contract"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "flows",
+        "content"
+      ],
+      "tags": [
+        "visual"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Default menus, table cells with independent sorting, or empty-state fixtures restrict a useful composition."
+      ],
+      "exceptions": "Custom appearance must retain keyboard, focus, selection and assistive behavior. A rich navigation popover is not automatically an ARIA menu. Do not hide filters needed to recover results or invite creation without permission. Border removal is optional when other cues preserve boundaries and grouping.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "visual"
+        ],
+        "question": "Does the refined component retain its sorting/comparison/selection contract, and does each empty cause offer an appropriate next action?"
+      },
+      "related": [
+        "PU-02",
+        "PU-08",
+        "PU-23",
+        "DI-02"
+      ],
+      "routes": [
+        "references/visual-craft.md"
+      ]
     }
   ]
 }
