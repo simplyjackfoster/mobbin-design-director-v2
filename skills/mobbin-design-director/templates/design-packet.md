@@ -11,6 +11,12 @@ Entry → key actions/responses → completion/return
 Relevant branches: correction, Back/Cancel, failure/retry, interruption/resume
 Draft/saved state and ownership · Unavailable capabilities
 
+For content/navigation/search work, include a compact
+[IA contract](../references/information-architecture.md): information need,
+representative objects/content, organization and labels, browse/search/refind
+paths, metadata/search dependencies, and unresolved evidence. Add ownership or
+migration decisions only when the requested change needs them.
+
 ## Evidence and recommendation
 | Decision | Evidence / source | Fit and tradeoff | Confidence / unknown |
 |---|---|---|---|

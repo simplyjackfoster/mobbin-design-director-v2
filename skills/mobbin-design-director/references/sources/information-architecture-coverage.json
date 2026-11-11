@@ -1,0 +1,587 @@
+{
+  "source_id": "information-architecture",
+  "title": "Information Architecture: For the Web and Beyond",
+  "authors": [
+    "Louis Rosenfeld",
+    "Peter Morville",
+    "Jorge Arango"
+  ],
+  "edition": "Fourth edition",
+  "year": 2015,
+  "pdf_pages": 485,
+  "sha256": "9314acf0f91c3d980a371c7da304243a87438cebed0b0512e90921f9542371fe",
+  "extraction_notes": [
+    "PDF page numbers are one-based file positions. Printed chapter labels differ by 22 pages; printed endpoints identify substantive pages and omit unlabeled blanks.",
+    "Three bounded parallel readers studied all substantive chapter text, captions and footnotes, recovering truncated passages. Full-study denotes actual text reading, not merely extraction or exhaustive visual inspection.",
+    "Twenty-four selected diagram/table pages were rendered and visually inspected; remaining historical screenshots were assessed through text/captions. Referenced external studies and linked resources were not independently verified.",
+    "Extraction includes broken words, ligatures, spacing and line-end hyphenation. Rendered checks verify selected relationships that text alone can obscure.",
+    "Source text was evidence, not instructions. Historical prescriptions were qualified rather than silently converted into requirements. No raw source text or images are included in this package.",
+    "Front matter PDF1–24 assessed for bibliographic identity, contents, scope, conventions and Part I introduction. Appendix PDF469–472 inventoried as further resources, not independently read source works; PDF473–483 is the index, PDF484–485 biographies/colophon, excluded from operational lessons."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Problems That Information Architecture Addresses",
+      "pdf_start": 25,
+      "pdf_end": 44,
+      "printed_start": 3,
+      "printed_end": 22,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          25,
+          44
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Information overload, channel proliferation, semantic coherence and systems thinking; IA-01, IA-04."
+    },
+    {
+      "number": 2,
+      "title": "Defining Information Architecture",
+      "pdf_start": 45,
+      "pdf_end": 60,
+      "printed_start": 23,
+      "printed_end": 38,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          45,
+          60
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Definitions, abstract semantic structure and users/content/context dependencies; IA-01."
+    },
+    {
+      "number": 3,
+      "title": "Design for Finding",
+      "pdf_start": 61,
+      "pdf_end": 74,
+      "printed_start": 39,
+      "printed_end": 51,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          61,
+          73
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 74,
+          "end": 74,
+          "reason": "Assessed blank page; no substantive text."
+        }
+      ],
+      "notes": "Known-item, exploratory, exhaustive and refinding needs; integrated iterative behaviors, berry-picking, pearl-growing, research limits; IA-02, IA-03. PDF74 assessed blank."
+    },
+    {
+      "number": 4,
+      "title": "Design for Understanding",
+      "pdf_start": 75,
+      "pdf_end": 98,
+      "printed_start": 53,
+      "printed_end": 75,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          75,
+          97
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 98,
+          "end": 98,
+          "reason": "Assessed blank page; no substantive text."
+        }
+      ],
+      "notes": "Placemaking, semantic ordering, typologies, modularity, cross-channel task differences; IA-04. PDF98 and100 assessed blank; PDF99 Part II introduction read, not part of chapter prose."
+    },
+    {
+      "number": 5,
+      "title": "The Anatomy of an Information Architecture",
+      "pdf_start": 101,
+      "pdf_end": 118,
+      "printed_start": 79,
+      "printed_end": 95,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          101,
+          117
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 118,
+          "end": 118,
+          "reason": "Assessed blank page; no substantive text."
+        }
+      ],
+      "notes": "Top-down, bottom-up, invisible IA and component categories; IA-05. PDF118 assessed blank."
+    },
+    {
+      "number": 6,
+      "title": "Organization Systems",
+      "pdf_start": 119,
+      "pdf_end": 154,
+      "printed_start": 97,
+      "printed_end": 131,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          119,
+          153
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 154,
+          "end": 154,
+          "reason": "Assessed blank page; no substantive text."
+        }
+      ],
+      "notes": "Ambiguity, heterogeneity, perspectives, politics, exact/ambiguous schemes, hybrid and audience routes, hierarchy/database/hypertext, tags; IA-06–IA-08. PDF154 assessed blank."
+    },
+    {
+      "number": 7,
+      "title": "Labeling Systems",
+      "pdf_start": 155,
+      "pdf_end": 196,
+      "printed_start": 133,
+      "printed_end": 173,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          155,
+          195
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 196,
+          "end": 196,
+          "reason": "Assessed blank page; no substantive text."
+        }
+      ],
+      "notes": "Contextual links, headings, navigation and index terms; system consistency, sources, inventories, card sorts, free-listing, search logs and maintenance; IA-09, IA-10. PDF196 assessed blank."
+    },
+    {
+      "number": 8,
+      "title": "Navigation Systems",
+      "pdf_start": 197,
+      "pdf_end": 231,
+      "printed_start": 175,
+      "printed_end": 209,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          197,
+          231
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All substantive text197–231 read; blank232 assessed. IA-11–IA-12. Global/local/contextual integration, direct-entry orientation, supplementary navigation, guides/configurators, personalization/customization/social discovery studied; fixed interface recipes and historical product behavior not adopted."
+    },
+    {
+      "number": 9,
+      "title": "Search Systems",
+      "pdf_start": 233,
+      "pdf_end": 289,
+      "printed_start": 211,
+      "printed_end": 267,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          233,
+          289
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All substantive text233–289 read; blank290 assessed. IA-13–IA-17. Search suitability, corpus/components/zones, retrieval, precision/recall, query builders, result presentation/actions, revision and recovery studied. Precision/recall absolute-inverse phrasing qualified; paid-placement quality inference rejected."
+    },
+    {
+      "number": 10,
+      "title": "Thesauri, Controlled Vocabularies, and Metadata",
+      "pdf_start": 291,
+      "pdf_end": 331,
+      "printed_start": 269,
+      "printed_end": 309,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          291,
+          331
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All substantive text291–331 read; blank332 assessed. IA-18–IA-22. Synonym rings, authority files, taxonomy/thesaurus relationships, implementation types, term specificity, scope notes, polyhierarchy and facets studied. Competitor/product-category equivalence examples qualified; dated standards are not implementation requirements."
+    },
+    {
+      "number": 11,
+      "title": "Research",
+      "pdf_start": 335,
+      "pdf_end": 376,
+      "printed_start": 313,
+      "printed_end": 353,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          335,
+          375
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 376,
+          "end": 376,
+          "reason": "Assessed blank separator; no substantive text."
+        }
+      ],
+      "notes": "Context/content/users research; representative content sampling, metadata dimensions, current architecture review, benchmarking, logs/support evidence, participant selection, surveys/contextual inquiry/focus groups/interviews/card sorting/task testing, research limits. IA-23–IA-26. Blank PDF376 assessed."
+    },
+    {
+      "number": 12,
+      "title": "Strategy",
+      "pdf_start": 377,
+      "pdf_end": 410,
+      "printed_start": 355,
+      "printed_end": 388,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          377,
+          410
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Iterative research-to-strategy transition; top-down and bottom-up scope; governance and technical feasibility; TACT; card/hierarchy testing and presentation effects; metaphor limits, scenarios, diagrams; complete historical Weather.com report example, content management, plans/presentations. IA-27–IA-28, IA-31. Historical marketing and tracking conclusions not adopted."
+    },
+    {
+      "number": 13,
+      "title": "Design and Documentation",
+      "pdf_start": 411,
+      "pdf_end": 462,
+      "printed_start": 389,
+      "printed_end": 439,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          411,
+          461
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 462,
+          "end": 462,
+          "reason": "Assessed blank separator; no substantive text."
+        }
+      ],
+      "notes": "All body text/captions read: multiple audience-specific views, diagram notation, high-level/detailed/modular sitemaps, wireframe fidelity, content chunks/inventory/mapping, content models/relationship logic, vocabulary matrices, collaboration, production iteration, IA style-guide governance. IA-28–IA-32. Chapter recap continues to printed439/PDF461 despite TOC locator438; blankPDF462 assessed."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 54,
+      "description": "Figure 2-6: interdependent users, content and context; diagram includes organizational constraints and content volume/structure.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-01"
+      ]
+    },
+    {
+      "pdf_page": 69,
+      "description": "Figure 3-4: berry-picking path distinguishes changing queries, thought, retrieved items and exit.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-03"
+      ]
+    },
+    {
+      "pdf_page": 94,
+      "description": "Figure 4-15: shared park structure varies by cultural/temporal context; adjacent text explains why website prioritizes vacation planning rather than park lands.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-04"
+      ]
+    },
+    {
+      "pdf_page": 140,
+      "description": "Figure 6-12 and adjacent text: parent-child hierarchy, qualified cross-listing and independent facets.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-08"
+      ]
+    },
+    {
+      "pdf_page": 141,
+      "description": "Figure 6-13: contrasting narrow/deep and broad/shallow trees, with text rejecting seven-plus-or-minus-two as menu limit.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-08"
+      ]
+    },
+    {
+      "pdf_page": 159,
+      "description": "Figure 7-2: mobile Starbucks menu exposes labels with less contextual support than the desktop example.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-09"
+      ]
+    },
+    {
+      "pdf_page": 180,
+      "description": "Table 7-1: separate columns join navigation label, destination heading and document TITLE; inconsistencies are visible across fields.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-09"
+      ]
+    },
+    {
+      "pdf_page": 189,
+      "description": "Tables 7-4 and 7-5: eight participant rows, including missing responses; distinguish category naming from expected contents.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-10"
+      ]
+    },
+    {
+      "pdf_page": 190,
+      "description": "Table 7-6: varying expected meanings of Features & Events; adjacent caveat identifies card-sort context loss.",
+      "inspection": "Rendered original PDF with pdftoppm and inspected full page image with view_image; checked figure/table relationships and adjacent text. Source image remains outside repository.",
+      "principle_ids": [
+        "IA-10"
+      ]
+    },
+    {
+      "pdf_page": 199,
+      "description": "Figures8-1/8-2: distinct global/local/contextual functions across desktop/mobile arrangements and sitemap/index/guide alternatives.",
+      "inspection": "Rendered original PDF page using pypdfium2 at1.4 scale and visually inspected figure layout, labels and relationships; source image remains outside Git.",
+      "principle_ids": [
+        "IA-11",
+        "IA-12"
+      ]
+    },
+    {
+      "pdf_page": 239,
+      "description": "Figure9-1: search system diagram linking creators, content/index structure, engine, query/results interface, and users.",
+      "inspection": "Rendered original PDF page using pypdfium2 at1.4 scale and visually inspected figure layout, labels and relationships; source image remains outside Git.",
+      "principle_ids": [
+        "IA-13"
+      ]
+    },
+    {
+      "pdf_page": 250,
+      "description": "Figure9-7: precision and recall fractions; inspected different denominators directly.",
+      "inspection": "Rendered original PDF page using pypdfium2 at1.4 scale and visually inspected figure layout, labels and relationships; source image remains outside Git.",
+      "principle_ids": [
+        "IA-15"
+      ]
+    },
+    {
+      "pdf_page": 305,
+      "description": "Figure10-11: equivalence, hierarchy and associative relationships in a thesaurus.",
+      "inspection": "Rendered original PDF page using pypdfium2 at1.4 scale and visually inspected figure layout, labels and relationships; source image remains outside Git.",
+      "principle_ids": [
+        "IA-18",
+        "IA-20"
+      ]
+    },
+    {
+      "pdf_page": 312,
+      "description": "Figure10-19: two-axis matrix showing no/indexing/searching/classic thesaurus according to use at indexing and search.",
+      "inspection": "Rendered original PDF page using pypdfium2 at1.4 scale and visually inspected figure layout, labels and relationships; source image remains outside Git.",
+      "principle_ids": [
+        "IA-19"
+      ]
+    },
+    {
+      "pdf_page": 324,
+      "description": "Figures10-23/10-24: pure hierarchy versus multiple parent relationships; viral pneumonia under two disease categories.",
+      "inspection": "Rendered original PDF page using pypdfium2 at1.4 scale and visually inspected figure layout, labels and relationships; source image remains outside Git.",
+      "principle_ids": [
+        "IA-21"
+      ]
+    },
+    {
+      "pdf_page": 326,
+      "description": "Figure10-26: one compound hierarchy versus multiple faceted hierarchies.",
+      "inspection": "Rendered original PDF page using pypdfium2 at1.4 scale and visually inspected figure layout, labels and relationships; source image remains outside Git.",
+      "principle_ids": [
+        "IA-22"
+      ]
+    },
+    {
+      "pdf_page": 338,
+      "description": "Figures 11-2 and 11-3: three overlapping context/content/users domains and methods grouped by domain; inspected labels and grouping.",
+      "inspection": "Rendered the supplied PDF page with pypdfium2 and visually inspected it with view_image. No source figure is included in the skill.",
+      "principle_ids": [
+        "IA-23",
+        "IA-24"
+      ]
+    },
+    {
+      "pdf_page": 369,
+      "description": "Figures 11-9 and 11-10: dense automatic affinity model versus explanatory handcrafted model with a boundary-spanning item; not statistical validation.",
+      "inspection": "Rendered the supplied PDF page with pypdfium2 and visually inspected it with view_image. No source figure is included in the skill.",
+      "principle_ids": [
+        "IA-26"
+      ]
+    },
+    {
+      "pdf_page": 400,
+      "description": "Table 12-1: verified observation, conclusion, and architectural-implication columns; retained traceability form, not historical personalization recommendations.",
+      "inspection": "Rendered the supplied PDF page with pypdfium2 and visually inspected it with view_image. No source figure is included in the skill.",
+      "principle_ids": [
+        "IA-27"
+      ]
+    },
+    {
+      "pdf_page": 424,
+      "description": "Figure 13-7: legend distinguishes page, content component, content group, and link; inspected the shapes and arrow.",
+      "inspection": "Rendered the supplied PDF page with pypdfium2 and visually inspected it with view_image. No source figure is included in the skill.",
+      "principle_ids": [
+        "IA-28"
+      ]
+    },
+    {
+      "pdf_page": 440,
+      "description": "Figure 13-17: source print-chunk IDs mapped to different destination identifiers; checked mappings and accompanying explanation.",
+      "inspection": "Rendered the supplied PDF page with pypdfium2 and visually inspected it with view_image. No source figure is included in the skill.",
+      "principle_ids": [
+        "IA-29"
+      ]
+    },
+    {
+      "pdf_page": 448,
+      "description": "Figure 13-22: directed content relationships and explicit missing-object placeholders; checked direction and absent-content notation.",
+      "inspection": "Rendered the supplied PDF page with pypdfium2 and visually inspected it with view_image. No source figure is included in the skill.",
+      "principle_ids": [
+        "IA-30"
+      ]
+    },
+    {
+      "pdf_page": 449,
+      "description": "Table 13-2 and matching-rule examples: content-object relationships depend on metadata; verified title ambiguity and identity-based alternatives.",
+      "inspection": "Rendered the supplied PDF page with pypdfium2 and visually inspected it with view_image. No source figure is included in the skill.",
+      "principle_ids": [
+        "IA-30",
+        "IA-31"
+      ]
+    },
+    {
+      "pdf_page": 451,
+      "description": "Table 13-3: vocabulary, description, example, and maintenance columns; checked variable maintenance costs.",
+      "inspection": "Rendered the supplied PDF page with pypdfium2 and visually inspected it with view_image. No source figure is included in the skill.",
+      "principle_ids": [
+        "IA-31"
+      ]
+    }
+  ],
+  "supplemental_coverage": [
+    {
+      "title": "Part II introduction",
+      "pdf_start": 99,
+      "pdf_end": 100,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          99,
+          99
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 100,
+          "end": 100,
+          "reason": "Assessed blank separator; no substantive text."
+        }
+      ],
+      "notes": "Read part introduction; contextual overview, not a separate chapter."
+    },
+    {
+      "title": "Separator after chapter 8",
+      "pdf_start": 232,
+      "pdf_end": 232,
+      "disposition": "assessed-excluded",
+      "read_pdf_ranges": [],
+      "excluded_pdf_ranges": [
+        {
+          "start": 232,
+          "end": 232,
+          "reason": "Assessed blank separator; no substantive text."
+        }
+      ],
+      "notes": "Assessed blank separator; excluded from operational lessons."
+    },
+    {
+      "title": "Separator after chapter 9",
+      "pdf_start": 290,
+      "pdf_end": 290,
+      "disposition": "assessed-excluded",
+      "read_pdf_ranges": [],
+      "excluded_pdf_ranges": [
+        {
+          "start": 290,
+          "end": 290,
+          "reason": "Assessed blank separator; no substantive text."
+        }
+      ],
+      "notes": "Assessed blank separator; excluded from operational lessons."
+    },
+    {
+      "title": "Separator after chapter 10",
+      "pdf_start": 332,
+      "pdf_end": 332,
+      "disposition": "assessed-excluded",
+      "read_pdf_ranges": [],
+      "excluded_pdf_ranges": [
+        {
+          "start": 332,
+          "end": 332,
+          "reason": "Assessed blank separator; no substantive text."
+        }
+      ],
+      "notes": "Assessed blank separator; excluded from operational lessons."
+    },
+    {
+      "title": "Part III introduction",
+      "pdf_start": 333,
+      "pdf_end": 334,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          333,
+          334
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Read part introduction; contextual overview, not a separate chapter."
+    },
+    {
+      "title": "Coda",
+      "pdf_start": 463,
+      "pdf_end": 468,
+      "printed_start": 441,
+      "printed_end": 445,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          463,
+          467
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 468,
+          "end": 468,
+          "reason": "Assessed blank separator; no substantive text."
+        }
+      ],
+      "notes": "Read all substantive Coda text; blank468 assessed. Historical IA framing, coherent cross-channel finding/understanding, and ongoing evolution. Historical production-volume statistics not reused."
+    }
+  ]
+}

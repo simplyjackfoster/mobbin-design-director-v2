@@ -13,7 +13,34 @@ import sys
 
 EXPECTED = {'ux-book': 33, 'about-face': 21, 'designing-interfaces': 12,
             'mind-in-mind': 14, 'inspection-methods': 6, 'touch-design': 13,
-            'interaction-design': 16, 'practical-ui': 8}
+            'interaction-design': 16, 'practical-ui': 8,
+            'information-architecture': 13}
+
+
+def validate_region(region, pdf_pages, label):
+    """Check a chapter or supplemental reading record; return whether partial."""
+    lo, hi = region['pdf_start'], region['pdf_end']
+    if not (1 <= lo <= hi <= pdf_pages):
+        raise ValueError(f'{label}: invalid page range')
+    accounted = set()
+    for start, end in region['read_pdf_ranges']:
+        if not lo <= start <= end <= hi:
+            raise ValueError(f'{label}: read range out of bounds')
+        accounted.update(range(start, end + 1))
+    for excluded in region['excluded_pdf_ranges']:
+        start, end = excluded['start'], excluded['end']
+        if not excluded.get('reason') or not lo <= start <= end <= hi:
+            raise ValueError(f'{label}: invalid exclusion')
+        accounted.update(range(start, end + 1))
+    disposition = region['disposition']
+    if disposition not in ('full-study', 'assessed-excluded', 'partial-study'):
+        raise ValueError(f'{label}: unknown disposition {disposition}')
+    missing = set(range(lo, hi + 1)) - accounted
+    if disposition != 'partial-study' and missing:
+        raise ValueError(f'{label}: {len(missing)} unaccounted pages')
+    if disposition == 'assessed-excluded' and not region.get('notes'):
+        raise ValueError(f'{label}: exclusion needs rationale')
+    return disposition == 'partial-study'
 
 
 def validate(root, allow_partial=False):
@@ -56,26 +83,17 @@ def validate(root, allow_partial=False):
                 if ch['number'] != expected_number or not (previous_end < lo <= hi <= data['pdf_pages']):
                     raise ValueError('invalid chapter order or range')
                 previous_end = hi
-                accounted = set()
-                for start, end in ch['read_pdf_ranges']:
-                    if not lo <= start <= end <= hi:
-                        raise ValueError(f'chapter {expected_number}: read range out of bounds')
-                    accounted.update(range(start, end + 1))
-                for excluded in ch['excluded_pdf_ranges']:
-                    start, end = excluded['start'], excluded['end']
-                    if not excluded.get('reason') or not lo <= start <= end <= hi:
-                        raise ValueError(f'chapter {expected_number}: invalid exclusion')
-                    accounted.update(range(start, end + 1))
-                disposition = ch['disposition']
-                if disposition not in ('full-study', 'assessed-excluded', 'partial-study'):
-                    raise ValueError('unknown disposition ' + disposition)
-                missing = set(range(lo, hi + 1)) - accounted
-                if disposition == 'partial-study':
+                if validate_region(ch, data['pdf_pages'], f'chapter {expected_number}'):
                     partial.append(f'{source} chapter {expected_number}')
-                elif missing:
-                    raise ValueError(f'chapter {expected_number}: {len(missing)} unaccounted pages')
-                if disposition == 'assessed-excluded' and not ch.get('notes'):
-                    raise ValueError('exclusion needs chapter rationale')
+            supplemental = data.get('supplemental_coverage', [])
+            if not isinstance(supplemental, list):
+                raise ValueError('supplemental_coverage must be a list')
+            for region in supplemental:
+                if not isinstance(region, dict) or not region.get('title'):
+                    raise ValueError('supplemental coverage needs a titled record')
+                label = f"supplemental {region['title']}"
+                if validate_region(region, data['pdf_pages'], label):
+                    partial.append(f'{source} {label}')
             for figure in data['figure_checks']:
                 if not 1 <= figure['pdf_page'] <= data['pdf_pages'] or not figure['inspection']:
                     raise ValueError('invalid figure inspection')
@@ -107,7 +125,7 @@ def main():
     errors, partial = validate(args.root.resolve(), args.allow_partial)
     for error in errors:
         print('ERROR:', error)
-    print(f'{len(errors)} errors; {len(partial)} partial chapters; recorded coverage only, not behavioral proof')
+    print(f'{len(errors)} errors; {len(partial)} partial reading records; recorded coverage only, not behavioral proof')
     return bool(errors)
 
 

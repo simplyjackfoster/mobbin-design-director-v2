@@ -15,6 +15,19 @@ contains printed/PDF provenance and applicability limits.
 | The experience feels generic or visually weak | Relative type emphasis, group rhythm, image/content balance, color meaning, surface treatment, character across contrasting states | Identify the useful relationship rather than copy exact styling. Improve hierarchy and asset quality without erasing meaningful expression. Explore a direction stronger than any retrieved screen. | Compose alternatives with the same real task/content; inspect actual size, wrapping, appearances, state changes, and owner preference. | [AF-06/19](sources/about-face.md), [DI-11/12/13/24](sources/designing-interfaces.md), [UX-16/17](sources/ux-book.md) |
 | Errors, waits, or completion leave people uncertain | Status location, preserved input, explanation, next action, retry scope, receipt/return | Retain actionable feedback; reject blame, false success, repeated input, or reassurance that hides uncertainty. Missing captures remain unknown. | Slow/failure/partial-success paths, duplicate actions, interruption, honest completion; measure timing in runtime. | [AF-24](sources/about-face.md), [DI-18/23](sources/designing-interfaces.md), [JJ-05/18](sources/mind-in-mind.md) |
 
+## Information architecture reference questions
+
+For a finding problem, use [information architecture](information-architecture.md)
+to identify the information need and inspect actual content first. In references,
+look for the grouping rule, label-to-destination promise, deep-entry orientation,
+active search scope, distinguishing result fields, and paths to refine or broaden.
+Compare the same information need, rather than two screens both titled “Search.”
+Challenge mixed grouping rules, unexplained synonyms, and attractive filters whose
+metadata requirements do not fit the project. Screens cannot establish index
+coverage, ranking quality, populated fields, filter logic, or comprehension.
+Carry those claims into source/runtime or participant checks as appropriate.
+Source rationale: [IA-02, IA-09, IA-13–22 and IA-24–26](sources/information-architecture.md).
+
 ## Touch-specific reference questions
 
 Use [touch](touch.md) when the open question concerns target separation, an apparent

@@ -40,6 +40,10 @@ modified by evaluation. An isolated prototype is not a shipping product change.
 - Expressive design without an existing system.
 - Routine approved edit without extra process.
 - Missing Mobbin, missing user research, and missing native runtime.
+- [Information library findability](ia-findability/prompt.md) with sparse metadata,
+  ambiguous terms and limited search capabilities.
+- [Cross-channel content model](ia-content-model/prompt.md) with shared identities,
+  multiple classifications, migration and deep-entry requirements.
 - Attractive UI with reproduced flow failures.
 
 Reports state exact runtime coverage, untested accessibility/hardware conditions,

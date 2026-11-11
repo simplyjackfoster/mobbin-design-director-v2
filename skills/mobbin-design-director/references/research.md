@@ -4,6 +4,12 @@ Mobbin supplies examples to examine, not a quality ceiling or user research.
 Famous products can have weak interactions and visual execution. Retain what
 serves this task, improve weaknesses, and reject unsuitable treatments.
 
+For IA decisions, first inspect the project's context, content, and user evidence
+using [information architecture](information-architecture.md). Mobbin can reveal
+visible label, navigation, or result treatments. It cannot supply this product's
+content inventory, users' vocabulary, taxonomy validity, index coverage, or
+retrieval quality. Use reference search to answer the remaining interface question.
+
 Discover the live tools and schemas before calling them. Use screen search for
 composition/states, flow search for journeys, and website-section search for
 marketing sections when available. Match the actual platform. Keep task intent

@@ -30,6 +30,13 @@ notice the action, associate it with the goal, and recognize progress. For visua
 craft inspect hierarchy, grouping, typography, rhythm, character, and coherence
 using real content at actual scale. Preserve successful behavior.
 
+For content, navigation, or search tasks, inspect whether labels predict their
+destinations, real items fit the proposed organization, deep entries retain
+context, and browse/search/refind paths serve the stated information needs.
+Check that proposed facets, counts, aliases, and result scope have content/data
+support. Separate an observed retrieval failure from a hypothesis about user
+understanding; neither attractive screens nor a sitemap proves findability.
+
 Prioritize consequential findings; no minimum count. For each give:
 - Concrete fact and affected task/state, with artifact location.
 - Why it matters and the applicable criterion or source rationale.

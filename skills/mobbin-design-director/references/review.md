@@ -39,6 +39,14 @@ interruption/resume, errors/retry, empty/partial states, and completion. Inspect
 what is carried forward and whether the outcome is clear. Include a neighboring
 screen or transition when a local change can affect it.
 
+For IA changes, also exercise the relevant information needs: known-item lookup,
+exploratory browsing, re-finding, or comprehensive retrieval. Enter through a deep
+link and test orientation, query/scope feedback, filtering, empty results, and
+return from detail as applicable. Inspect content and indexing dependencies where
+they determine behavior. Use the [IA module](information-architecture.md) for
+method selection; a card sort, expert walkthrough, and participant findability
+test answer different questions.
+
 Record action, expected response, actual response, and evidence for important
 checks. Distinguish fixture launches from actual transition tests. Do not infer
 state persistence or responsiveness from static captures. If the toolchain is
