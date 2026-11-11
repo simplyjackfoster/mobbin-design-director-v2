@@ -15,8 +15,9 @@ use does not require the PDFs.
 | [Touch Design for Mobile Interfaces](touch-design.md), TD | Grip/context, actual hit regions, occlusion, neighboring actions, mobile disclosure | [JSON](touch-design-coverage.json) |
 | [Interaction Design, sixth edition](interaction-design.md), ID | Conceptual models, emotional and contextual interaction, evidence, prototype fidelity and evaluation | [JSON](interaction-design-coverage.json) |
 | [Practical UI, second edition](practical-ui.md), PU | Hierarchy, color, typography, grouping, composition, controls and forms | [JSON](practical-ui-coverage.json) |
+| [Information Architecture: For the Web and Beyond](information-architecture.md), IA | Finding/understanding, organization, labels, navigation, search, vocabularies, content models and governance | [JSON](information-architecture-coverage.json) |
 
-The eight coverage manifests together are the source manifest. Each records title,
+The nine coverage manifests together are the source manifest. Each records title,
 authors, edition/year, PDF page count and SHA-256; chapter boundaries, actual read
 ranges and justified exclusions; extraction caveats and rendered figure checks.
 PDF page numbers are one-based. Printed labels can differ and are only supplied
@@ -68,3 +69,10 @@ Operational templates, routing, confidence categories, and review thresholds are
 this skill's synthesis, not quotations or claims that all authors prescribe them.
 Only independently supported lessons belong here. Product preferences stay in
 the relevant project's memory.
+
+Information Architecture adds content and retrieval structure to the existing
+interaction guidance: a successful transaction flow alone does not establish
+findability, and a sitemap alone does not specify behavior. Its search tradeoffs,
+vocabulary examples, menu-depth advice and 2015 technology assumptions are
+qualified beside the relevant cards. The IA operating contract and concrete data,
+state-restoration and migration checks are this skill's adaptations.

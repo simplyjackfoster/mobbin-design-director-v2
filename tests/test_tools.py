@@ -1,4 +1,5 @@
 import base64
+import copy
 import importlib.util
 import json
 from pathlib import Path
@@ -90,6 +91,39 @@ class ToolTests(unittest.TestCase):
             dossier = root / 'references/sources/about-face.md'
             dossier.write_text(dossier.read_text() + '\n### AF-02 — Missing from registry\n')
             self.assertTrue(any('AF-02: missing registry entry' in e for e in validator.validate(root)[0]))
+
+    def test_validation_checks_supplemental_reading_and_exclusions(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); fixture(root)
+            p = root / 'references/sources/about-face-coverage.json'
+            data = json.loads(p.read_text())
+            data['pdf_pages'] = 23
+            data['supplemental_coverage'] = [dict(title='Coda', pdf_start=22,
+                pdf_end=23, disposition='full-study', read_pdf_ranges=[[22, 22]],
+                excluded_pdf_ranges=[dict(start=23, end=23, reason='Blank separator.')],
+                notes='Coda read; blank separator assessed.')]
+            p.write_text(json.dumps(data))
+            self.assertEqual(validator.validate(root)[0], [])
+            for change in [
+                dict(read_pdf_ranges=[[999, 1000]]),
+                dict(read_pdf_ranges=[]),
+                dict(pdf_end=999),
+                dict(disposition='complete'),
+                dict(excluded_pdf_ranges=[dict(start=23, end=23, reason='')]),
+                dict(excluded_pdf_ranges=[dict(start=24, end=24, reason='Blank')]),
+                dict(disposition='assessed-excluded', notes=''),
+            ]:
+                with self.subTest(change=change):
+                    mutated = copy.deepcopy(data)
+                    mutated['supplemental_coverage'][0].update(change)
+                    p.write_text(json.dumps(mutated))
+                    self.assertTrue(validator.validate(root)[0])
+            data['supplemental_coverage'][0].update(disposition='partial-study', read_pdf_ranges=[])
+            p.write_text(json.dumps(data))
+            errors, partial = validator.validate(root)
+            self.assertTrue(any('Incomplete study' in e for e in errors))
+            self.assertEqual(partial, ['about-face supplemental Coda'])
+            self.assertEqual(validator.validate(root, allow_partial=True), ([], partial))
 
     def test_sync_dry_run_backup_and_content_hash(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -8,7 +8,8 @@ every invocation.
 |---|---|
 | Avoid missing lessons, select task checks, track departures and evidence | [Coverage workflow](coverage.md), [principle registry](principles.json) |
 | Who is this for? What outcome matters? Research is missing | [Goals and evidence](goals.md) |
-| New journey, navigation, interruption, recovery, information architecture | [Flows](flows.md), then relevant [playbook](playbooks.md) |
+| New journey, interruption, recovery, state continuity | [Flows](flows.md), then relevant [playbook](playbooks.md) |
+| Information architecture, findability, content structure, taxonomy, labels, navigation, search, facets, metadata | [Information architecture](information-architecture.md); retrieve relevant IA source cards |
 | Confusing, dense, hard to learn or remember | [Cognition](cognition.md) |
 | Find, critique, and improve references; Mobbin unavailable | [Research](research.md) |
 | Translate book principles into observable research questions | [Research lenses](research-lenses.md) |

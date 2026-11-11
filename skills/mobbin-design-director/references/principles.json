@@ -8773,6 +8773,1455 @@
         "references/flows.md",
         "references/review.md"
       ]
+    },
+    {
+      "id": "IA-01",
+      "title": "Balance users, content, and organizational context",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-01 — Balance users, content, and organizational context"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "content",
+        "research"
+      ],
+      "tags": [
+        "content",
+        "discovery",
+        "taxonomy"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design"
+      ],
+      "triggers": [
+        "Defining navigation, restructuring a content-rich product, or deciding whether a reference app's architecture fits."
+      ],
+      "exceptions": "This is a lens for the current decision, not a mandatory discovery phase for every change. User goals remain central, but an architecture whose metadata nobody can maintain will fail. Do not copy a competitor's structure or expose an internal org chart merely because it is convenient for the organization.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can the proposed grouping be explained in terms of actual user needs, content properties and feasible upkeep? What changes when the collection grows or ownership is distributed?"
+      },
+      "related": [
+        "AF-01",
+        "UX-02"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-02",
+      "title": "Match finding support and success criteria to the information need",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-02 — Match finding support and success criteria to the information need"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "findability",
+        "search",
+        "discovery",
+        "navigation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Designing a directory, catalog, help center, research tool, recommendations or saved-item experience."
+      ],
+      "exceptions": "These are useful recurring needs, not exhaustive or fixed user types. A single person can switch needs during a session. Do not add every finding feature to a small product, or insist every exploratory journey has one predetermined destination.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "What counts as enough information for this scenario? Can someone who lacks the exact term begin, someone with an exact target reach it, and a returning person recover a useful item where those needs are in scope?"
+      },
+      "related": [
+        "DI-05"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "IA-03",
+      "title": "Support learning across search, browse and asking",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-03 — Support learning across search, browse and asking"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "content",
+        "recovery"
+      ],
+      "tags": [
+        "findability",
+        "search",
+        "navigation",
+        "discovery"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "A finding journey requires refinement, category exploration, related items, or a handoff to human help."
+      ],
+      "exceptions": "A direct factual lookup may need only a short path. A related-item recommendation must have a defensible relationship; neither a decorative carousel nor a speculative AI answer proves that relation. Asking is an architectural option, not permission to contact anyone or promise unavailable support.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Starting from a useful result, can the person refine, broaden, discover related material and return with their context intact? Are the collection and query scope clear at each transition?"
+      },
+      "related": [
+        "DI-05"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "IA-04",
+      "title": "Preserve semantic coherence while adapting channels and change rates",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-04 — Preserve semantic coherence while adapting channels and change rates"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "flows",
+        "platform"
+      ],
+      "tags": [
+        "navigation",
+        "content",
+        "localization"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "The same service spans native app, web, support or physical touchpoints, or a redesign changes the product's major sections."
+      ],
+      "exceptions": "Coherence does not require identical tabs, screen layouts or top-level ordering everywhere. Familiar patterns provide orientation but do not prohibit useful differentiation or expressive design. A metaphor may explain a domain while falsely implying capabilities; preserve its explanatory value without inheriting those false promises. Do not redesign all channels during a narrow requested edit.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can a person recognize the same object and its meaning across the relevant channels? Does each channel prioritize its own task without unexplained renaming? Can a plausible new content type fit without dissolving the existing categories?"
+      },
+      "related": [
+        "AF-08",
+        "ID-02"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "IA-05",
+      "title": "Design from both the overview and the individual content object",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-05 — Design from both the overview and the individual content object"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "content",
+        "navigation",
+        "metadata",
+        "findability"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Search, notifications, shared links or external links can bring people directly into a detail screen or document."
+      ],
+      "exceptions": "Not every detail requires global chrome or every metadata field on screen. Local context can be sufficient; exposing internal implementation is not the objective. A polished homepage cannot compensate for contextless deep entries, but a rich content model does not eliminate a useful overview either.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "On direct entry, can someone identify this item's type, context and available onward paths? Do proposed filters and related links have populated fields or relationships behind them? Is missing support recorded as a dependency?"
+      },
+      "related": [
+        "DI-05"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "IA-06",
+      "title": "Choose organization schemes for the way people seek information",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-06 — Choose organization schemes for the way people seek information"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "cognition"
+      ],
+      "tags": [
+        "taxonomy",
+        "content",
+        "findability"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing category boundaries, sorting, browsing options, or how to combine unlike content types."
+      ],
+      "exceptions": "An alphabetic list is not necessarily useful to someone who lacks the target name; a topical tree is not automatically better for exact lookup. Geographic boundaries and naming can be contested. Multiple routes add maintenance and should answer real needs, not every conceivable perspective. Internal political compromises are constraints to disclose, not evidence that a grouping serves users.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Can a content owner classify representative and ambiguous items consistently? Can intended users predict where those items belong, including items at different levels of granularity? Is the scheme explained independently of its menu presentation?"
+      },
+      "related": [
+        "DI-05"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-07",
+      "title": "Keep hybrid and audience routes understandable",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-07 — Keep hybrid and audience routes understandable"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "cognition",
+        "flows"
+      ],
+      "tags": [
+        "taxonomy",
+        "navigation",
+        "permissions"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "A menu mixes tasks, topics, audiences, formats or metaphors, or asks people to choose a role before seeing content."
+      ],
+      "exceptions": "Do not reject a useful global task link merely to achieve taxonomic purity. Role-specific experiences can be appropriate for genuine permissions or subscription differences. The issue is whether the structure remains predictable for actual tasks and overlapping roles, not whether every navigation label has the same grammatical form.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Can someone explain the grouping rule without reading every option? Can a student who is also doing research reach relevant resources without creating a new identity or assuming they are excluded? Is an access restriction backed by actual product policy?"
+      },
+      "related": [
+        "AF-01"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-08",
+      "title": "Combine structures without rigid menu-count or depth rules",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-08 — Combine structures without rigid menu-count or depth rules"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "taxonomy",
+        "metadata",
+        "navigation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Designing a large hierarchy, a structured catalog, cross-listing, facets, related links or user tagging."
+      ],
+      "exceptions": "Hierarchy is a starting option, not a mandate for every product. Free tags can reveal user language and support social discovery but do not automatically supply consistent classification. The source's later warning about more than two or three levels is a dated heuristic, not a click-count acceptance test; a longer understandable route can outperform a short ambiguous one. Market outcomes of named tagging services are not proof of a general causal claim.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can users understand the current scope and move to useful alternatives without losing their bearings? Are cross-listings intentional, metadata fields populated, and tag-based recommendations distinguishable from curated structure? Does each level make a meaningful decision easier?"
+      },
+      "related": [
+        "DI-05"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-09",
+      "title": "Design a labeling system and check destination promises",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-09 — Design a labeling system and check destination promises"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "cognition",
+        "accessibility"
+      ],
+      "tags": [
+        "labeling",
+        "navigation",
+        "localization"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Renaming navigation, defining a new category set, using icons alone, or finding inconsistent link and page names."
+      ],
+      "exceptions": "Contextual prose links can legitimately vary; navigation labels need stronger stability because people encounter them repeatedly. Familiar specialist terms may suit a specialist audience. Brand language is acceptable when it remains interpretable; decorative novelty is not evidence of clarity. A justified mixed task/topic global menu need not be rewritten solely for grammatical uniformity.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Before activating an important link, what content or action would the intended audience predict? Does the destination fulfill that expectation? Do the same words represent the same concept and different words distinguish different concepts across relevant states and channels?"
+      },
+      "related": [
+        "JJ-10"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "IA-10",
+      "title": "Treat candidate labels as hypotheses and maintain the vocabulary",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-10 — Treat candidate labels as hypotheses and maintain the vocabulary"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "research",
+        "evaluation"
+      ],
+      "tags": [
+        "labeling",
+        "taxonomy",
+        "discovery"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "research",
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing terminology without direct evidence, reconciling novice and specialist language, or expanding a taxonomy."
+      ],
+      "exceptions": "Competitor prevalence, an author's suggestion and an automated extraction are candidate sources, not proof of comprehension. Search logs reveal expressed queries but not the complete need or success. Do not claim participants or research that did not occur. Do not infer statistical sufficiency from the source's example counts, create hypothetical product areas merely to fill every gap, or normalize away meaningful audience differences.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "What evidence supports this label, and what remains a hypothesis? Does it work in the real task as well as a card sort? Can plausible new content be classified without an unexplained 'Miscellaneous' bucket, and is there an owner for future changes?"
+      },
+      "related": [
+        "IA-26"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/research.md"
+      ]
+    },
+    {
+      "id": "IA-11",
+      "title": "Orient people who enter anywhere",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-11 — Orient people who enter anywhere"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "content",
+        "platform"
+      ],
+      "tags": [
+        "navigation",
+        "findability"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Navigation, deep links, external search entry, notifications, or a content-heavy redesign."
+      ],
+      "exceptions": "These are semantic roles, not a mandate for three visible bars or desktop navigation on iPhone. A small app may satisfy several roles with one control. Do not force users through ancestors merely because the storage hierarchy has them. Conventional placement and icon examples from 2015 do not set current platform rules.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "From a direct link, can a person explain where they are, distinguish their next destinations, reach relevant related content, and return predictably? Is the orientation claim based on an actual traversal or only a static inspection?"
+      },
+      "related": [
+        "IA-05"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "IA-12",
+      "title": "Offer complementary routes without making personalization the only map",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-12 — Offer complementary routes without making personalization the only map"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "content"
+      ],
+      "tags": [
+        "navigation",
+        "discovery",
+        "findability"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "A large collection, mixed user expertise, guided setup, or personalized discovery."
+      ],
+      "exceptions": "Do not require a sitemap, A–Z index, and tutorial in every product. Tiny environments may need none. Expert or repeated workflows can be burdened by guidance. Recommendations based on incomplete history can be wrong; social popularity can narrow discovery. A user-controlled favorite is different from an inferred recommendation.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "If a recommendation is irrelevant or a person does not share the assumed vocabulary, can they still reach the needed item? Can they exit a guide and revise a configuration without losing useful context?"
+      },
+      "related": [
+        "DI-05"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-13",
+      "title": "Decide whether search can be supported, not just whether it can be drawn",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-13 — Decide whether search can be supported, not just whether it can be drawn"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "research"
+      ],
+      "tags": [
+        "search",
+        "implementation",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Adding search, redesigning a search-heavy product, or proposing search to fix poor navigation."
+      ],
+      "exceptions": "Improving navigation is normally valuable, but search may be a practical interim route through fragmented content when structural repair is unavailable. Small, highly specific collections can still merit search. The book's suggested third-party products, algorithm counts, and historical expectations are not current selection guidance.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "For a representative query, can the team trace the intended item from source content through index and matching to an actionable result? Is a mock search distinguished from an implemented and exercised capability?"
+      },
+      "related": [
+        "IA-25"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-14",
+      "title": "Define the searchable unit and make scope legible",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-14 — Define the searchable unit and make scope legible"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "search",
+        "content",
+        "findability"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Mixed content types, fielded search, results polluted by navigation/boilerplate, or scoped search."
+      ],
+      "exceptions": "The book's navigation-versus-destination distinction is contextual, not a rule to exclude every category page. An overview can be the intended destination. Reviews and discussions may be valuable searchable content for some tasks despite the book's restaurant example. Do not hide useful items solely to obtain a smaller count.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Can someone tell what was searched and intentionally change the scope? Do test queries retrieve the intended entity/field, including a relevant item outside the current zone after broadening?"
+      },
+      "related": [
+        "IA-17"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-15",
+      "title": "Match retrieval tradeoffs to the cost of misses and noise",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-15 — Match retrieval tradeoffs to the cost of misses and noise"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "evaluation"
+      ],
+      "tags": [
+        "search",
+        "findability",
+        "evaluation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Search ranking, query expansion, synonyms, spelling correction, or evaluation of retrieval quality."
+      ],
+      "exceptions": "Precision and recall often trade off under a particular change; they are not universally, mathematically inverse. Ch.9's absolute phrasing is stronger than Ch.10's own qualification. Do not claim corpus-level recall without knowing or estimating the relevant corpus. Existing engine behavior and evidence constrain promises; semantic or AI search still needs evaluation rather than an assumed guarantee.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Which relevant items were missed, which irrelevant items were added, and why? Does a model/SKU/name query retain its intended specificity after normalization or expansion?"
+      },
+      "related": [
+        "IA-18"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "IA-16",
+      "title": "Make results support recognition, judgment, and the next action",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-16 — Make results support recognition, judgment, and the next action"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "visual",
+        "flows"
+      ],
+      "tags": [
+        "search",
+        "comparison",
+        "content"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Search results, resource listings, comparisons, or result ranking/sorting controls."
+      ],
+      "exceptions": "More metadata can bury useful results; do not show all available fields. Popularity, expert recommendations, personal relevance, and paid placement are different signals. Do not imply payment proves quality or relevance, despite the book's favorable PFP speculation. Distinguish commercial promotion from ranking rationale. Historical “best bets” need real editorial ownership, not invented recommendations.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Can a person distinguish similar results and explain the active order? Can they complete the intended next action without opening every result, while retaining essential consequences and provenance?"
+      },
+      "related": [
+        "DI-09"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-17",
+      "title": "Treat search as an iterative finding loop with recovery",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-17 — Treat search as an iterative finding loop with recovery"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "recovery",
+        "content"
+      ],
+      "tags": [
+        "search",
+        "errors",
+        "navigation",
+        "persistence"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Search refinement, zero/many results, autocomplete, advanced search, or transitions between browse and search."
+      ],
+      "exceptions": "A single search field is a default, not a ban on well-labeled structured queries such as origin/destination. Advanced search can be the main workbench for expert tasks. Do not expose engine syntax merely to show technical detail. Autocomplete must not promise an unavailable result, and empty-state suggestions must not disguise an outage as “no matches.” Distinguishing transport/index failures is this skill's operational extension.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "With a misspelling, restrictive filter, empty result, and return from a detail view, can the person revise the search without reconstructing it? Do controls describe their actual scope and supported behavior?"
+      },
+      "related": [
+        "IA-03"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "IA-18",
+      "title": "Accept users' vocabulary while maintaining stable concepts",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-18 — Accept users' vocabulary while maintaining stable concepts"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "cognition"
+      ],
+      "tags": [
+        "labeling",
+        "search",
+        "taxonomy",
+        "localization"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Conflicting labels, synonyms, aliases, acronyms, localized names, misspellings, or content tagging."
+      ],
+      "exceptions": "Retrieval equivalence is context-dependent, not a claim that objects are interchangeable. The book groups competing devices and category names as equivalents in examples; do not silently replace a requested competitor/model with your own product. Related alternatives can be offered with explicit differences. A preferred term must not require users to know internal jargon.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Do actual alternate terms reach the intended concept? Are broad or related matches visibly distinguishable from exact matches, and is a label change possible without breaking references?"
+      },
+      "related": [
+        "IA-09"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-19",
+      "title": "Choose vocabulary architecture according to what can actually be changed",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-19 — Choose vocabulary architecture according to what can actually be changed"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "research"
+      ],
+      "tags": [
+        "search",
+        "taxonomy",
+        "metadata",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Introducing a thesaurus, improving a legacy search system, or integrating external/dynamic content."
+      ],
+      "exceptions": "An indexing-only vocabulary does not automatically understand a user's variants. Query expansion without content tagging can increase noise and depends strongly on mapping quality. A vendor's claim of standards support does not establish compatible APIs, storage formats, or correct behavior. Check current standards only when implementing an actual compliance requirement.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Where is vocabulary applied, what remains unsupported, and can a representative alias be traced through the implemented path? Is the maintenance workload realistic for the people and systems available?"
+      },
+      "related": [
+        "IA-31"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-20",
+      "title": "Model different semantic relationships explicitly",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-20 — Model different semantic relationships explicitly"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "cognition"
+      ],
+      "tags": [
+        "taxonomy",
+        "metadata",
+        "labeling"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Building a taxonomy, related-content network, terminology registry, or shared metadata model."
+      ],
+      "exceptions": "No universal noun-only, plural-only, or compound-term rule fits every context. Task navigation may need verbs; one collection may need a compound term that another can express with independent facets. Do not infer logical inheritance across every parent-child relationship or treat contextual association as equivalence.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can authors consistently classify a realistic ambiguous item? Are parent, alias, and related-item links distinguishable, reciprocal where intended, and useful for the specific finding task?"
+      },
+      "related": [
+        "IA-30"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-21",
+      "title": "Allow multiple routes to one item without multiplying the item",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-21 — Allow multiple routes to one item without multiplying the item"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "taxonomy",
+        "navigation",
+        "persistence"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Content belongs in multiple categories, cross-listing, breadcrumbs, or inconsistent detail destinations."
+      ],
+      "exceptions": "Cross-listing every item everywhere creates noise and maintenance burden. Polyhierarchy is not equivalent to faceted filtering: the first permits multiple parents, while facets describe independent dimensions. The source says navigation context is the only real challenge; implementation also requires deduplication and maintenance discipline, which are operational extensions here.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Do two category routes reach the same item and consistent facts? Can the person return to their original context without confusing that context with the object's only possible parent?"
+      },
+      "related": [
+        "IA-29"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "IA-22",
+      "title": "Build facets from independent descriptive dimensions and usable metadata",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-22 — Build facets from independent descriptive dimensions and usable metadata"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "metadata",
+        "search",
+        "selection",
+        "taxonomy"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Filterable catalogs, document libraries, discovery, or a taxonomy mixing subject, audience, format, and location."
+      ],
+      "exceptions": "A filter panel cannot compensate for absent or unreliable metadata. Do not automatically expose every field or force the book's historical universal facets. Facet independence concerns principles of division, not a guarantee that values are statistically independent. Selection semantics and missing-value handling are this skill's build criteria rather than explicit book rules.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Can representative items be described consistently, including one with missing metadata? Does a user reach the same result set through equivalent browse/search combinations, understand active constraints, and undo an overrestrictive combination?"
+      },
+      "related": [
+        "IA-31"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-23",
+      "title": "Plan research around the missing architectural evidence",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-23 — Plan research around the missing architectural evidence"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "research",
+        "goals",
+        "content"
+      ],
+      "tags": [
+        "discovery",
+        "content",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "research",
+        "design"
+      ],
+      "triggers": [
+        "Planning research for a major redesign with uncertain data, ownership, technical capacity, or user evidence."
+      ],
+      "exceptions": "Do not require interviews, kickoff meetings, all research methods, or a long report for every change. The source’s face-to-face imperative and meeting-size examples are historical working preferences. Existing authorization and access boundaries govern contact with stakeholders. Business goals constrain the design but do not justify inventing user needs.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Does each consequential architectural choice fit the actual user task, content characteristics, and operational capacity? What would fail if an assumed capability or content owner did not exist?"
+      },
+      "related": [
+        "IA-01"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/research.md"
+      ]
+    },
+    {
+      "id": "IA-24",
+      "title": "Study representative content before committing to categories or fields",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-24 — Study representative content before committing to categories or fields"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "research"
+      ],
+      "tags": [
+        "content",
+        "metadata",
+        "discovery",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "research",
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Designing a catalog, library, knowledge base, search/filter system, or migration without a trustworthy understanding of its content."
+      ],
+      "exceptions": "A sample is not a complete migration inventory. Stop exploratory sampling when new examples cease to change the model, while stating its limits; use a complete accounting where the task requires migrating every item. Do not mechanically exclude rare content or impose the book’s suggested sample quantities. A pretty fixture set does not establish that production metadata supports facets.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can the proposed structure accommodate representative, unusually shaped, and important rare content? Which required fields are actually populated, and what will happen to objects that do not fit?"
+      },
+      "related": [
+        "IA-22"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/research.md"
+      ]
+    },
+    {
+      "id": "IA-25",
+      "title": "Diagnose findability using search behavior and support evidence",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-25 — Diagnose findability using search behavior and support evidence"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "research",
+        "evaluation",
+        "content"
+      ],
+      "tags": [
+        "search",
+        "findability",
+        "errors",
+        "evaluation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "research",
+        "verify"
+      ],
+      "triggers": [
+        "Users cannot find content, labels are disputed, queries return zero or excessive results, or analytics are being used to justify navigation changes."
+      ],
+      "exceptions": "Logs reflect the current product and observed population, not all potential needs. Popularity, dwell time, or departure alone do not establish usefulness, frustration, or causation. The source’s analytics product capabilities, tracking suggestions, and typical query-length examples are dated and are not an instruction to collect personal data or adopt surveillance. Missing logs stay an evidence gap.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can the proposed change explain and improve a specific findability failure? Is it repairing the actual cause, and have unchanged cases been considered?"
+      },
+      "related": [
+        "ID-27"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/research.md"
+      ]
+    },
+    {
+      "id": "IA-26",
+      "title": "Choose an IA test for the uncertainty it can resolve",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-26 — Choose an IA test for the uncertainty it can resolve"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "research",
+        "evaluation",
+        "cognition"
+      ],
+      "tags": [
+        "taxonomy",
+        "labeling",
+        "findability",
+        "evaluation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "research",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing category boundaries or labels, validating a new hierarchy, or claiming that a navigation structure is understandable."
+      ],
+      "exceptions": "A successful closed sort does not demonstrate successful navigation, and a successful stripped-down hierarchy test does not establish the finished UI’s usability. Qualitative cluster diagrams and small-sample percentages are not statistical proof. Focus groups can generate ideas but do not substitute for individual task performance. An agent inspection or synthetic sort is not a participant study; do not fabricate sessions or metrics. The source’s card counts, timing, and informal-friend examples are not universal research standards.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Does the evidence method fit the claim? Can intended users find the destination under realistic wording, ambiguity, and entry conditions, or is that still a hypothesis?"
+      },
+      "related": [
+        "WI-07"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/research.md",
+        "references/review.md"
+      ]
+    },
+    {
+      "id": "IA-27",
+      "title": "Turn research into a feasible architectural strategy",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-27 — Turn research into a feasible architectural strategy"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "content",
+        "research"
+      ],
+      "tags": [
+        "discovery",
+        "implementation",
+        "content"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build"
+      ],
+      "triggers": [
+        "Multiple plausible structures, substantial redesign, or research findings that have not become concrete implementation decisions."
+      ],
+      "exceptions": "Do not force a 50-page report, phase gate, or stakeholder presentation into a small task. The book’s 1999 Weather.com case illustrates a reasoning chain; its personalization, anonymous tracking, return-traffic objectives, and platform assumptions are not present-day recommendations. A screenshot or competitor example is not proof of a strategy’s outcomes.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can another contributor tell what changes, why, what supports the choice, and what must be built or maintained to make it real? Is a major unresolved assumption visible rather than hidden behind a diagram?"
+      },
+      "related": [
+        "IA-23"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-28",
+      "title": "Use different artifacts for structure, behavior, and semantics",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-28 — Use different artifacts for structure, behavior, and semantics"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "content"
+      ],
+      "tags": [
+        "navigation",
+        "content",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A sitemap is being treated as a complete specification, a wireframe is mistaken for final visual design, or a team cannot interpret a complex architecture diagram."
+      ],
+      "exceptions": "Do not generate every possible artifact or wireframe every repeated page. Text outlines or tables are acceptable when clearer. A wireframe is neither behavior validation nor the final visual direction; its typography and spacing are provisional unless deliberately specified. The book’s tool and printable-page conventions are dated. Its recommendation to present diagrams does not authorize contacting others.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can the intended implementer distinguish a container, content object, link, and state transition? Are consequential relationships and omissions clear, and do the views agree?"
+      },
+      "related": [
+        "ID-17"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "IA-29",
+      "title": "Map content to destinations without confusing content with containers",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-29 — Map content to destinations without confusing content with containers"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "content",
+        "data",
+        "implementation",
+        "persistence"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Content migration, splitting or combining pages, reusing information across channels, or translating a legacy structure into a new architecture."
+      ],
+      "exceptions": "Do not atomize every sentence or create a complex content system for a handful of static items. The book’s hierarchy-based IDs illustrate traceability, not a requirement to encode changeable hierarchy into permanent IDs. Preserve approved scope and dependencies; a mapping proposal does not authorize deleting or publishing content. Redirect and access-policy checks may be necessary implementation additions, but are not asserted as this passage’s explicit prescription.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Can each required source item be traced to its intended destination or a documented disposition? Does updating reused content reach the correct places without creating contradictory copies?"
+      },
+      "related": [
+        "IA-21"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "IA-30",
+      "title": "Make contextual navigation depend on explicit content relationships",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-30 — Make contextual navigation depend on explicit content relationships"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "metadata",
+        "navigation",
+        "data",
+        "findability"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Related content, product-to-review links, cross-sell, deep-linked detail pages, or a large collection that currently makes users restart at the hierarchy."
+      ],
+      "exceptions": "Manual curated links can suit small collections. Do not imply behavior-based recommendations exist without the necessary data or infer that “related” always means desirable. Popularity-based cross-sell is only one possible relationship. The book’s illustrative compound matching rule is not a guarantee of unique identity. Empty related sections or invented metadata must not conceal unavailable capability.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "For each visible relationship, can the system name its source, matching rule, and target? Does a duplicate-title case link to the right entity, and does missing data degrade honestly?"
+      },
+      "related": [
+        "IA-20"
+      ],
+      "routes": [
+        "references/information-architecture.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "IA-31",
+      "title": "Budget metadata and vocabularies as ongoing product capabilities",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-31 — Budget metadata and vocabularies as ongoing product capabilities"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "goals"
+      ],
+      "tags": [
+        "metadata",
+        "taxonomy",
+        "implementation",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A proposal adds tags, facets, synonyms, cross-links, or fields without specifying how they will be populated and maintained."
+      ],
+      "exceptions": "The source’s sample maintenance ratings are contextual, not universal. Geographic, audience, and product vocabularies may be complex in another environment. Historical Word and LAN workflows are not implementation requirements. Shared/global fields and local/type-specific fields can coexist; centralized uniformity is not automatically best.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Could the proposed filters and links be populated accurately now and maintained as content changes? Which field gives enough user value to justify its authoring and governance cost?"
+      },
+      "related": [
+        "IA-19"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
+    },
+    {
+      "id": "IA-32",
+      "title": "Preserve the architectural rationale and maintain it through growth",
+      "source": {
+        "path": "references/sources/information-architecture.md",
+        "heading": "IA-32 — Preserve the architectural rationale and maintain it through growth"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "evaluation"
+      ],
+      "tags": [
+        "content",
+        "taxonomy",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Content grows after launch, teams add new categories or terms, an organization changes, or a redesign risks discarding working structure."
+      ],
+      "exceptions": "No architecture is permanently correct, but growth is not automatic evidence for wholesale redesign. Do not invent ownership or schedule recurring monitoring without authorization. Documentation effort should fit the product; a small project may need only a few decision entries. Source examples such as mouseover-dependent guidance are historical, not current accessibility requirements.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Could a new contributor add, rename, relate, index, or retire an object without silently breaking findability? Are approved rules, agent defaults, and unresolved assumptions distinguishable?"
+      },
+      "related": [
+        "IA-31"
+      ],
+      "routes": [
+        "references/information-architecture.md"
+      ]
     }
   ]
 }

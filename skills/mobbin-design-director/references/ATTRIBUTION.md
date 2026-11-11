@@ -68,7 +68,9 @@ Interfaces (3rd ed.), Designing with the Mind in Mind (2nd ed.), and Chauncey
 Wilson's User Interface Inspection Methods. v2.1 adds Steven Hoober's Touch Design
 for Mobile Interfaces (2021). v2.2 adds Yvonne Rogers, Helen Sharp and Jennifer
 Preece's Interaction Design: Beyond Human–Computer Interaction (6th ed., 2023)
-and Adham Dannaway's Practical UI (2nd ed., 2024). Bibliographic identity, file hashes,
+and Adham Dannaway's Practical UI (2nd ed., 2024). v2.3 adds Louis Rosenfeld,
+Peter Morville and Jorge Arango's Information Architecture: For the Web and Beyond
+(4th ed., 2015). Bibliographic identity, file hashes,
 page locators, reading coverage, exclusions, and visual checks are maintained in
 [the source index](sources/README.md). The books and their illustrations retain
 their respective copyrights; no PDF, raw extraction, or book image is distributed

@@ -1,6 +1,6 @@
 ---
 name: mobbin-design-director
-description: Design, redesign, implement, or critique iPhone and web screens and complete user flows. Connect user goals, interaction design, Mobbin research, visual direction, and runtime review. Use for meaningful UI work, design options, UX inspections, and research-only requests; keep approved tweaks lightweight. Mobbin access is useful but not required.
+description: Design, redesign, implement, or critique iPhone and web screens and complete user flows. Connect user goals, information architecture, interaction design, Mobbin research, visual direction, and runtime review. Use for meaningful UI work, navigation and findability, design options, UX inspections, and research-only requests; keep approved tweaks lightweight. Mobbin access is useful but not required.
 ---
 
 # Mobbin Design Director
@@ -42,8 +42,10 @@ chosen depth briefly. Read only the relevant modules from the
    work, use [coverage](references/coverage.md) to select relevant lessons, scan all
    design areas, and separate requirements, contextual heuristics, and taste.
 2. **Structure the experience.** For multi-step work, use
-   [flows and IA](references/flows.md) before polishing screens. Map entry,
-   actions, responses, information carried forward, completion, and relevant
+   [flows](references/flows.md) before polishing screens. For content-heavy work,
+   labels, navigation, or search, use [information architecture](references/information-architecture.md):
+   connect information needs, real content, vocabulary, and retrieval paths.
+   Map entry, actions, responses, information carried forward, completion, and relevant
    escape/recovery paths. Separate functional requirements from layout ideas.
 3. **Research the open decisions.** Use [research](references/research.md) before
    Mobbin calls. Ask what references can actually answer; inspect relevant flow

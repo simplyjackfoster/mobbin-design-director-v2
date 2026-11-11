@@ -17,7 +17,8 @@ knowledge. Read relevant source cards for rationale, context, and exceptions.
    they still require contextual judgment. A tag match is not applicability.
 3. Scan all ten areas once: goals, flows, cognition, content, visual, accessibility,
    recovery, platform, research, evaluation. Consider information missing from the
-   brief, including touch/reach, localization, interrupted work, and cross-device
+   brief, including content findability, label meaning, search/index dependencies,
+   touch/reach, localization, interrupted work, and cross-device
    continuity where relevant. Explicitly exclude irrelevant areas with a reason.
 4. For each candidate, apply it, justify a departure, explain non-applicability,
    or keep it unresolved/deferred. Add relevant lessons missed by the tags. Record
@@ -67,7 +68,8 @@ runtime pass for an implementation that was never in scope.
 
 Tags: core, onboarding, navigation, selection, comparison, input, persistence,
 interruption, permissions, errors, latency, content, visual, motion, accessibility,
-localization, data, expert, discovery, evaluation, implementation, touch. Choose actual
+localization, data, expert, discovery, evaluation, implementation, touch, findability,
+labeling, search, taxonomy, metadata. Choose actual
 uncertainties, not every tag. `init` refuses overwrite and creates unresolved
 candidates, never pre-approved passes.
 

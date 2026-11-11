@@ -3,6 +3,13 @@
 Use before screen composition when multiple screens, states, or destinations are
 involved. Keep an existing successful path unless the task calls for changing it.
 
+When the problem is finding or understanding information, use
+[information architecture](information-architecture.md) alongside the flow.
+A task sequence does not define the content model, taxonomy, or search behavior;
+a sitemap does not define state transitions. Connect the two through real objects,
+labels, entry points, and return paths. An approved copy fix does not require an
+architecture redesign.
+
 ## Model the task, then the interface
 
 1. Write a context scenario without control names: trigger, situation, desired

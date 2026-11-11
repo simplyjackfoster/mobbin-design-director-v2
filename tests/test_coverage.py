@@ -112,6 +112,31 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(routine['domains'], [])
         self.assertEqual(self.errors(routine), [])
 
+    def test_ia_topics_route_real_lessons_without_expanding_routine_work(self):
+        skill = ROOT / 'skills/mobbin-design-director'
+        errors, principles = coverage.validate_registry(skill)
+        self.assertEqual(errors, [])
+        for tag, expected in [('findability', 'IA-02'), ('labeling', 'IA-09'),
+                              ('search', 'IA-13'), ('taxonomy', 'IA-20'),
+                              ('metadata', 'IA-22')]:
+            with self.subTest(tag=tag):
+                brief = dict(self.brief, mode='research', tags=[tag])
+                self.assertEqual(coverage.validate_brief(brief), [])
+                packet = coverage.init_packet(brief, skill, principles)
+                rows = {row['id']: row for row in packet['guidance']}
+                self.assertIn(expected, rows)
+                self.assertEqual(rows[expected]['disposition'], 'unresolved')
+                self.assertEqual(rows[expected]['verification']['status'], 'not_verified')
+                routine = coverage.init_packet(dict(brief, depth='routine'), skill, principles)
+                self.assertEqual(routine['guidance'], [])
+
+    def test_ia_search_retrieves_distinct_operational_questions(self):
+        _, principles = coverage.validate_registry(ROOT / 'skills/mobbin-design-director')
+        for query, expected in [('facets', 'IA-22'), ('synonyms', 'IA-18'),
+                                ('migration', 'IA-29'), ('labeling', 'IA-09')]:
+            with self.subTest(query=query):
+                self.assertIn(expected, [p['id'] for p in coverage.search(principles, [query])])
+
     def test_invalid_brief_and_stale_registry(self):
         for field, value in [('platform', 'android'), ('mode', 'publish'), ('tags', ['bogus']), ('tags', None), ('summary', 'TODO')]:
             with self.subTest(field=field, value=value):
@@ -293,7 +318,7 @@ class CoverageTests(unittest.TestCase):
             self.skipTest('Registry authoring in progress')
         errors, records = coverage.validate_registry(root)
         self.assertEqual(errors, [])
-        self.assertEqual(len(records), 184)
+        self.assertEqual(len(records), 216)
 
     def test_new_sources_selective_retrieval_and_routine_boundary(self):
         root = SCRIPT.parents[1]
