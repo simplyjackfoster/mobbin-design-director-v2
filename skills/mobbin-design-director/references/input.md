@@ -73,3 +73,21 @@ one exists. Do not enable an unsafe operation merely to avoid disabled styling.
 Give equally legitimate choices comparable discoverability; a single-primary-action
 heuristic must not conceal cancellation or manufacture the preferred answer
 ([PU-17–18](sources/practical-ui.md)).
+
+## Tolerance and automation with visible meaning
+
+Accept harmless formatting variants when they map unambiguously to the same
+meaning. Preserve the original when useful, show consequential interpretations,
+and let people correct them. Ambiguous dates, amounts, identities or commands need
+clarification rather than silent guessing. Responsive adaptation must preserve
+essential actions at larger text sizes. This applies Postel's principle with
+explicit integrity boundaries ([LU-09–10](sources/laws-of-ux.md)).
+
+Automation should remove reliable mechanical work while keeping relevant context,
+uncertainty and recovery accessible. A smaller form has not reduced effort if the
+user must discover and repair hidden assumptions ([LU-17–18](sources/laws-of-ux.md)).
+Treat the historic Doherty timing figure as context, not a pass/fail budget. Measure
+acknowledgment and completion separately under actual conditions. Never invent
+progress, delay a result to imply effort, or show success before the operation
+confirms it. Use an explicit review step when deliberation is needed
+([LU-19–20](sources/laws-of-ux.md)).

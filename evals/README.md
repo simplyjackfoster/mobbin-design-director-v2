@@ -50,6 +50,9 @@ modified by evaluation. An isolated prototype is not a shipping product change.
 - [Accessible mobile monitoring](dashboard-mobile-context/prompt.md): meaningful
   station comparisons, enlarged text, status encoding and scope-preserving details.
 
+- [Psychology in context](psychology-context/prompt.md): named-law misuse in navigation, acquisition, salience and migration.
+- [Honest feedback and agency](psychology-honest-feedback/prompt.md): ambiguous input, automation, asynchronous work and manipulative completion/retention proposals.
+
 Reports state exact runtime coverage, untested accessibility/hardware conditions,
 source audit scope, and host limitations. Structural validation and tool unit tests
 are separate from these behavioral evaluations.

@@ -11506,6 +11506,1197 @@
         "references/dashboards.md",
         "references/review.md"
       ]
+    },
+    {
+      "id": "LU-01",
+      "title": "Jakob: transfer expectations before copying appearance",
+      "domains": [
+        "cognition",
+        "flows",
+        "research"
+      ],
+      "tags": [
+        "navigation",
+        "discovery"
+      ],
+      "stages": [
+        "frame",
+        "research",
+        "design"
+      ],
+      "related": [
+        "JJ-14",
+        "UX-06",
+        "ID-02"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/cognition.md",
+        "references/research.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-01 — Jakob: transfer expectations before copying appearance"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Jakob law mental models familiar conventions pattern innovation sameness"
+      ],
+      "exceptions": "An established convention may be harmful or inappropriate to this domain. A new interaction is reasonable when its task benefit outweighs relearning and can be demonstrated with users. Do not infer a universal mental model from a popular app or invent research-backed personas.",
+      "verification": {
+        "methods": [
+          "participant",
+          "inspection"
+        ],
+        "question": "Can intended users predict what this familiar or deliberately new interaction will do?"
+      }
+    },
+    {
+      "id": "LU-02",
+      "title": "Jakob: design the transition when learned workflows change",
+      "domains": [
+        "flows",
+        "cognition",
+        "recovery"
+      ],
+      "tags": [
+        "navigation",
+        "persistence",
+        "interruption"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "LU-01",
+        "JJ-14",
+        "DI-17"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/flows.md",
+        "references/review.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-02 — Jakob: design the transition when learned workflows change"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Jakob redesign migration transition returning users changed workflow relearning"
+      ],
+      "exceptions": "Maintaining two experiences has real cost and may be impossible for a safety fix or incompatible data model. Preview and reversion are options, not mandatory release gates. Historical business outcomes in the chapter do not prove a single design change caused them.",
+      "verification": {
+        "methods": [
+          "runtime",
+          "participant"
+        ],
+        "question": "Can returning users complete the old task in the new structure, and does the stated transition or fallback actually preserve the promised state?"
+      }
+    },
+    {
+      "id": "LU-03",
+      "title": "Fitts: evaluate acquisition paths and effective targets",
+      "domains": [
+        "platform",
+        "accessibility",
+        "flows"
+      ],
+      "tags": [
+        "touch",
+        "input",
+        "implementation"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "JJ-17",
+        "PU-19"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/touch.md",
+        "references/input.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-03 — Fitts: evaluate acquisition paths and effective targets"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Fitts law target size distance pointing acquisition label activation screen edge"
+      ],
+      "exceptions": "The historical pointing model is not an end-to-end usability formula. A screenshot cannot establish the hit region. Desktop cursor-edge benefits depend on actual pointer boundaries and do not transfer automatically to touch, multi-display layouts, or embedded windows. Do not enlarge or move a control at the expense of meaning, safety, or readable content.",
+      "verification": {
+        "methods": [
+          "source",
+          "runtime",
+          "participant"
+        ],
+        "question": "Can supported inputs activate the intended effective target along the real task path without a competing action firing?"
+      }
+    },
+    {
+      "id": "LU-04",
+      "title": "Fitts: investigate conditions behind target errors",
+      "domains": [
+        "platform",
+        "recovery",
+        "research"
+      ],
+      "tags": [
+        "touch",
+        "errors",
+        "evaluation"
+      ],
+      "stages": [
+        "research",
+        "design",
+        "verify"
+      ],
+      "related": [
+        "LU-03",
+        "PU-19"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/touch.md",
+        "references/research.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-04 — Fitts: investigate conditions behind target errors"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Fitts human factors grip reach adjacent targets contextual inquiry misselection"
+      ],
+      "exceptions": "One center-accuracy illustration, one grip, or an author anecdote cannot certify comfort or predict this product’s error rate. The chapter’s minimum-size table combines distinct units and contexts; do not copy its WCAG row as a universal requirement. Follow the adopted current standard and platform guidance, then test actual conditions. Never stage distracting field research in unsafe conditions.",
+      "verification": {
+        "methods": [
+          "runtime",
+          "participant",
+          "inspection"
+        ],
+        "question": "Were near misses, opposing actions, and relevant physical conditions examined with evidence appropriate to the claim?"
+      }
+    },
+    {
+      "id": "LU-05",
+      "title": "Miller: make chunks meaningful to the task",
+      "domains": [
+        "cognition",
+        "content",
+        "visual"
+      ],
+      "tags": [
+        "content",
+        "labeling",
+        "comparison"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "related": [
+        "JJ-07",
+        "DD-10",
+        "IA-20"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/cognition.md",
+        "references/information-architecture.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-05 — Miller: make chunks meaningful to the task"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Miller law chunking meaningful groups hierarchy dense content memory"
+      ],
+      "exceptions": "A decorative card is not automatically a meaningful chunk. Expertise, content familiarity, language and task affect what forms a useful unit. Do not force every group to the same size or substitute a numeric quota for information architecture.",
+      "verification": {
+        "methods": [
+          "visual",
+          "participant"
+        ],
+        "question": "Do the groups express task-relevant relationships and preserve the information needed for comparison?"
+      }
+    },
+    {
+      "id": "LU-06",
+      "title": "Miller: distinguish visible choice from memory demand",
+      "domains": [
+        "cognition",
+        "content"
+      ],
+      "tags": [
+        "navigation",
+        "findability",
+        "comparison"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "related": [
+        "LU-05",
+        "JJ-07",
+        "ID-05",
+        "ID-08"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/cognition.md",
+        "references/information-architecture.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-06 — Miller: distinguish visible choice from memory demand"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Miller seven plus minus two 7±2 menu item limit working memory visible navigation"
+      ],
+      "exceptions": "Do not replace seven with four or another universal quota. A large visible menu can still fail through poor information scent, crowded targets or excess search effort; visibility alone does not guarantee usability. Reducing choices requires a task-specific reason.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Does the design address an identified memory or findability demand instead of enforcing a fixed visible-item quota?"
+      }
+    },
+    {
+      "id": "LU-07",
+      "title": "Hick: reduce decision effort for the actual choice",
+      "domains": [
+        "cognition",
+        "flows",
+        "content"
+      ],
+      "tags": [
+        "selection",
+        "comparison",
+        "onboarding",
+        "findability"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "related": [
+        "PU-03",
+        "PU-23",
+        "ID-08"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/input.md",
+        "references/information-architecture.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-07 — Hick: reduce decision effort for the actual choice"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Hick Hyman law choices decision time progressive disclosure choice overload card sorting"
+      ],
+      "exceptions": "The historical stimulus-response formula does not predict an arbitrary purchase, search or expert workflow. More steps can add navigation and memory costs; fewer visible choices can conceal the right answer. The book’s jam-study and streaming examples are accounts, not a universal conversion guarantee. Do not invent measured time savings.",
+      "verification": {
+        "methods": [
+          "participant",
+          "inspection"
+        ],
+        "question": "Does the choice structure support the actual decision and preserve useful alternatives, context and correction?"
+      }
+    },
+    {
+      "id": "LU-08",
+      "title": "Hick: keep the cues that make simplicity understandable",
+      "domains": [
+        "cognition",
+        "content",
+        "flows"
+      ],
+      "tags": [
+        "navigation",
+        "labeling",
+        "discovery"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "related": [
+        "LU-07",
+        "PU-17",
+        "JJ-14"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/cognition.md",
+        "references/input.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-08 — Hick: keep the cues that make simplicity understandable"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Hick oversimplification icon labels abstraction hidden controls contextual cues"
+      ],
+      "exceptions": "More text is not always better: familiar compact controls may work when meaning and accessibility remain clear. Do not prescribe labels for every decorative mark or preserve redundant explanation indefinitely. The chapter’s adjacent app screenshots are examples, not a controlled labeled/unlabeled experiment.",
+      "verification": {
+        "methods": [
+          "visual",
+          "participant"
+        ],
+        "question": "Are enough cues retained to understand the action and finish the full task without guessing?"
+      }
+    },
+    {
+      "id": "LU-09",
+      "title": "Apply Postel’s law through explicit input boundaries",
+      "domains": [
+        "content",
+        "recovery",
+        "research"
+      ],
+      "tags": [
+        "input",
+        "localization",
+        "errors"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "AF-14",
+        "ID-08"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/input.md",
+        "references/research.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-09 — Apply Postel’s law through explicit input boundaries"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Postel robustness principle input tolerance names addresses normalization ambiguous dates",
+        "safe parsing cultural input assumptions interviews"
+      ],
+      "exceptions": "Tolerance is not permission to guess identity, dates, destinations or amounts, weaken required validation, or accept malformed data at a security boundary. Author’s network analogy is not a parser-security prescription. Avoid redundant research for an approved routine correction.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant",
+          "runtime"
+        ],
+        "question": "Can representative valid variants be entered and recovered after error, while ambiguous input receives a clear resolution path rather than a silent guess?"
+      }
+    },
+    {
+      "id": "LU-10",
+      "title": "Preserve a usable baseline when capabilities or content change",
+      "domains": [
+        "platform",
+        "accessibility",
+        "flows"
+      ],
+      "tags": [
+        "input",
+        "localization",
+        "accessibility",
+        "implementation"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "TD-07",
+        "AF-14"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/input.md",
+        "references/web.md",
+        "references/ios.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-10 — Preserve a usable baseline when capabilities or content change"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "progressive enhancement capability denied failed unavailable voice fallback",
+        "text expansion font scaling writing direction resilient layout"
+      ],
+      "exceptions": "A feature can legitimately require a capability; explain that dependency and a viable alternative where one exists. The book’s Amazon example removes lower-priority links as text grows; this does not justify losing essential actions. Its text-expansion ratio is an illustration, not a universal layout multiplier. Do not claim a baseline works for everyone without evidence.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant",
+          "runtime"
+        ],
+        "question": "With the optional capability absent and content expanded, can the intended user still find, complete and recover the essential task?"
+      }
+    },
+    {
+      "id": "LU-11",
+      "title": "Use the peak–end rule to locate evidenced journey risks",
+      "domains": [
+        "goals",
+        "flows",
+        "research"
+      ],
+      "tags": [
+        "discovery",
+        "evaluation",
+        "onboarding"
+      ],
+      "stages": [
+        "frame",
+        "research",
+        "design",
+        "verify"
+      ],
+      "related": [
+        "UX-04",
+        "ID-16",
+        "ID-14"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/flows.md",
+        "references/goals.md",
+        "references/review.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-11 — Use the peak–end rule to locate evidenced journey risks"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "peak end rule journey emotional moments retrospective remembered experience",
+        "journey mapping emotional curve evidence hypothesis owner outcome"
+      ],
+      "exceptions": "The laboratory and medical studies summarized in the book do not prove a fixed averaging formula for every digital journey. A beautiful ending cannot establish that earlier difficulty was harmless, and an invented persona or emotional curve is not participant evidence. Use a compact annotation when a full map adds no decision value.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Which evidenced or explicitly hypothesized moment is being improved, what outcome should change, and how will that be distinguished from a favorable retrospective rating?"
+      }
+    },
+    {
+      "id": "LU-12",
+      "title": "Repair negative peaks and make endings truthful",
+      "domains": [
+        "recovery",
+        "flows",
+        "visual"
+      ],
+      "tags": [
+        "errors",
+        "latency",
+        "content",
+        "motion"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "ID-06",
+        "JJ-05"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/input.md",
+        "references/flows.md",
+        "references/visual.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-12 — Repair negative peaks and make endings truthful"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "negative peak truthful ending completion confirmation pending celebration humor",
+        "peak end failure recovery wait status password constraints"
+      ],
+      "exceptions": "Do not deliberately prolong work, manufacture an emotional peak, conceal service failure or celebrate an unconfirmed outcome to improve recall. The password example illustrates visible constraint feedback, not an endorsement of its historical password policy. Humor and gamification are optional expressive choices, not remedies for loss or distress.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant",
+          "runtime"
+        ],
+        "question": "Can the person tell success from pending or failed work, recover without unnecessary repetition, and finish with the needed outcome and next step clearly available?"
+      }
+    },
+    {
+      "id": "LU-13",
+      "title": "Treat aesthetic–usability as a perception effect to investigate",
+      "domains": [
+        "visual",
+        "evaluation",
+        "cognition"
+      ],
+      "tags": [
+        "visual",
+        "evaluation",
+        "discovery"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "related": [
+        "UX-16",
+        "ID-06",
+        "ID-25"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/visual.md",
+        "references/cognition.md",
+        "references/review.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-13 — Treat aesthetic–usability as a perception effect to investigate"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "aesthetic usability effect apparent ease inherent usability visual appeal trust",
+        "beautiful polished interface perceived usability task success"
+      ],
+      "exceptions": "Do not conclude that attractive products are objectively safe or usable, that disliked styling causes every task failure, or that all interfaces should imitate the book’s Braun/Apple examples. The reported rapid first-impression timing is not a current acceptance threshold, and correlation of ratings is not proof that ornament improves completion.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Which claim is supported by appeal ratings, which by observed behavior, and which remains a hypothesis after the comparison?"
+      }
+    },
+    {
+      "id": "LU-14",
+      "title": "Look past praise when testing a polished interface",
+      "domains": [
+        "evaluation",
+        "research"
+      ],
+      "tags": [
+        "evaluation",
+        "visual",
+        "discovery"
+      ],
+      "stages": [
+        "research",
+        "verify"
+      ],
+      "related": [
+        "ID-24",
+        "ID-25"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/review.md",
+        "references/research.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-14 — Look past praise when testing a polished interface"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "aesthetic masking usability testing praise satisfaction observed task failure",
+        "neutral prompts synthesis observations interpretation participant evidence"
+      ],
+      "exceptions": "Neither praise nor a single hesitation should be discarded to fit a theory. Think-aloud, observation and task wording can influence behavior; record these conditions. Agent inspection and scripted checks cannot become participant findings, and testing does not authorize recruitment or external contact without the user’s request.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Does the report retain material task failures even when satisfaction is high, and connect each proposed fix to observed evidence or an explicitly labeled inference?"
+      }
+    },
+    {
+      "id": "LU-15",
+      "title": "Use von Restorff distinctiveness in service of the user’s decision",
+      "domains": [
+        "visual",
+        "cognition",
+        "goals"
+      ],
+      "tags": [
+        "visual",
+        "selection",
+        "comparison",
+        "errors"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "related": [
+        "DD-11",
+        "JJ-05",
+        "PU-17"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/visual.md",
+        "references/cognition.md",
+        "references/input.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-15 — Use von Restorff distinctiveness in service of the user’s decision"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "von Restorff isolation effect selective attention banner blindness change blindness",
+        "salience destructive button pricing plan notification emphasis"
+      ],
+      "exceptions": "A memorable or clicked element is not necessarily understood, appropriate or beneficial. Do not hide cheaper plans, manufacture popularity or urgency, or turn destructive action into the visually preferred choice merely because it is important. The book’s red Delete example illustrates differentiation; it is not evidence that that treatment prevents accidental deletion in the current flow.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Can the person identify the relevant action and its consequences while still seeing legitimate alternatives, and does the emphasis clarify a user need rather than bias an uninformed choice?"
+      }
+    },
+    {
+      "id": "LU-16",
+      "title": "Verify attention cues without equating gaze with understanding",
+      "domains": [
+        "accessibility",
+        "evaluation",
+        "cognition"
+      ],
+      "tags": [
+        "accessibility",
+        "motion",
+        "visual",
+        "evaluation"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "ID-14",
+        "PU-04",
+        "TD-24"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/review.md",
+        "references/visual.md",
+        "references/cognition.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-16 — Verify attention cues without equating gaze with understanding"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "von Restorff attention contrast noncolor cues reduced motion",
+        "eye tracking fixation heatmap gaze comprehension emotional inference"
+      ],
+      "exceptions": "A fixation, heatmap or glance does not by itself establish understanding, preference, emotion, consent or task success. An agent’s visual scan is not eye tracking. Do not require expensive gaze research when a simpler observation answers the question, or remove all useful emphasis in the name of restraint.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant",
+          "runtime"
+        ],
+        "question": "Does the cue retain its meaning under the relevant accessibility conditions, and are claims about attention, comprehension and emotion limited to the evidence actually collected?"
+      }
+    },
+    {
+      "id": "LU-17",
+      "title": "Tesler’s law: assign complexity without hiding consequential choices",
+      "domains": [
+        "flows",
+        "cognition"
+      ],
+      "tags": [
+        "input",
+        "implementation",
+        "errors"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "AF-01",
+        "DI-23"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/flows.md",
+        "references/input.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-17 — Tesler’s law: assign complexity without hiding consequential choices"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Tesler law conservation complexity repeated entry automation natural language inferred values"
+      ],
+      "exceptions": "Conservation is a design heuristic, not a measured quantity or proof that complexity cannot be eliminated by changing the process. Automation can add verification and recovery work. Historical AI/retail examples do not establish present capability or reliability; do not assume a natural-language interface makes expertise unnecessary.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Can a person see and correct a wrong reused or inferred value before commitment, and does the complete task require less work including recovery?"
+      }
+    },
+    {
+      "id": "LU-18",
+      "title": "Preserve discoverability when disclosing complexity progressively",
+      "domains": [
+        "flows",
+        "cognition",
+        "accessibility"
+      ],
+      "tags": [
+        "discovery",
+        "navigation",
+        "onboarding",
+        "expert"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "LU-17",
+        "AF-01"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/flows.md",
+        "references/cognition.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-18 — Preserve discoverability when disclosing complexity progressively"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Tesler progressive disclosure active user hidden advanced settings contextual guidance"
+      ],
+      "exceptions": "People sometimes do read documentation; the author’s absolute wording is not a universal trait. Hiding choices can move effort into search or recall. The illustrated hover menu is a historical example, not a complete keyboard, touch or assistive-technology specification.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime",
+          "participant"
+        ],
+        "question": "Without a prior tutorial, can the intended person find the needed advanced control and understand its consequence, including from an alternate entry and supported input method?"
+      }
+    },
+    {
+      "id": "LU-19",
+      "title": "Doherty threshold: measure response stages in the actual task",
+      "domains": [
+        "flows",
+        "cognition",
+        "evaluation"
+      ],
+      "tags": [
+        "latency",
+        "implementation",
+        "evaluation"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "JJ-18",
+        "DI-18"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/input.md",
+        "references/review.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-19 — Doherty threshold: measure response stages in the actual task"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Doherty threshold 400ms 400 ms response time latency skeleton loading useful content durable completion"
+      ],
+      "exceptions": "The book’s400ms,100ms and10-second examples are contextual historical guidance, not universal acceptance thresholds or proof of productivity gains. A fast acknowledgment does not establish completed work. Skeletons can mislead if they imply unavailable content, and animation must respect applicable motion/accessibility needs.",
+      "verification": {
+        "methods": [
+          "runtime",
+          "source"
+        ],
+        "question": "Under representative slow conditions, when is input acknowledged, useful work available and the outcome committed; does feedback preserve context without misrepresenting completion?"
+      }
+    },
+    {
+      "id": "LU-20",
+      "title": "Keep perceived progress and optimistic updates truthful",
+      "domains": [
+        "recovery",
+        "flows"
+      ],
+      "tags": [
+        "latency",
+        "errors",
+        "persistence"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "DI-18",
+        "AF-24",
+        "LU-19"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/input.md",
+        "references/flows.md",
+        "references/review.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-20 — Keep perceived progress and optimistic updates truthful"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "Doherty perceived performance fake progress artificial delay optimistic UI rollback pending confirmed"
+      ],
+      "exceptions": "This adaptation deliberately limits the book’s favorable statements about inaccurate progress and artificial delay. Do not fabricate work, completion or precision to manufacture trust. Optimism is unsuitable where a false success indication could cause serious loss or irreversible action; a persistent confirmation can make a fast result understandable without delaying it.",
+      "verification": {
+        "methods": [
+          "runtime",
+          "source"
+        ],
+        "question": "Do slow, failed, canceled and retried requests show the actual state, with a workable correction path and no fabricated progress or hidden extra commitment?"
+      }
+    },
+    {
+      "id": "LU-21",
+      "title": "Turn psychological explanations into revisable product decisions",
+      "domains": [
+        "evaluation",
+        "goals",
+        "cognition"
+      ],
+      "tags": [
+        "evaluation",
+        "implementation",
+        "selection"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "related": [
+        "UX-21",
+        "LU-19"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/synthesis.md",
+        "references/cognition.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-21 — Turn psychological explanations into revisable product decisions"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "psychological laws design principles three choices80 characters goal observation rule heuristic evidence"
+      ],
+      "exceptions": "A named law is not evidence that this design will work for this audience, and matching a law does not validate a team’s chosen limit. The illustrative numbers are not source-derived standards. Routine approved changes do not require a principles workshop or a new document.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Can the team name a real decision the principle changes, its scope and tradeoff, and the observation that would make it revise the rule?"
+      }
+    },
+    {
+      "id": "LU-22",
+      "title": "Build shared design judgment through concrete cases and feedback",
+      "domains": [
+        "goals",
+        "evaluation",
+        "research"
+      ],
+      "tags": [
+        "evaluation",
+        "implementation"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "related": [
+        "LU-21",
+        "WI-05"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/synthesis.md",
+        "references/review.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-22 — Build shared design judgment through concrete cases and feedback"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "design principles team alignment gatekeeper shared judgment workshop dot voting"
+      ],
+      "exceptions": "Workshop agreement and dot voting express team preference, not participant evidence or scientific validation. Do not let consistency preserve a harmful pattern, replace research or create an approval gate for every reversible change. Adopt only as much process as recurring coordination problems justify.",
+      "verification": {
+        "methods": [
+          "inspection"
+        ],
+        "question": "Can two reviewers use the guidance to explain the same consequential tradeoff, while still recording disagreement and evidence that warrants an exception?"
+      }
+    },
+    {
+      "id": "LU-23",
+      "title": "Judge engagement mechanisms against the person’s goal and control",
+      "domains": [
+        "goals",
+        "flows",
+        "evaluation"
+      ],
+      "tags": [
+        "permissions",
+        "interruption",
+        "evaluation",
+        "navigation"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "related": [
+        "ID-27",
+        "PU-17",
+        "LU-24"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/goals.md",
+        "references/flows.md",
+        "references/review.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-23 — Judge engagement mechanisms against the person’s goal and control"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "ethical design engagement autonomy dark patterns defaults autoplay infinite scroll personalization variable rewards"
+      ],
+      "exceptions": "Do not infer addiction, neurological effects or intent from a screenshot, nor treat old platform examples or reported usage counts as present facts. The presence of a reward or feed alone does not establish harm; examine its actual function, context, and user evidence. Increased time spent is not automatically success.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime",
+          "participant"
+        ],
+        "question": "Can a person understand and decline the nudge, finish and leave, change the default, or stop the loop without losing unrelated functionality?"
+      }
+    },
+    {
+      "id": "LU-24",
+      "title": "Test consequential nonideal scenarios and retain useful friction",
+      "domains": [
+        "flows",
+        "recovery",
+        "evaluation"
+      ],
+      "tags": [
+        "errors",
+        "permissions",
+        "interruption",
+        "evaluation"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "verify"
+      ],
+      "related": [
+        "LU-23",
+        "ID-27",
+        "WI-05"
+      ],
+      "routes": [
+        "references/psychology.md",
+        "references/flows.md",
+        "references/review.md"
+      ],
+      "source": {
+        "path": "references/sources/laws-of-ux.md",
+        "heading": "LU-24 — Test consequential nonideal scenarios and retain useful friction"
+      },
+      "kind": "heuristic",
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "triggers": [
+        "ethical design nonideal scenarios unintended consequences useful friction deliberation qualitative metrics"
+      ],
+      "exceptions": "This is targeted review, not a demand for every conceivable edge case or an automatic approval step. Extra friction can itself exclude people or obstruct cancellation. The book’s broad mental-health claims are not a basis for diagnosing users or asserting causal effects in this product; actual research is required for such claims.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime",
+          "participant"
+        ],
+        "question": "For each relevant consequential scenario, does the design preserve understanding and a feasible escape or correction path, and is retained friction proportionate to the consequence?"
+      }
     }
   ]
 }

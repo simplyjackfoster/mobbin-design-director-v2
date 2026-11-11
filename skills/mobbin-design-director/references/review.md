@@ -146,3 +146,11 @@ efficient completion or abandonment; logs alone do not establish motives. Link
 metrics to the person's goal and investigate plausible rival explanations
 ([ID-27](sources/interaction-design.md)). This is an optional evidence path, not
 authorization to install tracking or collect additional personal data.
+
+For psychology-based recommendations, test the proposed mechanism rather than
+counting laws followed. Keep observed task performance, immediate preference and
+remembered experience separate. Inspect the difficult middle as well as the final
+moment; check whether polish or prominent recommendations conceal errors, costs,
+uncertainty, refusal or exit. Agent inspection predicts these risks without proving
+participant reactions. See [psychology in context](psychology.md), especially
+LU-11–16 and LU-23–24.

@@ -12,6 +12,7 @@ every invocation.
 | Information architecture, findability, content structure, taxonomy, labels, navigation, search, facets, metadata | [Information architecture](information-architecture.md); retrieve relevant IA source cards |
 | Dashboard, KPI, metric card, chart, monitoring, quantitative comparison | [Dashboards and data displays](dashboards.md); retrieve relevant DD source cards |
 | Confusing, dense, hard to learn or remember | [Cognition](cognition.md) |
+| Named UX laws, learned behavior, perceived responsiveness, persuasion or user agency | [Psychology in context](psychology.md); retrieve relevant LU source cards |
 | Find, critique, and improve references; Mobbin unavailable | [Research](research.md) |
 | Translate book principles into observable research questions | [Research lenses](research-lenses.md) |
 | Select a pattern; reconcile conflicting evidence | [Synthesis](synthesis.md) |

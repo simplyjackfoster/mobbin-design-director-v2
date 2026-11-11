@@ -8,7 +8,7 @@ result:
 **goals → journeys → relevant patterns → visual direction → build → evaluation**
 
 It researches real apps on [Mobbin](https://mobbin.com) when that connector is
-available, grounds its choices in ten design books, recommends a
+available, grounds its choices in eleven design books, recommends a
 direction instead of listing options, and checks the running result rather than
 trusting a static mockup. Mobbin is useful but not required.
 
@@ -27,6 +27,8 @@ trusting a static mockup. Mobbin is useful but not required.
 - **Makes data displays interpretable.** It connects metric definitions and valid
   comparisons to chart encodings, scales, context and follow-up actions. Historical
   one-screen advice never overrides legibility or accessible mobile layouts.
+- **Uses psychology with context.** Named UX laws become testable explanations,
+  with limits around memory quotas, choice counts, perceived speed and persuasion.
 - **Researches with intent.** Mobbin searches answer specific open decisions. What
   it sees there counts as evidence that a convention exists, not proof that it is
   usable. It records links and the limits of what it observed, then says what to
@@ -49,7 +51,7 @@ trusting a static mockup. Mobbin is useful but not required.
 
 ## The books behind it
 
-The method draws on ten books. Each has a dossier in
+The method draws on eleven books. Each has a dossier in
 [`references/sources/`](skills/mobbin-design-director/references/sources/README.md):
 an original, decision-oriented summary of lessons with principle IDs, plus a
 coverage file recording chapter-by-chapter reading, exclusions and figure checks.
@@ -66,8 +68,9 @@ coverage file recording chapter-by-chapter reading, exclusions and figure checks
 | [Practical UI](skills/mobbin-design-director/references/sources/practical-ui.md) | Adham Dannaway | 2nd, 2024 | Hierarchy, color, typography, grouping, controls and forms |
 | [Information Architecture: For the Web and Beyond](skills/mobbin-design-director/references/sources/information-architecture.md) | Louis Rosenfeld, Peter Morville, Jorge Arango | 4th, 2015 | Finding and understanding, organization, labels, navigation, search, metadata, content models and governance |
 | [Information Dashboard Design](skills/mobbin-design-director/references/sources/dashboard-design.md) | Stephen Few | 1st, 2006 | Monitoring decisions, meaningful metrics, chart encoding, comparisons, salience and dashboard evaluation |
+| [Laws of UX](skills/mobbin-design-director/references/sources/laws-of-ux.md) | Jon Yablonski | 2nd, 2024 | Mental models, choice, memory, attention, feedback, user agency and contextual psychology |
 
-The lessons are collected in a registry of 244 principles
+The lessons are collected in a registry of 268 principles
 ([`principles.json`](skills/mobbin-design-director/references/principles.json)),
 each with its triggers, exceptions and review questions. A
 [coverage workflow](skills/mobbin-design-director/references/coverage.md) uses it to

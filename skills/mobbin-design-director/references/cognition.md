@@ -31,3 +31,9 @@ knows an exact name may benefit more from search than from a long picker. Choose
 from vocabulary, familiarity, data size and correction needs. [Interaction Design
 ID-05 and ID-08](sources/interaction-design.md), pp. 115–116 and 207–208, makes
 these boundaries explicit.
+
+For Jakob, Fitts, Miller, Hick and related named principles, use
+[psychology in context](psychology.md) to turn the claim into a bounded hypothesis.
+Count the interpretation and navigation introduced by simplification: an unlabeled
+icon, hidden alternative or extra stage may increase effort despite fewer visible
+choices. Meaningful grouping and visible context matter more than a fixed quota.
