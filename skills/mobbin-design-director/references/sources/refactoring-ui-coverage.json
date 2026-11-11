@@ -1,0 +1,745 @@
+{
+  "source_id": "refactoring-ui",
+  "title": "Refactoring UI",
+  "authors": [
+    "Adam Wathan",
+    "Steve Schoger"
+  ],
+  "edition": "Not stated in supplied PDF",
+  "year": null,
+  "pdf_pages": 252,
+  "sha256": "c6df5ef9c14f153a301bfcc663d88167c8b90e5a94fe340b6f009c114a7b9d2e",
+  "extraction_notes": [
+    "Cover visually inspected: title and authors confirmed; closing p.252 signature agrees. No edition/date stated in supplied copy; year null is deliberate, not an inferred publication year.",
+    "One-based PDF positions match printed numbered body pages in visually inspected samples. Contents at PDF3–5 supplies section starts. Nine records below are eight thematic parts plus Leveling Up, encompassing all short essays.",
+    "Three bounded readers consumed all text in PDF7–100, 101–170 and 171–252, including sparse/blank separators. Selected 69 rendered pages inspected, recorded below; full-study does not claim every illustration was inspected.",
+    "Cover PDF1 and blank PDF2 rendered by integrating lead; PDF3–6 frontmatter extracted and read. These frontmatter checks are recorded in supplemental coverage, separate from 69 body-page figure checks.",
+    "Extraction omits raster illustration labels and layout; selected visual checks supplement text, and before/after images are arguments rather than controlled experiments. External cited research was not independently replicated.",
+    "Source treated as reference material, never task instructions. Dossier and modules are original paraphrases/adaptations; no raw book text, source PDF or rendered images distributed in Git. Current W3C sources used only to qualify specific accessibility claims."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Starting from Scratch",
+      "pdf_start": 7,
+      "pdf_end": 34,
+      "printed_start": 7,
+      "printed_end": 34,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          7,
+          34
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. RU-01–02; personality maps to existing visual guidance."
+    },
+    {
+      "number": 2,
+      "title": "Hierarchy is Everything",
+      "pdf_start": 35,
+      "pdf_end": 64,
+      "printed_start": 35,
+      "printed_end": 64,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          35,
+          64
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. RU-03–04 and RU-08; action safety remains in PU-17/20."
+    },
+    {
+      "number": 3,
+      "title": "Layout and Spacing",
+      "pdf_start": 65,
+      "pdf_end": 100,
+      "printed_start": 65,
+      "printed_end": 100,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          65,
+          100
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. RU-02/05; grouping maps to PU-08/10."
+    },
+    {
+      "number": 4,
+      "title": "Designing Text",
+      "pdf_start": 101,
+      "pdf_end": 136,
+      "printed_start": 101,
+      "printed_end": 136,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          101,
+          136
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. RU-06; duplicate typography mechanisms mapped to PU-10/12/13."
+    },
+    {
+      "number": 5,
+      "title": "Working with Color",
+      "pdf_start": 137,
+      "pdf_end": 170,
+      "printed_start": 137,
+      "printed_end": 170,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          137,
+          170
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. RU-07–08; simplified accessibility and brightness claims qualified."
+    },
+    {
+      "number": 6,
+      "title": "Creating Depth",
+      "pdf_start": 171,
+      "pdf_end": 198,
+      "printed_start": 171,
+      "printed_end": 198,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          171,
+          198
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. RU-09; state, layer order and cast/contact mechanics."
+    },
+    {
+      "number": 7,
+      "title": "Working with Images",
+      "pdf_start": 199,
+      "pdf_end": 218,
+      "printed_start": 199,
+      "printed_end": 218,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          199,
+          218
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. RU-10–11; actual display scale and variable content."
+    },
+    {
+      "number": 8,
+      "title": "Finishing Touches",
+      "pdf_start": 219,
+      "pdf_end": 248,
+      "printed_start": 219,
+      "printed_end": 248,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          219,
+          248
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. RU-12; broad expression advice deduplicated, task contracts preserved."
+    },
+    {
+      "number": 9,
+      "title": "Leveling Up",
+      "pdf_start": 249,
+      "pdf_end": 252,
+      "printed_start": 249,
+      "printed_end": 252,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          249,
+          252
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All extracted text read, including blank/divider pages; selected figures inspected separately. Assessed and mapped to existing research workflow; no separate principle required."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 9,
+      "description": "Feature form and grayscale hierarchy: useful task precedes shell; placeholder-only example is not adopted as form-label guidance.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Feature form and grayscale hierarchy: useful task precedes shell; placeholder-only example is not adopted as form-label guidance.",
+      "principle_ids": [
+        "RU-01"
+      ]
+    },
+    {
+      "pdf_page": 13,
+      "description": "Feature form and grayscale hierarchy: useful task precedes shell; placeholder-only example is not adopted as form-label guidance.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Feature form and grayscale hierarchy: useful task precedes shell; placeholder-only example is not adopted as form-label guidance.",
+      "principle_ids": [
+        "RU-01"
+      ]
+    },
+    {
+      "pdf_page": 24,
+      "description": "Personality comparison changes typography, composition, imagery and color as well as radius; it cannot isolate a radius effect.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Personality comparison changes typography, composition, imagery and color as well as radius; it cannot isolate a radius effect.",
+      "principle_ids": [
+        "RU-01"
+      ]
+    },
+    {
+      "pdf_page": 30,
+      "description": "Discrete size/value alternatives illustrate constrained choice; sample scale is not a mathematical invariant.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Discrete size/value alternatives illustrate constrained choice; sample scale is not a mathematical invariant.",
+      "principle_ids": [
+        "RU-02"
+      ]
+    },
+    {
+      "pdf_page": 37,
+      "description": "Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "principle_ids": [
+        "RU-03"
+      ]
+    },
+    {
+      "pdf_page": 39,
+      "description": "Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "principle_ids": [
+        "RU-03"
+      ]
+    },
+    {
+      "pdf_page": 44,
+      "description": "Pattern is visible through translucent letters; selected opaque supporting color illustrates background-aware text treatment.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Pattern is visible through translucent letters; selected opaque supporting color illustrates background-aware text treatment.",
+      "principle_ids": [
+        "RU-08"
+      ]
+    },
+    {
+      "pdf_page": 47,
+      "description": "Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "principle_ids": [
+        "RU-03"
+      ]
+    },
+    {
+      "pdf_page": 50,
+      "description": "Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "principle_ids": [
+        "RU-04"
+      ]
+    },
+    {
+      "pdf_page": 51,
+      "description": "Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "principle_ids": [
+        "RU-04"
+      ]
+    },
+    {
+      "pdf_page": 55,
+      "description": "Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "principle_ids": [
+        "RU-04"
+      ]
+    },
+    {
+      "pdf_page": 57,
+      "description": "Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "principle_ids": [
+        "RU-03"
+      ]
+    },
+    {
+      "pdf_page": 59,
+      "description": "Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Hierarchy examples vary size, weight, fills and graphic mass; reduced competition preserves navigation rather than removing it.",
+      "principle_ids": [
+        "RU-03"
+      ]
+    },
+    {
+      "pdf_page": 61,
+      "description": "Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "principle_ids": [
+        "RU-04"
+      ]
+    },
+    {
+      "pdf_page": 62,
+      "description": "Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Label/value order, quieter semantic heading and action hierarchy illustrate task-dependent prominence; static states do not establish accessible behavior.",
+      "principle_ids": [
+        "RU-04"
+      ]
+    },
+    {
+      "pdf_page": 68,
+      "description": "Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "principle_ids": [
+        "RU-05"
+      ]
+    },
+    {
+      "pdf_page": 73,
+      "description": "Discrete size/value alternatives illustrate constrained choice; sample scale is not a mathematical invariant.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Discrete size/value alternatives illustrate constrained choice; sample scale is not a mathematical invariant.",
+      "principle_ids": [
+        "RU-02"
+      ]
+    },
+    {
+      "pdf_page": 81,
+      "description": "Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "principle_ids": [
+        "RU-05"
+      ]
+    },
+    {
+      "pdf_page": 86,
+      "description": "Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "principle_ids": [
+        "RU-05"
+      ]
+    },
+    {
+      "pdf_page": 89,
+      "description": "Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "principle_ids": [
+        "RU-05"
+      ]
+    },
+    {
+      "pdf_page": 93,
+      "description": "Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "principle_ids": [
+        "RU-05"
+      ]
+    },
+    {
+      "pdf_page": 95,
+      "description": "Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "principle_ids": [
+        "RU-05"
+      ]
+    },
+    {
+      "pdf_page": 97,
+      "description": "Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "principle_ids": [
+        "RU-05"
+      ]
+    },
+    {
+      "pdf_page": 99,
+      "description": "Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Spacing and responsive examples compare content widths, intermediate column behavior and independent proportions; relationships matter beyond token uniformity.",
+      "principle_ids": [
+        "RU-05"
+      ]
+    },
+    {
+      "pdf_page": 104,
+      "description": "Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "principle_ids": [
+        "RU-06"
+      ]
+    },
+    {
+      "pdf_page": 105,
+      "description": "Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "principle_ids": [
+        "RU-06"
+      ]
+    },
+    {
+      "pdf_page": 107,
+      "description": "Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "principle_ids": [
+        "RU-06"
+      ]
+    },
+    {
+      "pdf_page": 114,
+      "description": "Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "principle_ids": [
+        "RU-06"
+      ]
+    },
+    {
+      "pdf_page": 119,
+      "description": "Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "principle_ids": [
+        "RU-06"
+      ]
+    },
+    {
+      "pdf_page": 123,
+      "description": "Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "principle_ids": [
+        "RU-06"
+      ]
+    },
+    {
+      "pdf_page": 130,
+      "description": "Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "principle_ids": [
+        "RU-06"
+      ]
+    },
+    {
+      "pdf_page": 134,
+      "description": "Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Type examples show role gaps, nested size effects, reading measure, baselines, leading, numeric alignment and optional tracking; numerical samples are not universal constraints.",
+      "principle_ids": [
+        "RU-06"
+      ]
+    },
+    {
+      "pdf_page": 149,
+      "description": "Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "principle_ids": [
+        "RU-07"
+      ]
+    },
+    {
+      "pdf_page": 153,
+      "description": "Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "principle_ids": [
+        "RU-07"
+      ]
+    },
+    {
+      "pdf_page": 154,
+      "description": "Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "principle_ids": [
+        "RU-07"
+      ]
+    },
+    {
+      "pdf_page": 156,
+      "description": "Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "principle_ids": [
+        "RU-07"
+      ]
+    },
+    {
+      "pdf_page": 160,
+      "description": "Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Palette endpoint construction, hue brightness differences and tinted neutrals illustrate color editing; the brightness formula is not a WCAG contrast calculation.",
+      "principle_ids": [
+        "RU-07"
+      ]
+    },
+    {
+      "pdf_page": 163,
+      "description": "Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "principle_ids": [
+        "RU-08"
+      ]
+    },
+    {
+      "pdf_page": 164,
+      "description": "Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "principle_ids": [
+        "RU-08"
+      ]
+    },
+    {
+      "pdf_page": 165,
+      "description": "Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "principle_ids": [
+        "RU-08"
+      ]
+    },
+    {
+      "pdf_page": 167,
+      "description": "Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "principle_ids": [
+        "RU-08"
+      ]
+    },
+    {
+      "pdf_page": 168,
+      "description": "Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Badge treatment inversion reduces fill dominance; hue/lightness charts illustrate candidate distinctions without establishing accessible category mapping.",
+      "principle_ids": [
+        "RU-08"
+      ]
+    },
+    {
+      "pdf_page": 173,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 176,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 178,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 180,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 183,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 187,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 189,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 191,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 194,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 196,
+      "description": "Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Raised/inset surfaces, interaction elevation, cast/contact shadows and overlap show coherent layer cues, not proof of actual interaction.",
+      "principle_ids": [
+        "RU-09"
+      ]
+    },
+    {
+      "pdf_page": 203,
+      "description": "Image overlays and text support show ways to reduce local contrast variation; static examples cannot guarantee arbitrary crops.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Image overlays and text support show ways to reduce local contrast variation; static examples cannot guarantee arbitrary crops.",
+      "principle_ids": [
+        "RU-10"
+      ]
+    },
+    {
+      "pdf_page": 204,
+      "description": "Image overlays and text support show ways to reduce local contrast variation; static examples cannot guarantee arbitrary crops.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Image overlays and text support show ways to reduce local contrast variation; static examples cannot guarantee arbitrary crops.",
+      "principle_ids": [
+        "RU-10"
+      ]
+    },
+    {
+      "pdf_page": 206,
+      "description": "Image overlays and text support show ways to reduce local contrast variation; static examples cannot guarantee arbitrary crops.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Image overlays and text support show ways to reduce local contrast variation; static examples cannot guarantee arbitrary crops.",
+      "principle_ids": [
+        "RU-10"
+      ]
+    },
+    {
+      "pdf_page": 209,
+      "description": "Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "principle_ids": [
+        "RU-11"
+      ]
+    },
+    {
+      "pdf_page": 211,
+      "description": "Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "principle_ids": [
+        "RU-11"
+      ]
+    },
+    {
+      "pdf_page": 213,
+      "description": "Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "principle_ids": [
+        "RU-11"
+      ]
+    },
+    {
+      "pdf_page": 215,
+      "description": "Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "principle_ids": [
+        "RU-11"
+      ]
+    },
+    {
+      "pdf_page": 217,
+      "description": "Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Optical icon scale, screenshot crops/simplification and variable image edges illustrate assets at intended use size and upload framing.",
+      "principle_ids": [
+        "RU-11"
+      ]
+    },
+    {
+      "pdf_page": 222,
+      "description": "Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "principle_ids": [
+        "RU-12"
+      ]
+    },
+    {
+      "pdf_page": 225,
+      "description": "Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "principle_ids": [
+        "RU-12"
+      ]
+    },
+    {
+      "pdf_page": 230,
+      "description": "Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "principle_ids": [
+        "RU-12"
+      ]
+    },
+    {
+      "pdf_page": 235,
+      "description": "Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "principle_ids": [
+        "RU-12"
+      ]
+    },
+    {
+      "pdf_page": 236,
+      "description": "Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "principle_ids": [
+        "RU-12"
+      ]
+    },
+    {
+      "pdf_page": 240,
+      "description": "Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "principle_ids": [
+        "RU-12"
+      ]
+    },
+    {
+      "pdf_page": 244,
+      "description": "Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "principle_ids": [
+        "RU-12"
+      ]
+    },
+    {
+      "pdf_page": 246,
+      "description": "Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Existing-detail accents, first-use empty state, border alternatives and structured components illustrate craft. The table example qualifies combined fields by independent sorting needs.",
+      "principle_ids": [
+        "RU-12"
+      ]
+    },
+    {
+      "pdf_page": 251,
+      "description": "Closing learning examples highlight surprising decisions; reconstruction is learning practice rather than a required task or behavioral evidence.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Closing learning examples highlight surprising decisions; reconstruction is learning practice rather than a required task or behavioral evidence.",
+      "principle_ids": [
+        "RU-02"
+      ]
+    }
+  ],
+  "supplemental_coverage": [
+    {
+      "title": "Cover, contents and blank frontmatter",
+      "pdf_start": 1,
+      "pdf_end": 6,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          1,
+          6
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Cover title/authors and blank PDF2 visually checked; contents and PDF6 blank read in extraction. No substantive foreword or edition/date statement present."
+    }
+  ]
+}

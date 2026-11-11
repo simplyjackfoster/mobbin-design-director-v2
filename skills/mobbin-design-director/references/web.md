@@ -17,6 +17,10 @@ iPhone navigation or chrome.
 - Check touch and pointer use, readable line lengths, long content, responsive
   grouping, and reflow. Start with project breakpoints and inspect narrow phone,
   intermediate/tablet, and wide desktop configurations relevant to the audience.
+- Choose heading levels and control elements for their meaning; style prominence
+  separately. A supporting page heading need not be the largest text, and a
+  visually quiet action still needs button/link semantics and discoverability
+  ([RU-04](sources/refactoring-ui.md), pp. 48–62).
 - Test zoom, increased text size, contrast, semantic structure, accessible names,
   error associations, and state announcements. Do not infer accessibility from a
   screenshot or an automated checker alone.

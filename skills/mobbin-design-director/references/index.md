@@ -17,6 +17,7 @@ every invocation.
 | Translate book principles into observable research questions | [Research lenses](research-lenses.md) |
 | Select a pattern; reconcile conflicting evidence | [Synthesis](synthesis.md) |
 | Establish personality, hierarchy, grouping, type, color, imagery, motion | [Visual direction](visual.md); retrieve relevant PU and ID source cards |
+| Refine emphasis, responsive proportions, type/palette scales, shadows, image crops or surface detail | [Visual craft](visual-craft.md); retrieve relevant RU source cards |
 | Show alternatives or interpret owner preferences | [Taste](taste.md) |
 | Forms, decisions, errors, progress, undo, latency | [Input and feedback](input.md) |
 | Touch targets, grip, occlusion, nearby actions, mobile disclosure | [Touch](touch.md) |

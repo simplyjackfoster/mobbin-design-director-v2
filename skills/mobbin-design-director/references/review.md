@@ -68,6 +68,11 @@ brief. Examine relevant assistive interaction, focus, hit regions, keyboard, and
 motion settings; record checks not exercised. Token audit is only a consistency
 diagnostic, never a visual-quality score.
 
+When refining visual craft, include the failure cases relevant to the changed
+lever: intermediate widths, long/localized strings, enlarged text, variable image
+crops, bright/dark uploads, overlays and empty/populated states. See the targeted
+[craft checks](visual-craft.md); no need to run every check for a local tweak.
+
 For a visual comparison use the same content, viewport, state, and scale. References
 remain attributed. A combined image can help, but do not shrink away the detail
 needed to judge. Preserve positive findings so later fixes do not erase strengths.

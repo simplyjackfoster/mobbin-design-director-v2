@@ -59,7 +59,7 @@ def main():
     except (subprocess.CalledProcessError, FileNotFoundError):
         base = 'not available'
     (staging / 'SOURCE').write_text(
-        'Locally synchronized mobbin-design-director v2.5.0.\n'
+        'Locally synchronized mobbin-design-director v2.6.0.\n'
         'Canonical repository: simplyjackfoster/mobbin-design-director-v2.\n'
         f'Base commit: {base}\n'
         f'Content SHA-256 (excluding SOURCE): {source_hash}\n'

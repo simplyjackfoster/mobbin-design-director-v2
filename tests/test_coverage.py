@@ -201,6 +201,34 @@ class CoverageTests(unittest.TestCase):
         unrelated = coverage.candidates(dict(self.brief, tags=['charts']), records)
         self.assertFalse(any(r['id'].startswith('LU-') for r in unrelated))
 
+    def test_craft_retrieval_routes_specific_decisions_with_limits(self):
+        skill = ROOT / 'skills/mobbin-design-director'
+        errors, records = coverage.validate_registry(skill)
+        self.assertEqual(errors, [])
+        for query, expected in [('optical', 'RU-11'), ('palette', 'RU-07'),
+                                ('sidebar', 'RU-05'), ('badge', 'RU-08'),
+                                ('shadow', 'RU-09'), ('semantic structure', 'RU-04'),
+                                ('crop', 'RU-11'), ('sorting', 'RU-12')]:
+            with self.subTest(query=query):
+                self.assertIn(expected, [r['id'] for r in coverage.search(records, [query])])
+        cards = coverage.show_cards(skill, records, ['RU-05', 'RU-08'])
+        self.assertIn('Exception / conflict', cards)
+        self.assertIn('pp. 66–69, 76–99', cards)
+        self.assertIn('contrast-minimum.html', cards)
+        self.assertNotIn('RU-06 —', cards)
+        new = [r for r in records if r['id'].startswith('RU-')]
+        self.assertEqual(len(new), 12)
+        self.assertFalse(any('core' in r['tags'] for r in new))
+        brief = dict(self.brief, tags=['visual'])
+        packet = coverage.init_packet(brief, skill, records)
+        rows = {r['id']: r for r in packet['guidance']}
+        for record in new[1:]:
+            self.assertEqual(rows[record['id']]['verification']['status'], 'not_verified')
+            self.assertEqual(rows[record['id']]['disposition'], 'unresolved')
+        self.assertEqual(coverage.candidates(dict(brief, depth='routine'), records), [])
+        unrelated = coverage.candidates(dict(self.brief, tags=['permissions']), records)
+        self.assertFalse(any(r['id'].startswith('RU-') for r in unrelated))
+
     def test_invalid_brief_and_stale_registry(self):
         for field, value in [('platform', 'android'), ('mode', 'publish'), ('tags', ['bogus']), ('tags', None), ('summary', 'TODO')]:
             with self.subTest(field=field, value=value):
@@ -382,7 +410,7 @@ class CoverageTests(unittest.TestCase):
             self.skipTest('Registry authoring in progress')
         errors, records = coverage.validate_registry(root)
         self.assertEqual(errors, [])
-        self.assertEqual(len(records), 268)
+        self.assertEqual(len(records), 280)
 
     def test_new_sources_selective_retrieval_and_routine_boundary(self):
         root = SCRIPT.parents[1]

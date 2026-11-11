@@ -64,8 +64,9 @@ chosen depth briefly. Read only the relevant modules from the
    explain the mechanism, its limits, and whose outcome improves. Check novel
    solutions against their assumptions and intended effects.
 5. **Establish visual direction.** Use [visual direction](references/visual.md)
-   and [taste](references/taste.md). Rank real decision content, compose a coherent
-   direction, and give expression a useful role. Recommend it; bring the owner only consequential
+   and [taste](references/taste.md). For concrete hierarchy, sizing, palette, depth,
+   or image decisions, use [visual craft](references/visual-craft.md). Rank real
+   decision content, compose a coherent direction, and give expression a useful role. Recommend it; bring the owner only consequential
    choices not already settled. Show alternatives on the same task/content,
    with one focused visual question. A checkpoint is not a universal approval
    requirement; respect existing authorization and requests for autonomy.

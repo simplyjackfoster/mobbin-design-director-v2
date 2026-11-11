@@ -52,6 +52,10 @@ variation for different screen roles and moments of emphasis.
 
 ## From direction to craft
 
+Use [visual craft](visual-craft.md) for concrete adjustments to emphasis, layout,
+type and palette scales, depth, or imagery. It adds Refactoring UI techniques to
+the meaning and accessibility checks below; use only the relevant levers.
+
 When asked for a buildable spec without an existing system, resolve the material
 choices into a small usable set of type, spacing, color, and component values.
 Describe the intended appearance of real content and action states. A mood name
