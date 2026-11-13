@@ -21,6 +21,10 @@ iPhone navigation or chrome.
   separately. A supporting page heading need not be the largest text, and a
   visually quiet action still needs button/link semantics and discoverability
   ([RU-04](sources/refactoring-ui.md), pp. 48–62).
+- Keyboard shortcuts and gestures duplicate a visible control; single-character
+  shortcuts can be turned off or remapped. Session timeouts and auto-advancing
+  countdowns warn and let people extend ([MI-05](sources/microinteractions.md),
+  [MI-16](sources/microinteractions.md)).
 - Test zoom, increased text size, contrast, semantic structure, accessible names,
   error associations, and state announcements. Do not infer accessibility from a
   screenshot or an automated checker alone.

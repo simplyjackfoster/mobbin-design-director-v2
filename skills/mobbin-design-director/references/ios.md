@@ -63,6 +63,10 @@ nearby-action risk, and the limits of simulator-based ergonomics checks.
   a control being present in the accessibility tree does not prove visible contrast.
 - Motion explains response, continuity, or character without delaying frequent work.
   Respect Reduce Motion, retaining equivalent information. Avoid arbitrary timing laws.
+- Swipe actions and long-press triggers also appear in a context menu, edit mode or
+  VoiceOver custom action. Haptics use the semantic feedback generators, sounds follow
+  Silent mode and Focus, and no meaning depends on either alone
+  ([MI-05](sources/microinteractions.md), [MI-12](sources/microinteractions.md)).
 - Verify long/localized text, selected states, slow/error responses, and interruption
   or relaunch where the flow promises persistence.
 

@@ -19,8 +19,9 @@ use does not require the PDFs.
 | [Information Dashboard Design](dashboard-design.md), DD | Monitoring, metric context, quantitative encodings, comparisons, salience and evaluation | [JSON](dashboard-design-coverage.json) |
 | [Laws of UX](laws-of-ux.md), LU | Familiarity, acquisition, memory, choice, tolerance, remembered experience, aesthetics, attention, complexity, responsiveness and agency | [JSON](laws-of-ux-coverage.json) |
 | [Refactoring UI](refactoring-ui.md), RU | Concrete visual refinement, content-led proportions, type/palette construction, depth and variable imagery | [JSON](refactoring-ui-coverage.json) |
+| [Microinteractions](microinteractions.md), MI | Small contained moments: trigger visibility, system triggers, control states, defaults, feedback channels, loops, modes and micro-level testing | [JSON](microinteractions-coverage.json) |
 
-The twelve coverage manifests together are the source manifest. Each records title,
+The thirteen coverage manifests together are the source manifest. Each records title,
 authors, edition/year, PDF page count and SHA-256; chapter boundaries, actual read
 ranges and justified exclusions; extraction caveats and rendered figure checks.
 PDF page numbers are one-based. Printed labels can differ and are only supplied
@@ -103,3 +104,13 @@ mechanisms. The supplied PDF has no stated edition/date, so neither is inferred.
 Its eight thematic parts and final Leveling Up section are the nine coverage
 records, encompassing all short lessons rather than pretending there are only
 nine individual essays.
+
+Microinteractions adds a specification vocabulary for small contained moments
+(trigger, rules, feedback, loops and modes) to the broader interaction guidance.
+Its evidence is mostly 2011–2013 product screenshots, designer anecdotes and
+three hypothetical worked examples, so its cards state checks rather than
+measured effects, and dated platform behavior, numeric perception claims and
+engagement framing are qualified beside each lesson. The supplied ebook has no
+printed page numbers; locators are PDF pages of that file. Its six chapters and
+Appendix A are the seven coverage records; front matter and back matter are
+supplemental records.

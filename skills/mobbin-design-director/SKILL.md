@@ -71,8 +71,9 @@ chosen depth briefly. Read only the relevant modules from the
    with one focused visual question. A checkpoint is not a universal approval
    requirement; respect existing authorization and requests for autonomy.
 6. **Build the interaction and its expression.** Reuse the project system and
-   deliberately extend it where needed. Apply [input and feedback](references/input.md)
-   and the [iOS](references/ios.md) or [web](references/web.md) path. Resolve
+   deliberately extend it where needed. Apply [input and feedback](references/input.md),
+   [microinteractions](references/microinteractions.md) for contained moments, and
+   the [iOS](references/ios.md) or [web](references/web.md) path. Resolve
    state/data ownership and transitions before dividing implementation work.
    Preserve meaningful personality; consistency alone does not make a design good.
 7. **Evaluate the actual result.** Follow [review](references/review.md). Exercise

@@ -58,6 +58,11 @@ modified by evaluation. An isolated prototype is not a shipping product change.
   emphasis without literal book rules.
 - [Visual craft with variable content](visual-craft-content/prompt.md): stateful depth,
   optical assets, uploads, empty causes and component task contracts.
+- [Microinteraction specification](microinteraction-spec/prompt.md): written rules,
+  hidden and automatic triggers, mode exceptions and exits, and bounded loops.
+- [Microinteraction feedback](microinteraction-feedback/prompt.md): channel scaling,
+  background-event filtering, retry bounds, on-control state, labelled defaults and
+  symptom-to-cause testing.
 
 Reports state exact runtime coverage, untested accessibility/hardware conditions,
 source audit scope, and host limitations. Structural validation and tool unit tests

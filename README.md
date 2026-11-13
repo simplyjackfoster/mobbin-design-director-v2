@@ -8,7 +8,7 @@ result:
 **goals → journeys → relevant patterns → visual direction → build → evaluation**
 
 It researches real apps on [Mobbin](https://mobbin.com) when that connector is
-available, grounds its choices in twelve design books, recommends a
+available, grounds its choices in thirteen design books, recommends a
 direction instead of listing options, and checks the running result rather than
 trusting a static mockup. Mobbin is useful but not required.
 
@@ -51,7 +51,7 @@ trusting a static mockup. Mobbin is useful but not required.
 
 ## The books behind it
 
-The method draws on twelve books. Each has a dossier in
+The method draws on thirteen books. Each has a dossier in
 [`references/sources/`](skills/mobbin-design-director/references/sources/README.md):
 an original, decision-oriented summary of lessons with principle IDs, plus a
 coverage file recording chapter-by-chapter reading, exclusions and figure checks.
@@ -70,8 +70,9 @@ coverage file recording chapter-by-chapter reading, exclusions and figure checks
 | [Information Dashboard Design](skills/mobbin-design-director/references/sources/dashboard-design.md) | Stephen Few | 1st, 2006 | Monitoring decisions, meaningful metrics, chart encoding, comparisons, salience and dashboard evaluation |
 | [Laws of UX](skills/mobbin-design-director/references/sources/laws-of-ux.md) | Jon Yablonski | 2nd, 2024 | Mental models, choice, memory, attention, feedback, user agency and contextual psychology |
 | [Refactoring UI](skills/mobbin-design-director/references/sources/refactoring-ui.md) | Adam Wathan, Steve Schoger | Supplied 252-page PDF; edition/date unstated | Concrete visual craft: emphasis, content-led sizing, type and palette scales, depth and imagery |
+| [Microinteractions](skills/mobbin-design-director/references/sources/microinteractions.md) | Dan Saffer | 1st, 2013 | Triggers, rules, defaults, feedback channels, loops, modes and testing of small contained moments |
 
-The lessons are collected in a registry of 280 principles
+The lessons are collected in a registry of 299 principles
 ([`principles.json`](skills/mobbin-design-director/references/principles.json)),
 each with its triggers, exceptions and review questions. A
 [coverage workflow](skills/mobbin-design-director/references/coverage.md) uses it to

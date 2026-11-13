@@ -74,7 +74,8 @@ Peter Morville and Jorge Arango's Information Architecture: For the Web and Beyo
 The Effective Visual Communication of Data (1st ed., 2006). v2.5 adds Jon
 Yablonski’s Laws of UX: Using Psychology to Design Better Products & Services
 (2nd ed., 2024). v2.6 adds Adam Wathan and Steve Schoger’s Refactoring UI
-(supplied 252-page PDF, edition/date unstated). Bibliographic identity, file hashes,
+(supplied 252-page PDF, edition/date unstated). v2.7 adds Dan Saffer’s
+Microinteractions: Designing with Details (1st ed., 2013). Bibliographic identity, file hashes,
 page locators, reading coverage, exclusions, and visual checks are maintained in
 [the source index](sources/README.md). The books and their illustrations retain
 their respective copyrights; no PDF, raw extraction, or book image is distributed
