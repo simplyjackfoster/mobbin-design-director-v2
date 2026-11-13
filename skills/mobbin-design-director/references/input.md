@@ -42,6 +42,11 @@ Provide honest progress and useful feedback near the affected object. Avoid
 precise progress percentages without supporting data. Prevent duplicate submissions
 where relevant, but do not freeze unrelated interaction merely because work is pending.
 
+For a contained moment (a toggle, hidden gesture, automatic suggestion, mode,
+retry or timeout loop), specify its trigger, rules, feedback, loops and modes
+with [microinteractions](microinteractions.md). Derive the feedback table from
+written rules ([MI-01](sources/microinteractions.md), [MI-11](sources/microinteractions.md)).
+
 ## Help people recover
 
 Put errors where the person can connect them to the action, explain what happened

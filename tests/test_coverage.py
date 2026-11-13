@@ -229,6 +229,34 @@ class CoverageTests(unittest.TestCase):
         unrelated = coverage.candidates(dict(self.brief, tags=['permissions']), records)
         self.assertFalse(any(r['id'].startswith('RU-') for r in unrelated))
 
+    def test_microinteraction_retrieval_routes_small_moments_with_limits(self):
+        skill = ROOT / 'skills/mobbin-design-director'
+        errors, records = coverage.validate_registry(skill)
+        self.assertEqual(errors, [])
+        for query, expected in [('gesture', 'MI-05'), ('haptic', 'MI-12'),
+                                ('timeout', 'MI-16'), ('countdown', 'MI-16'),
+                                ('mode', 'MI-15'), ('default', 'MI-09'),
+                                ('algorithm', 'MI-10'), ('remember', 'MI-17')]:
+            with self.subTest(query=query):
+                self.assertIn(expected, [r['id'] for r in coverage.search(records, [query])])
+        cards = coverage.show_cards(skill, records, ['MI-06', 'MI-15'])
+        self.assertIn('Exception / conflict', cards)
+        self.assertIn('pp. 42, 85–97', cards)
+        self.assertIn('WCAG 2.2.1', cards)
+        self.assertNotIn('MI-07 —', cards)
+        new = [r for r in records if r['id'].startswith('MI-')]
+        self.assertEqual(len(new), 19)
+        self.assertFalse(any('core' in r['tags'] for r in new))
+        brief = dict(self.brief, tags=['input'])
+        packet = coverage.init_packet(brief, skill, records)
+        rows = {r['id']: r for r in packet['guidance']}
+        self.assertIn('MI-07', rows)
+        self.assertEqual(rows['MI-07']['verification']['status'], 'not_verified')
+        self.assertEqual(rows['MI-07']['disposition'], 'unresolved')
+        self.assertEqual(coverage.candidates(dict(brief, depth='routine'), records), [])
+        unrelated = coverage.candidates(dict(self.brief, tags=['charts']), records)
+        self.assertFalse(any(r['id'].startswith('MI-') for r in unrelated))
+
     def test_invalid_brief_and_stale_registry(self):
         for field, value in [('platform', 'android'), ('mode', 'publish'), ('tags', ['bogus']), ('tags', None), ('summary', 'TODO')]:
             with self.subTest(field=field, value=value):
@@ -410,7 +438,7 @@ class CoverageTests(unittest.TestCase):
             self.skipTest('Registry authoring in progress')
         errors, records = coverage.validate_registry(root)
         self.assertEqual(errors, [])
-        self.assertEqual(len(records), 280)
+        self.assertEqual(len(records), 299)
 
     def test_new_sources_selective_retrieval_and_routine_boundary(self):
         root = SCRIPT.parents[1]

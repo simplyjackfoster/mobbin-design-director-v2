@@ -20,6 +20,7 @@ every invocation.
 | Refine emphasis, responsive proportions, type/palette scales, shadows, image crops or surface detail | [Visual craft](visual-craft.md); retrieve relevant RU source cards |
 | Show alternatives or interpret owner preferences | [Taste](taste.md) |
 | Forms, decisions, errors, progress, undo, latency | [Input and feedback](input.md) |
+| A toggle, gesture, automatic suggestion, mode, timer/retry loop, haptic or sound cue, or other small contained moment | [Microinteractions](microinteractions.md); retrieve relevant MI source cards |
 | Touch targets, grip, occlusion, nearby actions, mobile disclosure | [Touch](touch.md) |
 | Native iPhone implementation and verification | [iOS](ios.md) |
 | Responsive web, routes, keyboard and browser behavior | [Web](web.md) |

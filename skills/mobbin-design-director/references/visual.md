@@ -55,6 +55,8 @@ variation for different screen roles and moments of emphasis.
 Use [visual craft](visual-craft.md) for concrete adjustments to emphasis, layout,
 type and palette scales, depth, or imagery. It adds Refactoring UI techniques to
 the meaning and accessibility checks below; use only the relevant levers.
+For feedback channels, motion, haptics and sound on a contained moment, use
+[microinteractions](microinteractions.md) ([MI-12](sources/microinteractions.md)).
 
 When asked for a buildable spec without an existing system, resolve the material
 choices into a small usable set of type, spacing, color, and component values.

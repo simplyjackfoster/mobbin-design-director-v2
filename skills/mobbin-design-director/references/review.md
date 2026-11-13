@@ -73,6 +73,11 @@ lever: intermediate widths, long/localized strings, enlarged text, variable imag
 crops, bright/dark uploads, overlays and empty/populated states. See the targeted
 [craft checks](visual-craft.md); no need to run every check for a local tweak.
 
+When a contained moment changed, exercise its triggers (including hidden and
+automatic ones), mode exit, loop end conditions and timed windows, and the
+feedback with sound, haptics and motion turned off. Trace symptoms to causes
+with the [microinteraction checks](microinteractions.md) ([MI-19](sources/microinteractions.md)).
+
 For a visual comparison use the same content, viewport, state, and scale. References
 remain attributed. A combined image can help, but do not shrink away the detail
 needed to judge. Preserve positive findings so later fixes do not erase strengths.

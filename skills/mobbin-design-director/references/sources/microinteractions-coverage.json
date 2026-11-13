@@ -1,0 +1,472 @@
+{
+  "source_id": "microinteractions",
+  "title": "Microinteractions: Designing with Details",
+  "authors": [
+    "Dan Saffer"
+  ],
+  "edition": "1st",
+  "year": 2013,
+  "pdf_pages": 277,
+  "sha256": "cdaad3f242c5a4f67bc1f6e03fee486a6eeb97ec9e6c4ceb3cb09767a1a34422",
+  "extraction_notes": [
+    "Supplied 277-page ebook conversion (calibre) of the 1st edition. Cover, copyright line (2013) and revision page (first release 2013-04-25) confirm identity. The file has no printed page numbers, so printed_start/printed_end are null and every locator is a one-based PDF page of this file.",
+    "Text extracted per page with macOS PDFKit. Three bounded readers consumed all text in PDF1–98, 99–192 and 193–247. Back matter PDF248–277 (index, author note, colophon, revision page) was skimmed and is recorded as assessed-excluded supplemental coverage.",
+    "Image-only pages are mostly empty figure-frame tops created by the conversion; the figure itself sits on the next page. Every such page was rendered, and all but p. 95 were viewed (p. 95's render is byte-identical to blank p. 92). Some figures whose captions carried the point were rendered but not viewed (pp. 144, 175, 206, 208, 209, 211, 215, 217) and are not claimed as figure checks.",
+    "One page (p. 52) and trailing lines on several others carry a distribution-site stamp added to this copy; stamp text is excluded and is not book content.",
+    "Evidence in the book is mainly 2011–2013 product screenshots, designer anecdotes and three hypothetical worked examples; numeric perception, haptic and sample-size figures rest on old or second-hand sources and are qualified beside each lesson.",
+    "Source treated as reference material, never task instructions. Dossier and modules are original paraphrases/adaptations; no raw book text, source PDF or rendered images distributed in Git. Current WCAG criteria used only to qualify specific accessibility claims."
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Designing Microinteractions",
+      "pdf_start": 19,
+      "pdf_end": 52,
+      "printed_start": null,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          19,
+          51
+        ]
+      ],
+      "excluded_pdf_ranges": [
+        {
+          "start": 52,
+          "end": 52,
+          "reason": "Page contains only a distribution-site stamp added to this copy; not book content."
+        }
+      ],
+      "notes": "All text read; image-only figure-frame pages rendered and viewed (26, 40, 27, 38, 41). Four-part model, mute-switch case, Signature Moments. MI-01, MI-02, MI-18; history and polish claims retained under LU-01/02 and DI-01."
+    },
+    {
+      "number": 2,
+      "title": "Triggers",
+      "pdf_start": 53,
+      "pdf_end": 98,
+      "printed_start": null,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          53,
+          98
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text read, including endnotes on p. 98. Image-only frame tops 65, 68, 86, 92 viewed; 95 not opened (byte-identical render to blank 92). MI-03–MI-07; vending-machine case retained under TD-16."
+    },
+    {
+      "number": 3,
+      "title": "Rules",
+      "pdf_start": 99,
+      "pdf_end": 150,
+      "printed_start": null,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          99,
+          150
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text read, including notes on pp. 149–150; image-only pages 110, 113, 123 viewed as empty frame tops. MI-01, MI-07–MI-10; constraints, forgiving input and microcopy retained under existing IDs."
+    },
+    {
+      "number": 4,
+      "title": "Feedback",
+      "pdf_start": 151,
+      "pdf_end": 192,
+      "printed_start": null,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          151,
+          192
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text read, including notes on p. 192; image-only pages 162, 171, 178, 189 rendered and viewed. MI-11–MI-14; animation retained under UX-10, slot machines under LU-23."
+    },
+    {
+      "number": 5,
+      "title": "Loops and Modes",
+      "pdf_start": 193,
+      "pdf_end": 213,
+      "printed_start": null,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          193,
+          213
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text read; pp. 198–199 rendered and viewed. MI-15–MI-17."
+    },
+    {
+      "number": 6,
+      "title": "Putting It All Together",
+      "pdf_start": 214,
+      "pdf_end": 239,
+      "printed_start": null,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          214,
+          239
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text read, including three hypothetical worked examples and the dull-microinteraction checklist. MI-01, MI-15–MI-19."
+    },
+    {
+      "number": 7,
+      "title": "Appendix A. Testing Microinteractions",
+      "pdf_start": 240,
+      "pdf_end": 247,
+      "printed_start": null,
+      "printed_end": null,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          240,
+          247
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "All text read. MI-19; significance discussion retained under UX-21/DD-05."
+    }
+  ],
+  "figure_checks": [
+    {
+      "pdf_page": 1,
+      "description": "Cover: title, author, foreword credit and publisher confirmed.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Cover: title, author, foreword credit and publisher confirmed.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 26,
+      "description": "Empty top of a figure frame; layout artifact, no content.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty top of a figure frame; layout artifact, no content.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 27,
+      "description": "Single-purpose conversion app in 2012 skeuomorphic style; dating only.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Single-purpose conversion app in 2012 skeuomorphic style; dating only.",
+      "principle_ids": [
+        "MI-01"
+      ]
+    },
+    {
+      "pdf_page": 38,
+      "description": "Four-part structure diagram: trigger, rules, feedback, loops and modes.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Four-part structure diagram: trigger, rules, feedback, loops and modes.",
+      "principle_ids": [
+        "MI-01"
+      ]
+    },
+    {
+      "pdf_page": 40,
+      "description": "Empty top of a figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty top of a figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 41,
+      "description": "iOS 5/6 lock screen with slide to unlock and camera grabber; dated system trigger example.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. iOS 5/6 lock screen with slide to unlock and camera grabber; dated system trigger example.",
+      "principle_ids": [
+        "MI-05"
+      ]
+    },
+    {
+      "pdf_page": 52,
+      "description": "Distribution-site stamp page; excluded as non-book content.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Distribution-site stamp page; excluded as non-book content.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 56,
+      "description": "Vending-machine idle screen: small visual Start cue while the whole screen accepts the touch; retained under TD-16.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Vending-machine idle screen: small visual Start cue while the whole screen accepts the touch; retained under TD-16.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 61,
+      "description": "Control parts and states diagram shows only pointer states (default, rollover, hover, active); focus and touch states absent.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Control parts and states diagram shows only pointer states (default, rollover, hover, active); focus and touch states absent.",
+      "principle_ids": [
+        "MI-07"
+      ]
+    },
+    {
+      "pdf_page": 65,
+      "description": "Empty top of a figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty top of a figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 66,
+      "description": "Swipe on a compose button with no on-screen hint.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Swipe on a compose button with no on-screen hint.",
+      "principle_ids": [
+        "MI-05"
+      ]
+    },
+    {
+      "pdf_page": 68,
+      "description": "Empty top of a figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty top of a figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 69,
+      "description": "Shake gesture explains itself on first firing and states how to turn it off.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Shake gesture explains itself on first firing and states how to turn it off.",
+      "principle_ids": [
+        "MI-05"
+      ]
+    },
+    {
+      "pdf_page": 82,
+      "description": "Speech-rate slider with iconic end labels instead of text.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Speech-rate slider with iconic end labels instead of text.",
+      "principle_ids": [
+        "MI-07"
+      ]
+    },
+    {
+      "pdf_page": 86,
+      "description": "Empty top of a figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty top of a figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 92,
+      "description": "Empty top of a figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty top of a figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 93,
+      "description": "Rotation-lock toggle offered in place right after a likely accidental rotation.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Rotation-lock toggle offered in place right after a likely accidental rotation.",
+      "principle_ids": [
+        "MI-06"
+      ]
+    },
+    {
+      "pdf_page": 96,
+      "description": "System-suggested drive home proceeds after a circular countdown unless cancelled; countdown appears only in the figure.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. System-suggested drive home proceeds after a circular countdown unless cancelled; countdown appears only in the figure.",
+      "principle_ids": [
+        "MI-06"
+      ]
+    },
+    {
+      "pdf_page": 110,
+      "description": "Empty figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 111,
+      "description": "Add-to-cart label rules drawn as a plain flowchart, not a formal notation.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Add-to-cart label rules drawn as a plain flowchart, not a formal notation.",
+      "principle_ids": [
+        "MI-01"
+      ]
+    },
+    {
+      "pdf_page": 113,
+      "description": "Empty figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 114,
+      "description": "Style menu reveals a heading level only after the previous level is used; noted as a discoverability conflict.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Style menu reveals a heading level only after the previous level is used; noted as a discoverability conflict.",
+      "principle_ids": [
+        "MI-07"
+      ]
+    },
+    {
+      "pdf_page": 117,
+      "description": "Password checklist uses shape plus color; card-brand logos rely on dimming alone.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Password checklist uses shape plus color; card-brand logos rely on dimming alone.",
+      "principle_ids": [
+        "MI-07"
+      ]
+    },
+    {
+      "pdf_page": 123,
+      "description": "Empty figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 124,
+      "description": "Blocking alert announcing a temporary brightness increase, which the author calls probably unnecessary.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Blocking alert announcing a temporary brightness increase, which the author calls probably unnecessary.",
+      "principle_ids": [
+        "MI-08"
+      ]
+    },
+    {
+      "pdf_page": 162,
+      "description": "Smiling empty-inbox illustration whose tone may not match the message.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Smiling empty-inbox illustration whose tone may not match the message.",
+      "principle_ids": [
+        "MI-14"
+      ]
+    },
+    {
+      "pdf_page": 171,
+      "description": "Empty figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 172,
+      "description": "Route map colored by pace on a red-green ramp with numeric labels only for extremes; color-only caution.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Route map colored by pace on a red-green ramp with numeric labels only for extremes; color-only caution.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 178,
+      "description": "Empty figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 179,
+      "description": "Home screen skews with an edge glow when scrolled past its end; boundary feedback carried by content.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Home screen skews with an edge glow when scrolled past its end; boundary feedback carried by content.",
+      "principle_ids": [
+        "MI-13"
+      ]
+    },
+    {
+      "pdf_page": 189,
+      "description": "Empty figure frame; layout artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Empty figure frame; layout artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 190,
+      "description": "Pull-to-refresh joke on low-stakes over-pull beside a plain loading spinner and label.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Pull-to-refresh joke on low-stakes over-pull beside a plain loading spinner and label.",
+      "principle_ids": [
+        "MI-12",
+        "MI-14"
+      ]
+    },
+    {
+      "pdf_page": 198,
+      "description": "Top border of an empty figure frame; page-split artifact.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Top border of an empty figure frame; page-split artifact.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 199,
+      "description": "iOS 6-era edit screen as a separate mode with explicit Done exit.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. iOS 6-era edit screen as a separate mode with explicit Done exit.",
+      "principle_ids": [
+        "MI-15"
+      ]
+    },
+    {
+      "pdf_page": 204,
+      "description": "Order page shows the remaining time to edit before printing.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Order page shows the remaining time to edit before printing.",
+      "principle_ids": [
+        "MI-16"
+      ]
+    },
+    {
+      "pdf_page": 205,
+      "description": "Rate-limit warning with accusatory copy and a CAPTCHA.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Rate-limit warning with accusatory copy and a CAPTCHA.",
+      "principle_ids": [
+        "MI-16"
+      ]
+    },
+    {
+      "pdf_page": 210,
+      "description": "Scarcity reminder email and an unchecked remember-me login.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Scarcity reminder email and an unchecked remember-me login.",
+      "principle_ids": [
+        "MI-17"
+      ]
+    },
+    {
+      "pdf_page": 212,
+      "description": "Button loses its label, then its prominence, as proficiency grows.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Button loses its label, then its prominence, as proficiency grows.",
+      "principle_ids": [
+        "MI-17"
+      ]
+    },
+    {
+      "pdf_page": 218,
+      "description": "Tailored task form with visible defaults and Change links, plus a price distribution beside the input; retained under DI-21/DD-04.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Tailored task form with visible defaults and Change links, plus a price distribution beside the input; retained under DI-21/DD-04.",
+      "principle_ids": []
+    },
+    {
+      "pdf_page": 233,
+      "description": "Physical prototype still and four-frame state storyboard of a download button.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Physical prototype still and four-frame state storyboard of a download button.",
+      "principle_ids": [
+        "MI-19"
+      ]
+    },
+    {
+      "pdf_page": 236,
+      "description": "Informal adjacency map of a news reader's microinteractions.",
+      "inspection": "Rendered supplied PDF and visually inspected by the bounded reader. Informal adjacency map of a news reader's microinteractions.",
+      "principle_ids": [
+        "MI-18"
+      ]
+    }
+  ],
+  "supplemental_coverage": [
+    {
+      "title": "Front matter: praise, foreword, preface",
+      "pdf_start": 1,
+      "pdf_end": 18,
+      "disposition": "full-study",
+      "read_pdf_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "excluded_pdf_ranges": [],
+      "notes": "Foreword (pp. 6–9) and preface (pp. 10–14) studied; praise, upgrade offer, conventions and contact pages read with no design content. Foreword lessons retained under PU-16, AF-24 and AF-09."
+    },
+    {
+      "title": "Index, About the Author, Colophon",
+      "pdf_start": 248,
+      "pdf_end": 277,
+      "disposition": "assessed-excluded",
+      "read_pdf_ranges": [],
+      "excluded_pdf_ranges": [
+        {
+          "start": 248,
+          "end": 277,
+          "reason": "Navigational index, author biography, colophon, retailer offer and revision history; no design claims."
+        }
+      ],
+      "notes": "Skimmed to confirm index entries point to chapters already read; revision page supplies the first-release date only."
+    }
+  ]
+}

@@ -13231,6 +13231,940 @@
       "routes": [
         "references/visual-craft.md"
       ]
+    },
+    {
+      "id": "MI-01",
+      "title": "Specify a small moment from its end-state goal as written rules",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-01 — Specify a small moment from its end-state goal as written rules"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "evaluation",
+        "platform"
+      ],
+      "tags": [
+        "implementation",
+        "input",
+        "persistence"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "frame",
+        "design",
+        "build"
+      ],
+      "triggers": [
+        "A contained feature exists only as a mockup, or a learned rule is about to change; the team cannot state its rules, branches or end state."
+      ],
+      "exceptions": "A design lens, not an empirical taxonomy. A rule table does not replace journey, object or information-architecture modeling, and a replaced learned rule needs a visible benefit or the old path.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Can the team state the goal in one line and show every rule and branch, including the end state and what can be cancelled?"
+      },
+      "related": [
+        "UX-05",
+        "UX-06",
+        "ID-15",
+        "LU-02",
+        "JJ-14"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-02",
+      "title": "Show what a mode or setting does not cover after its confirmation fades",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-02 — Show what a mode or setting does not cover after its confirmation fades"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "recovery",
+        "accessibility"
+      ],
+      "tags": [
+        "persistence",
+        "interruption",
+        "errors"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "A silence, pause, focus or privacy mode has exceptions, or its only evidence is a transient confirmation."
+      ],
+      "exceptions": "Single anecdote; which rule is right is a product decision. Hardware specifics are dated, so verify current platform indicators. Some exceptions (security notices) cannot be removed but still need disclosure.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "At the moment of setting and afterward, can the person see what this mode does not silence, pause or hide?"
+      },
+      "related": [
+        "AF-21",
+        "JJ-07",
+        "DD-27"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-03",
+      "title": "Set each trigger's visibility by breadth, frequency and consequence",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-03 — Set each trigger's visibility by breadth, frequency and consequence"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "cognition",
+        "content"
+      ],
+      "tags": [
+        "discovery",
+        "findability",
+        "navigation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing between a persistent control, contextual control, menu item or gesture, or a frequent action is buried in an overflow menu."
+      ],
+      "exceptions": "Tiers and the discoverability ladder are rules of thumb, not thresholds. Rare but urgent actions may need high visibility. Motion used as a cue must respect Reduce Motion and WCAG 2.2.2.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "participant"
+        ],
+        "question": "Is each action’s visibility justified by breadth, frequency and consequence, with no frequent action reachable only through a menu or gesture?"
+      },
+      "related": [
+        "DI-16",
+        "LU-18",
+        "AF-11",
+        "AF-20"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/touch.md"
+      ]
+    },
+    {
+      "id": "MI-04",
+      "title": "Put the most-sought current state on the trigger itself",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-04 — Put the most-sought current state on the trigger itself"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "visual",
+        "accessibility"
+      ],
+      "tags": [
+        "data",
+        "latency",
+        "monitoring"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "People open a feature only to check a live value such as a count, progress, time remaining or sync state."
+      ],
+      "exceptions": "Hover previews cannot be the only route. Ambient counts can encourage compulsive checking; badge only what people act on. Stale values mislead, so show freshness or hide the value.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Does the entry point show the one current fact people most often open it to learn, available without hover and to assistive technology?"
+      },
+      "related": [
+        "ID-07",
+        "DI-18",
+        "JJ-18",
+        "LU-23"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-05",
+      "title": "Treat invisible triggers as shortcuts with a visible route and an off switch",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-05 — Treat invisible triggers as shortcuts with a visible route and an off switch"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "accessibility",
+        "platform",
+        "cognition"
+      ],
+      "tags": [
+        "input",
+        "touch",
+        "discovery",
+        "accessibility"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A gesture, shake, long press, voice command, keyboard shortcut or sensor trigger is added with no on-screen cue."
+      ],
+      "exceptions": "Guessability shifts with convention. Always-listening voice raises consent and privacy issues. A hidden accelerator is acceptable only beside a visible, single-pointer equivalent.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Does every hidden trigger have a visible single-pointer equivalent, and does a motion or shortcut trigger explain itself on first firing with a way to turn it off?"
+      },
+      "related": [
+        "AF-13",
+        "DI-16",
+        "LU-18",
+        "TD-07",
+        "DI-04"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/touch.md",
+        "references/ios.md",
+        "references/web.md"
+      ]
+    },
+    {
+      "id": "MI-06",
+      "title": "Give each system-initiated trigger rules, indicators, an in-place off switch and a manual twin",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-06 — Give each system-initiated trigger rules, indicators, an in-place off switch and a manual twin"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "recovery",
+        "accessibility",
+        "flows"
+      ],
+      "tags": [
+        "interruption",
+        "permissions",
+        "persistence",
+        "monitoring"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Something starts without a direct action: an arrival, a time or location condition, background sync, detection, or a chained step."
+      ],
+      "exceptions": "Auto-proceeding countdowns need a visible timer, equal cancel and enough time, and never apply to consequential actions. Clipboard reading is a permission decision. Some legally required or security notices cannot be disabled; say so.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "For each automatic behavior, are its frequency, indicator states, failure policy, in-place off control and manual equivalent specified?"
+      },
+      "related": [
+        "AF-09",
+        "ID-07",
+        "LU-23",
+        "AF-24",
+        "DD-27"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-07",
+      "title": "Match the control to state count and risk, and define every state on it",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-07 — Match the control to state count and risk, and define every state on it"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "platform",
+        "accessibility",
+        "visual"
+      ],
+      "tags": [
+        "input",
+        "selection",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing a control, a control behaves differently by context, or a control or drag target is drawn in one static state."
+      ],
+      "exceptions": "The book’s state model is pointer-only; focus, touch press and disabled-with-reason are required now. Platform conventions such as tapping the active tab outrank the invariance rule. Hardware dials are illustrations.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime",
+          "visual"
+        ],
+        "question": "Does the control fit the action’s state count and risk, act the same on every activation unless its label changes, and have every state defined on itself?"
+      },
+      "related": [
+        "PU-23",
+        "UX-13",
+        "UX-12",
+        "TD-22",
+        "AF-21"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/ios.md",
+        "references/web.md"
+      ]
+    },
+    {
+      "id": "MI-08",
+      "title": "Start from known context, then apply a harm test",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-08 — Start from known context, then apply a harm test"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "recovery",
+        "content"
+      ],
+      "tags": [
+        "input",
+        "permissions",
+        "data"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build"
+      ],
+      "triggers": [
+        "A moment opens with blank fields, generic defaults or identical behavior for every person and situation."
+      ],
+      "exceptions": "Not announcing each collection is acceptable only where disclosure and consent happen elsewhere. Inferred values stay visible and editable. Battery, data cost and privacy law still constrain tracking.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Does the first state use context the product legitimately holds, and would any inferred value embarrass or endanger the person if shown or wrong?"
+      },
+      "related": [
+        "DI-02",
+        "AF-09",
+        "JJ-13",
+        "DI-22",
+        "ID-07"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-09",
+      "title": "State the value each default applies, and keep only options that change outcomes",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-09 — State the value each default applies, and keep only options that change outcomes"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "cognition",
+        "content"
+      ],
+      "tags": [
+        "selection",
+        "input",
+        "labeling"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "A moment applies a hidden default such as a snooze length or sharing scope, or offers options of uncertain value."
+      ],
+      "exceptions": "Emphasizing the likely action conflicts with fair choice when options are equally valid or the likely one serves the business; never make a destructive default dominant. Auto-performed next steps stay reversible.",
+      "verification": {
+        "methods": [
+          "inspection"
+        ],
+        "question": "Does each default state the value it applies, and does each remaining option change an outcome the person cares about?"
+      },
+      "related": [
+        "LU-17",
+        "PU-03",
+        "PU-17",
+        "JJ-16",
+        "PU-20"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-10",
+      "title": "Specify algorithm inputs and tunable variables as design decisions",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-10 — Specify algorithm inputs and tunable variables as design decisions"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "evaluation"
+      ],
+      "tags": [
+        "data",
+        "search",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build"
+      ],
+      "triggers": [
+        "A moment depends on ranking, suggestion, scoring, autofill or a computed metric."
+      ],
+      "exceptions": "Learned models are harder to specify; explanations must be honest and must not imply control that does not exist. No evidence that disclosure itself improves outcomes.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "source"
+        ],
+        "question": "Are the algorithm’s inputs, exclusions and tunable values written down, and can a person see and correct the inputs that matter to them?"
+      },
+      "related": [
+        "ID-14",
+        "JJ-13",
+        "IA-15"
+      ],
+      "routes": [
+        "references/microinteractions.md"
+      ]
+    },
+    {
+      "id": "MI-11",
+      "title": "Decide which rule events must, could and should not produce feedback",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-11 — Decide which rule events must, could and should not produce feedback"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "recovery",
+        "accessibility"
+      ],
+      "tags": [
+        "errors",
+        "latency",
+        "interruption",
+        "monitoring"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Specifying feedback for a moment, especially background or system-initiated work."
+      ],
+      "exceptions": "Quiet retries must never hide a lasting failure or lose input. Minimal visual feedback still needs programmatic announcements for state changes.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Does every user-initiated action get acknowledgement, and do only background events that change what the person can do produce feedback?"
+      },
+      "related": [
+        "JJ-05",
+        "JJ-18",
+        "AF-24",
+        "DI-18",
+        "TD-24"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-12",
+      "title": "Scale feedback channels and intensity to consequence and frequency",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-12 — Scale feedback channels and intensity to consequence and frequency"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "accessibility",
+        "platform"
+      ],
+      "tags": [
+        "motion",
+        "interruption",
+        "accessibility"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "Choosing animation, sound, haptics, blinking or repetition for a feedback event.",
+        "Adding a haptic, vibration, earcon or alert sound to a moment."
+      ],
+      "exceptions": "No meaning may depend on sound or haptics, which some people keep off. The multimodal and haptic figures rest on old sources. Respect Silent mode, Focus and Reduce Motion.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "For each event, are channel count and intensity justified by consequence and frequency, with duration, dismissal, repetition and a visual equivalent specified?"
+      },
+      "related": [
+        "UX-15",
+        "LU-15",
+        "JJ-04",
+        "TD-21",
+        "LU-16"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/ios.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "MI-13",
+      "title": "Carry feedback in UI that already exists before adding new elements",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-13 — Carry feedback in UI that already exists before adding new elements"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "visual",
+        "accessibility"
+      ],
+      "tags": [
+        "visual",
+        "input",
+        "touch"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A state needs showing and the instinct is to add a banner, badge, label or dialog."
+      ],
+      "exceptions": "Cursors and tooltips do not exist on touch and are invisible to screen readers; finger occlusion hides on-control feedback. None can be the only signal; pair with an accessible announcement.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Before adding a new element, was the existing control, scroll edge or progress area considered as the carrier, with an equivalent accessible announcement?"
+      },
+      "related": [
+        "JJ-05",
+        "TD-13",
+        "DI-23",
+        "PU-18"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-14",
+      "title": "Keep personality to rare, low-stakes moments",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-14 — Keep personality to rare, low-stakes moments"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "content",
+        "visual"
+      ],
+      "tags": [
+        "content",
+        "visual",
+        "errors",
+        "localization"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "Writing playful copy, mascots, faces or jokes into feedback, errors or waits."
+      ],
+      "exceptions": "Pronoun preferences are style, so follow project and platform writing guidance. Humor ages and translates poorly and never replaces a useful next action.",
+      "verification": {
+        "methods": [
+          "inspection"
+        ],
+        "question": "Is any personality limited to rare, low-stakes moments, with the plain status and recovery clear on their own?"
+      },
+      "related": [
+        "ID-06",
+        "UX-16",
+        "AF-06",
+        "PU-14",
+        "LU-12"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/visual.md"
+      ]
+    },
+    {
+      "id": "MI-15",
+      "title": "Admit at most one mode, and prefer transient modes with a non-hold path",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-15 — Admit at most one mode, and prefer transient modes with a non-hold path"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "accessibility",
+        "cognition"
+      ],
+      "tags": [
+        "selection",
+        "persistence",
+        "navigation",
+        "input"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A design adds an edit, select, settings or alternate-command state that changes what the same controls do."
+      ],
+      "exceptions": "Strongly signalled in-place edit modes are platform convention. The one-mode cap is uncited. Held modes are hard with motor impairments and assistive technology, and a separate screen can lose context on wide layouts.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "Mid-task, can people tell which mode they are in and how to leave it, does leaving restore their view plus changes, and does every held mode have a non-hold path?"
+      },
+      "related": [
+        "AF-21",
+        "DI-03",
+        "UX-11",
+        "UX-10",
+        "DI-04"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "MI-16",
+      "title": "Write each loop's kind, end condition and visible time window",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-16 — Write each loop's kind, end condition and visible time window"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "recovery",
+        "accessibility",
+        "flows"
+      ],
+      "tags": [
+        "latency",
+        "interruption",
+        "errors",
+        "implementation"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A rule contains every, until, after N or for each: retries, polling, timeouts, auto sign-out, rate limits or idle prompts.",
+        "A retry, timeout, countdown, session expiry or undo window needs an end condition."
+      ],
+      "exceptions": "Time limits must meet WCAG 2.2.1. Rate-limit and timeout copy must not accuse. Specific durations and counts are illustrative.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime"
+        ],
+        "question": "For every repeating or timed rule, is the end condition written down, and is any time-bound window visible with a way to act or extend before it closes?"
+      },
+      "related": [
+        "LU-19",
+        "JJ-05",
+        "UX-11",
+        "DI-17"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/input.md"
+      ]
+    },
+    {
+      "id": "MI-17",
+      "title": "Design the repeat visit: remember visibly, stop when declined, reduce reversibly",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-17 — Design the repeat visit: remember visibly, stop when declined, reduce reversibly"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "goals",
+        "cognition",
+        "accessibility"
+      ],
+      "tags": [
+        "persistence",
+        "onboarding",
+        "expert"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "build",
+        "verify"
+      ],
+      "triggers": [
+        "A recurring interaction starts from zero every time, a remember control does not remember, or guidance is planned to disappear with experience."
+      ],
+      "exceptions": "Memory raises privacy and shared-device concerns; offer a way to clear it. Engagement framing can turn manipulative. Per-user layout changes hurt support and muscle memory; reduced states keep accessible names and targets.",
+      "verification": {
+        "methods": [
+          "inspection",
+          "runtime",
+          "participant"
+        ],
+        "question": "On the third visit, what does this moment already know, is it visible and editable, does a declined suggestion stop recurring, and how does reduced guidance come back?"
+      },
+      "related": [
+        "ID-06",
+        "JJ-07",
+        "DI-03",
+        "LU-18",
+        "LU-23"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "MI-18",
+      "title": "Map neighboring moments and their handoffs before polishing one",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-18 — Map neighboring moments and their handoffs before polishing one"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "flows",
+        "visual"
+      ],
+      "tags": [
+        "implementation",
+        "navigation",
+        "discovery"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "design",
+        "verify"
+      ],
+      "triggers": [
+        "A feature contains several small moments, or one is being refined in isolation."
+      ],
+      "exceptions": "The adjacency map is informal and does not replace journey modeling. The dull-moment checklist invites ornament if applied indiscriminately; default to no signature moment.",
+      "verification": {
+        "methods": [
+          "inspection"
+        ],
+        "question": "Can you name every neighboring moment this one hands off to or conflicts with, and justify any signature treatment?"
+      },
+      "related": [
+        "DI-01",
+        "UX-10",
+        "WI-06",
+        "ID-06"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/flows.md"
+      ]
+    },
+    {
+      "id": "MI-19",
+      "title": "Test the coupled behavior at high fidelity and trace symptoms to causes",
+      "source": {
+        "path": "references/sources/microinteractions.md",
+        "heading": "MI-19 — Test the coupled behavior at high fidelity and trace symptoms to causes"
+      },
+      "kind": "heuristic",
+      "domains": [
+        "evaluation",
+        "research"
+      ],
+      "tags": [
+        "evaluation",
+        "metrics",
+        "errors"
+      ],
+      "platforms": [
+        "ios",
+        "web"
+      ],
+      "stages": [
+        "verify"
+      ],
+      "triggers": [
+        "Planning a usability test, A/B test or analytics instrumentation for a control or short flow."
+      ],
+      "exceptions": "Sample-size figures are rough. Sessions still find causes that analytics miss. Explaining the rules aloud can teach the answer. A/B tests on consent or pricing raise ethical concerns; metrics never override agency.",
+      "verification": {
+        "methods": [
+          "participant",
+          "runtime"
+        ],
+        "question": "Does the plan say which of goal, data, copy and timing it validates, at what fidelity, and how each observed symptom will be traced to a cause?"
+      },
+      "related": [
+        "UX-18",
+        "ID-17",
+        "UX-21",
+        "UX-22",
+        "UX-23"
+      ],
+      "routes": [
+        "references/microinteractions.md",
+        "references/review.md"
+      ]
     }
   ]
 }
